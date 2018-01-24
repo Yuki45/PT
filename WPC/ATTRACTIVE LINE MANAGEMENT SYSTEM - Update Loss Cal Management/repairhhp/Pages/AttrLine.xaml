@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="repairhhp.Pages.AttrLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Loaded="UCLoaded"  >
+    <Grid Margin="0,0,0,0" Background="#FFDDFFF7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="313"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="MACHINE ATTRACTIVE LINE" Margin="4,9,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Grid.Row="1" Grid.Column="1"/>
+        <Button Content="Refresh" Grid.Column="4" HorizontalAlignment="Right" Margin="0,9,10,0" VerticalAlignment="Top" Width="54" Grid.Row="1" Height="25"  Cursor="Hand" />
+        <DataGrid x:Name="DataGridFiles" Grid.Column="1" Margin="10,0" Grid.Row="2" Grid.ColumnSpan="4" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" MouseDoubleClick="DataGridFiles_MouseDoubleClick" />
+        <GroupBox Grid.Column="1" Header="REGISTER REASON &amp; TIME" Margin="10" Grid.Row="3" Padding="1,2" Grid.ColumnSpan="4" Background="#CC7B8DB2">
+        </GroupBox>
+        <Label Content="Origin Line" HorizontalAlignment="Left" Margin="17,82,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Process" HorizontalAlignment="Left" Margin="17,114,0,0" VerticalAlignment="Top" Width="85" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Button x:Name="clearGI" Margin="165,263,27,0" VerticalAlignment="Top" Height="25" Cursor="Hand" Content="Clear"  Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3"  Click="clearGI_Click"/>
+        <Button x:Name="submitDec" Content="ATTRACTIVE SAVE" Margin="85,263,102,0" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Cursor="Hand"  Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="3" Click="submitDec_Click"  />
+        <Label x:Name="labelStock" Content="-" HorizontalAlignment="Left" Margin="3,8,0,0" VerticalAlignment="Top" Background="#FFF1DCC6" Height="26" Grid.RowSpan="2" Grid.Column="2"/>
+        <Label Content="Reason" HorizontalAlignment="Left" Margin="21,147,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Model Actual" HorizontalAlignment="Left" Margin="15,42,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <ComboBox x:Name="cmbProcOri" Margin="95,115,139,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="ATT.Line" HorizontalAlignment="Left" Margin="1,78,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Column="3" Grid.Row="3"/>
+        <Label Content="Model Attractive" HorizontalAlignment="Left" Margin="0,38,0,0" VerticalAlignment="Top" Width="88" Height="25" Grid.Column="3" Grid.Row="3"/>
+        <TextBox x:Name="txtModelOri" CharacterCasing="Upper"  Height="26" Margin="95,42,62,0" VerticalAlignment="Top" IsReadOnly="False" Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="txtModelAtt" CharacterCasing="Upper"  Height="26" Margin="91,39,66,0" VerticalAlignment="Top" IsReadOnly="False" Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="3"/>
+        <ComboBox x:Name="cmbLineAtt" Margin="93,77,132,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="3"/>
+        <ComboBox x:Name="cmbLineOri" Margin="95,77,111,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="txtRemark" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="58" Margin="95,150,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="591" RenderTransformOrigin="1.842,8.962"/>
+    </Grid>
+</UserControl>

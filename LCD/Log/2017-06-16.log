@@ -1,0 +1,1850 @@
+2017-06-16 07:47:02 : Program Ended...
+2017-06-16 08:13:36 : 
+
+2017-06-16 08:13:36 : 
+
+2017-06-16 08:13:36 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-16 08:16:17 : 
+
+2017-06-16 08:16:17 : -----------------------------MainState : StageIn
+2017-06-16 08:16:19 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:16:19 : UN : (C00008DD0F05114)
+2017-06-16 08:16:19 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:16:19 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:16:19 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:16:19 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:16:19 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:16:20 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:16:20 : Controller IsPreProcessFisnished Set
+2017-06-16 08:16:21 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:16:21 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:16:23 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:16:23 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:16:23 : InspectionThread AreadDustFinised Release
+2017-06-16 08:16:23 : image test start
+2017-06-16 08:16:23 : (LcdArea) Finished, Elapsed Time : 327ms
+2017-06-16 08:16:24 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,087), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:16:24 : Test Result:(LCD DUST), Measure:(917), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:16:24 : (LcdDust) Finished, Elapsed Time : 225ms
+2017-06-16 08:16:24 : LcdWhite, Started
+2017-06-16 08:16:24 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:16:24 : (LcdWhite) Finished, Elapsed Time : 392ms
+2017-06-16 08:16:24 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:16:24 : InspectionThread  IsBlueFinished set
+2017-06-16 08:16:24 : InspectionThread IsBlueFinished Released
+2017-06-16 08:16:24 : LcdBlue, Started
+2017-06-16 08:16:24 : LedBlue, Started
+2017-06-16 08:16:24 : Test Result:(SVC LED BRIGHT), Measure:(43), Min:(30), Max:(150), Result(True)
+2017-06-16 08:16:25 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:16:25 : (LedBlue) Finished, Elapsed Time : 121ms
+2017-06-16 08:16:25 : (LcdBlue) Finished, Elapsed Time : 329ms
+2017-06-16 08:16:25 : Test Result:(LCD BLUE), Measure:(751), Min:(0), Max:(10), Result(False)
+2017-06-16 08:16:26 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:16:26 : InspectionThread IsGreenFinished Released
+2017-06-16 08:16:26 : ................(Green)black dot XY(1538,627),WH(8,5),rotatedWH(3.15,7.52)
+2017-06-16 08:16:26 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-16 08:16:26 : (LcdGreen) Finished, Elapsed Time : 478ms
+2017-06-16 08:16:27 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:16:27 : InspectionThread  IsRedFinished set
+2017-06-16 08:16:27 : InspectionThread IsRedFinished Released
+2017-06-16 08:16:27 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:16:27 : LcdRed, Started
+2017-06-16 08:16:27 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:16:27 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:16:27 : [HHP] LcdRed, Elapsed Time : 272
+2017-06-16 08:16:27 : MainState : WaitTestCompletion
+2017-06-16 08:16:27 : (Thread Main) Finished, Elapsed Time : 9,384ms
+2017-06-16 08:16:27 : -----------------------------MainState : CheckResult
+2017-06-16 08:16:27 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:16:27 : -----------------------------MainState : CleanUp
+2017-06-16 08:19:16 : 
+
+2017-06-16 08:19:16 : -----------------------------MainState : StageIn
+2017-06-16 08:19:18 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:19:18 : UN : (C00008DD0F05114)
+2017-06-16 08:19:18 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:19:18 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:19:18 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:19:18 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:19:18 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:19:20 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:19:20 : Controller IsPreProcessFisnished Set
+2017-06-16 08:19:20 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:19:20 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:19:21 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:19:21 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:19:21 : InspectionThread AreadDustFinised Release
+2017-06-16 08:19:21 : image test start
+2017-06-16 08:19:22 : (LcdArea) Finished, Elapsed Time : 338ms
+2017-06-16 08:19:22 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,849), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:19:22 : Test Result:(LCD DUST), Measure:(3,379), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:19:22 : (LcdDust) Finished, Elapsed Time : 271ms
+2017-06-16 08:19:22 : LcdWhite, Started
+2017-06-16 08:19:23 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:19:23 : (LcdWhite) Finished, Elapsed Time : 425ms
+2017-06-16 08:19:23 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:19:23 : InspectionThread  IsBlueFinished set
+2017-06-16 08:19:23 : InspectionThread IsBlueFinished Released
+2017-06-16 08:19:23 : LedBlue, Started
+2017-06-16 08:19:23 : LcdBlue, Started
+2017-06-16 08:19:23 : Test Result:(SVC LED BRIGHT), Measure:(44.4), Min:(30), Max:(150), Result(True)
+2017-06-16 08:19:23 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:19:23 : (LedBlue) Finished, Elapsed Time : 116ms
+2017-06-16 08:19:23 : (LcdBlue) Finished, Elapsed Time : 329ms
+2017-06-16 08:19:23 : Test Result:(LCD BLUE), Measure:(288), Min:(0), Max:(10), Result(False)
+2017-06-16 08:19:24 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:19:24 : InspectionThread IsGreenFinished Released
+2017-06-16 08:19:25 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:19:25 : (LcdGreen) Finished, Elapsed Time : 469ms
+2017-06-16 08:19:25 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:19:25 : InspectionThread  IsRedFinished set
+2017-06-16 08:19:25 : InspectionThread IsRedFinished Released
+2017-06-16 08:19:25 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:19:25 : LcdRed, Started
+2017-06-16 08:19:25 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:19:26 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:19:26 : [HHP] LcdRed, Elapsed Time : 272
+2017-06-16 08:19:26 : (Thread Main) Finished, Elapsed Time : 8,421ms
+2017-06-16 08:19:26 : MainState : WaitTestCompletion
+2017-06-16 08:19:26 : -----------------------------MainState : CheckResult
+2017-06-16 08:19:26 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:19:26 : -----------------------------MainState : CleanUp
+2017-06-16 08:20:13 : 
+
+2017-06-16 08:20:13 : -----------------------------MainState : StageIn
+2017-06-16 08:20:15 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:20:15 : UN : (C00008DD0F05114)
+2017-06-16 08:20:15 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:20:15 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:20:15 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:20:15 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:20:15 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:20:17 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:20:17 : Controller IsPreProcessFisnished Set
+2017-06-16 08:20:17 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:17 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:20:18 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:18 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:20:18 : InspectionThread AreadDustFinised Release
+2017-06-16 08:20:18 : image test start
+2017-06-16 08:20:19 : (LcdArea) Finished, Elapsed Time : 287ms
+2017-06-16 08:20:19 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,377), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:20:19 : Test Result:(LCD DUST), Measure:(3,840), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:20:19 : (LcdDust) Finished, Elapsed Time : 275ms
+2017-06-16 08:20:19 : LcdWhite, Started
+2017-06-16 08:20:19 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:20:19 : (LcdWhite) Finished, Elapsed Time : 395ms
+2017-06-16 08:20:20 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:20 : InspectionThread  IsBlueFinished set
+2017-06-16 08:20:20 : InspectionThread IsBlueFinished Released
+2017-06-16 08:20:20 : LcdBlue, Started
+2017-06-16 08:20:20 : LedBlue, Started
+2017-06-16 08:20:20 : Test Result:(SVC LED BRIGHT), Measure:(43), Min:(30), Max:(150), Result(True)
+2017-06-16 08:20:20 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:20:20 : (LedBlue) Finished, Elapsed Time : 121ms
+2017-06-16 08:20:20 : (LcdBlue) Finished, Elapsed Time : 331ms
+2017-06-16 08:20:20 : Test Result:(LCD BLUE), Measure:(271), Min:(0), Max:(10), Result(False)
+2017-06-16 08:20:21 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:21 : InspectionThread IsGreenFinished Released
+2017-06-16 08:20:22 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:20:22 : (LcdGreen) Finished, Elapsed Time : 462ms
+2017-06-16 08:20:22 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:22 : InspectionThread  IsRedFinished set
+2017-06-16 08:20:22 : InspectionThread IsRedFinished Released
+2017-06-16 08:20:22 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:20:22 : LcdRed, Started
+2017-06-16 08:20:22 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:20:22 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:20:22 : [HHP] LcdRed, Elapsed Time : 270
+2017-06-16 08:20:22 : (Thread Main) Finished, Elapsed Time : 8,429ms
+2017-06-16 08:20:23 : MainState : WaitTestCompletion
+2017-06-16 08:20:23 : -----------------------------MainState : CheckResult
+2017-06-16 08:20:23 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:20:23 : -----------------------------MainState : CleanUp
+2017-06-16 08:20:38 : 
+
+2017-06-16 08:20:38 : -----------------------------MainState : StageIn
+2017-06-16 08:20:40 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:20:40 : UN : (C00008DD0F05114)
+2017-06-16 08:20:40 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:20:40 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:20:40 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:20:40 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:20:40 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:20:41 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:20:41 : Controller IsPreProcessFisnished Set
+2017-06-16 08:20:42 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:42 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:20:43 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:43 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:20:43 : InspectionThread AreadDustFinised Release
+2017-06-16 08:20:43 : image test start
+2017-06-16 08:20:43 : (LcdArea) Finished, Elapsed Time : 290ms
+2017-06-16 08:20:44 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,156), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:20:44 : Test Result:(LCD DUST), Measure:(3,861), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:20:44 : (LcdDust) Finished, Elapsed Time : 278ms
+2017-06-16 08:20:44 : LcdWhite, Started
+2017-06-16 08:20:44 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:20:44 : (LcdWhite) Finished, Elapsed Time : 389ms
+2017-06-16 08:20:44 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:44 : InspectionThread  IsBlueFinished set
+2017-06-16 08:20:44 : InspectionThread IsBlueFinished Released
+2017-06-16 08:20:44 : LedBlue, Started
+2017-06-16 08:20:44 : LcdBlue, Started
+2017-06-16 08:20:44 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:20:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:20:44 : (LedBlue) Finished, Elapsed Time : 114ms
+2017-06-16 08:20:45 : (LcdBlue) Finished, Elapsed Time : 335ms
+2017-06-16 08:20:45 : Test Result:(LCD BLUE), Measure:(272), Min:(0), Max:(10), Result(False)
+2017-06-16 08:20:46 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:46 : InspectionThread IsGreenFinished Released
+2017-06-16 08:20:46 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:20:46 : (LcdGreen) Finished, Elapsed Time : 462ms
+2017-06-16 08:20:47 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:20:47 : InspectionThread  IsRedFinished set
+2017-06-16 08:20:47 : InspectionThread IsRedFinished Released
+2017-06-16 08:20:47 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:20:47 : LcdRed, Started
+2017-06-16 08:20:47 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:20:47 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:20:47 : [HHP] LcdRed, Elapsed Time : 267
+2017-06-16 08:20:47 : (Thread Main) Finished, Elapsed Time : 8,451ms
+2017-06-16 08:20:47 : MainState : WaitTestCompletion
+2017-06-16 08:20:47 : -----------------------------MainState : CheckResult
+2017-06-16 08:20:47 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:20:47 : -----------------------------MainState : CleanUp
+2017-06-16 08:20:56 : 
+
+2017-06-16 08:20:56 : -----------------------------MainState : StageIn
+2017-06-16 08:20:58 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:20:58 : UN : (C00008DD0F05114)
+2017-06-16 08:20:58 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:20:58 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:20:58 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:20:58 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:20:58 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:20:59 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:20:59 : Controller IsPreProcessFisnished Set
+2017-06-16 08:21:00 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:00 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:21:01 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:01 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:21:01 : InspectionThread AreadDustFinised Release
+2017-06-16 08:21:01 : image test start
+2017-06-16 08:21:01 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:21:01 : (LcdArea) Finished, Elapsed Time : 233ms
+2017-06-16 08:21:01 : (Thread Main) Finished, Elapsed Time : 4,445ms
+2017-06-16 08:21:02 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:21:02 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:21:02 : MainState : WaitTestCompletion
+2017-06-16 08:21:02 : -----------------------------MainState : CheckResult
+2017-06-16 08:21:02 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:21:02 : -----------------------------MainState : CleanUp
+2017-06-16 08:21:14 : 
+
+2017-06-16 08:21:14 : -----------------------------MainState : StageIn
+2017-06-16 08:21:15 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:21:15 : UN : (C00008DD0F05114)
+2017-06-16 08:21:15 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:21:15 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:21:15 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:21:15 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:21:15 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:21:17 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:21:17 : Controller IsPreProcessFisnished Set
+2017-06-16 08:21:17 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:17 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:21:19 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:19 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:21:19 : InspectionThread AreadDustFinised Release
+2017-06-16 08:21:19 : image test start
+2017-06-16 08:21:19 : (LcdArea) Finished, Elapsed Time : 289ms
+2017-06-16 08:21:19 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,978), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:21:19 : Test Result:(LCD DUST), Measure:(3,865), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:21:19 : (LcdDust) Finished, Elapsed Time : 280ms
+2017-06-16 08:21:19 : LcdWhite, Started
+2017-06-16 08:21:20 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:21:20 : (LcdWhite) Finished, Elapsed Time : 396ms
+2017-06-16 08:21:20 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:20 : InspectionThread  IsBlueFinished set
+2017-06-16 08:21:20 : InspectionThread IsBlueFinished Released
+2017-06-16 08:21:20 : LedBlue, Started
+2017-06-16 08:21:20 : LcdBlue, Started
+2017-06-16 08:21:20 : Test Result:(SVC LED BRIGHT), Measure:(42.8), Min:(30), Max:(150), Result(True)
+2017-06-16 08:21:20 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:21:20 : (LedBlue) Finished, Elapsed Time : 123ms
+2017-06-16 08:21:20 : (LcdBlue) Finished, Elapsed Time : 333ms
+2017-06-16 08:21:20 : Test Result:(LCD BLUE), Measure:(288), Min:(0), Max:(10), Result(False)
+2017-06-16 08:21:21 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:21 : InspectionThread IsGreenFinished Released
+2017-06-16 08:21:22 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:21:22 : (LcdGreen) Finished, Elapsed Time : 464ms
+2017-06-16 08:21:23 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:21:23 : InspectionThread  IsRedFinished set
+2017-06-16 08:21:23 : InspectionThread IsRedFinished Released
+2017-06-16 08:21:23 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:21:23 : LcdRed, Started
+2017-06-16 08:21:23 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:21:23 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:21:23 : [HHP] LcdRed, Elapsed Time : 273
+2017-06-16 08:21:23 : (Thread Main) Finished, Elapsed Time : 8,500ms
+2017-06-16 08:21:23 : MainState : WaitTestCompletion
+2017-06-16 08:21:23 : -----------------------------MainState : CheckResult
+2017-06-16 08:21:23 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:21:23 : -----------------------------MainState : CleanUp
+2017-06-16 08:23:23 : 
+
+2017-06-16 08:23:23 : -----------------------------MainState : StageIn
+2017-06-16 08:23:25 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:23:25 : UN : (C00008DD0F05114)
+2017-06-16 08:23:25 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:23:25 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:23:25 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:23:25 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:23:25 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:23:26 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:23:26 : Controller IsPreProcessFisnished Set
+2017-06-16 08:23:27 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:23:27 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:23:28 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:23:28 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:23:28 : InspectionThread AreadDustFinised Release
+2017-06-16 08:23:28 : image test start
+2017-06-16 08:23:28 : (LcdArea) Finished, Elapsed Time : 290ms
+2017-06-16 08:23:29 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,544), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:23:29 : Test Result:(LCD DUST), Measure:(4,002), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:23:29 : (LcdDust) Finished, Elapsed Time : 291ms
+2017-06-16 08:23:29 : LcdWhite, Started
+2017-06-16 08:23:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:23:29 : (LcdWhite) Finished, Elapsed Time : 457ms
+2017-06-16 08:23:29 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:23:29 : InspectionThread  IsBlueFinished set
+2017-06-16 08:23:29 : InspectionThread IsBlueFinished Released
+2017-06-16 08:23:29 : LedBlue, Started
+2017-06-16 08:23:29 : LcdBlue, Started
+2017-06-16 08:23:29 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:23:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:23:29 : (LedBlue) Finished, Elapsed Time : 118ms
+2017-06-16 08:23:29 : (LcdBlue) Finished, Elapsed Time : 338ms
+2017-06-16 08:23:29 : Test Result:(LCD BLUE), Measure:(270), Min:(0), Max:(10), Result(False)
+2017-06-16 08:23:31 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:23:31 : InspectionThread IsGreenFinished Released
+2017-06-16 08:23:31 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:23:31 : (LcdGreen) Finished, Elapsed Time : 465ms
+2017-06-16 08:23:32 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:23:32 : InspectionThread  IsRedFinished set
+2017-06-16 08:23:32 : InspectionThread IsRedFinished Released
+2017-06-16 08:23:32 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:23:32 : LcdRed, Started
+2017-06-16 08:23:32 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:23:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:23:32 : [HHP] LcdRed, Elapsed Time : 274
+2017-06-16 08:23:32 : (Thread Main) Finished, Elapsed Time : 8,483ms
+2017-06-16 08:23:32 : MainState : WaitTestCompletion
+2017-06-16 08:23:32 : -----------------------------MainState : CheckResult
+2017-06-16 08:23:32 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:23:32 : -----------------------------MainState : CleanUp
+2017-06-16 08:23:58 : 
+
+2017-06-16 08:23:58 : -----------------------------MainState : StageIn
+2017-06-16 08:24:00 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:24:00 : UN : (C00008DD0F05114)
+2017-06-16 08:24:00 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:24:00 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:24:00 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:24:00 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:24:00 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:24:02 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:24:02 : Controller IsPreProcessFisnished Set
+2017-06-16 08:24:02 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:24:02 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:24:03 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:24:03 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:24:03 : InspectionThread AreadDustFinised Release
+2017-06-16 08:24:03 : image test start
+2017-06-16 08:24:04 : (LcdArea) Finished, Elapsed Time : 291ms
+2017-06-16 08:24:04 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,777), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:24:04 : Test Result:(LCD DUST), Measure:(3,997), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:24:04 : (LcdDust) Finished, Elapsed Time : 287ms
+2017-06-16 08:24:04 : LcdWhite, Started
+2017-06-16 08:24:05 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:24:05 : (LcdWhite) Finished, Elapsed Time : 452ms
+2017-06-16 08:24:05 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:24:05 : InspectionThread  IsBlueFinished set
+2017-06-16 08:24:05 : InspectionThread IsBlueFinished Released
+2017-06-16 08:24:05 : LedBlue, Started
+2017-06-16 08:24:05 : LcdBlue, Started
+2017-06-16 08:24:05 : Test Result:(SVC LED BRIGHT), Measure:(42.9), Min:(30), Max:(150), Result(True)
+2017-06-16 08:24:05 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:24:05 : (LedBlue) Finished, Elapsed Time : 121ms
+2017-06-16 08:24:05 : (LcdBlue) Finished, Elapsed Time : 337ms
+2017-06-16 08:24:05 : Test Result:(LCD BLUE), Measure:(287), Min:(0), Max:(10), Result(False)
+2017-06-16 08:24:06 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:24:06 : InspectionThread IsGreenFinished Released
+2017-06-16 08:24:07 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:24:07 : (LcdGreen) Finished, Elapsed Time : 464ms
+2017-06-16 08:24:07 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:24:07 : InspectionThread  IsRedFinished set
+2017-06-16 08:24:07 : InspectionThread IsRedFinished Released
+2017-06-16 08:24:07 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:24:07 : LcdRed, Started
+2017-06-16 08:24:07 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:24:08 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:24:08 : [HHP] LcdRed, Elapsed Time : 285
+2017-06-16 08:24:08 : (Thread Main) Finished, Elapsed Time : 8,492ms
+2017-06-16 08:24:08 : MainState : WaitTestCompletion
+2017-06-16 08:24:08 : -----------------------------MainState : CheckResult
+2017-06-16 08:24:08 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:24:08 : -----------------------------MainState : CleanUp
+2017-06-16 08:25:11 : Program Ended...
+2017-06-16 08:26:05 : 
+
+2017-06-16 08:26:05 : 
+
+2017-06-16 08:26:05 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-16 08:26:17 : 
+
+2017-06-16 08:26:17 : -----------------------------MainState : StageIn
+2017-06-16 08:26:30 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:26:30 : UN : (C00008DD0F05114)
+2017-06-16 08:26:30 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:26:30 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:26:30 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:26:30 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:26:30 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:26:31 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:26:31 : Controller IsPreProcessFisnished Set
+2017-06-16 08:26:32 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:26:32 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:26:33 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:26:33 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:26:33 : InspectionThread AreadDustFinised Release
+2017-06-16 08:26:33 : image test start
+2017-06-16 08:26:33 : (LcdArea) Finished, Elapsed Time : 320ms
+2017-06-16 08:26:34 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,477), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:26:34 : Test Result:(LCD DUST), Measure:(1,248), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:26:34 : (LcdDust) Finished, Elapsed Time : 237ms
+2017-06-16 08:26:34 : LcdWhite, Started
+2017-06-16 08:26:34 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:26:34 : (LcdWhite) Finished, Elapsed Time : 400ms
+2017-06-16 08:26:34 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:26:34 : InspectionThread  IsBlueFinished set
+2017-06-16 08:26:34 : InspectionThread IsBlueFinished Released
+2017-06-16 08:26:34 : LcdBlue, Started
+2017-06-16 08:26:34 : LedBlue, Started
+2017-06-16 08:26:35 : Test Result:(SVC LED BRIGHT), Measure:(42.9), Min:(30), Max:(150), Result(True)
+2017-06-16 08:26:35 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:26:35 : (LedBlue) Finished, Elapsed Time : 127ms
+2017-06-16 08:26:35 : (LcdBlue) Finished, Elapsed Time : 324ms
+2017-06-16 08:26:35 : Test Result:(LCD BLUE), Measure:(288), Min:(0), Max:(10), Result(False)
+2017-06-16 08:26:36 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:26:36 : InspectionThread IsGreenFinished Released
+2017-06-16 08:26:37 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:26:37 : (LcdGreen) Finished, Elapsed Time : 469ms
+2017-06-16 08:26:37 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:26:37 : InspectionThread  IsRedFinished set
+2017-06-16 08:26:37 : InspectionThread IsRedFinished Released
+2017-06-16 08:26:37 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:26:37 : LcdRed, Started
+2017-06-16 08:26:37 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:26:37 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:26:37 : [HHP] LcdRed, Elapsed Time : 266
+2017-06-16 08:26:37 : (Thread Main) Finished, Elapsed Time : 19,177ms
+2017-06-16 08:26:37 : MainState : WaitTestCompletion
+2017-06-16 08:26:37 : -----------------------------MainState : CheckResult
+2017-06-16 08:26:37 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:26:37 : -----------------------------MainState : CleanUp
+2017-06-16 08:27:06 : 
+
+2017-06-16 08:27:06 : -----------------------------MainState : StageIn
+2017-06-16 08:27:07 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:27:08 : UN : (C00008DD0F05114)
+2017-06-16 08:27:08 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:27:08 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:27:08 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:27:08 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:27:08 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:27:09 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:27:09 : Controller IsPreProcessFisnished Set
+2017-06-16 08:27:10 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:10 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:27:11 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:11 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:27:11 : InspectionThread AreadDustFinised Release
+2017-06-16 08:27:11 : image test start
+2017-06-16 08:27:11 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:27:11 : (LcdArea) Finished, Elapsed Time : 235ms
+2017-06-16 08:27:11 : (Thread Main) Finished, Elapsed Time : 4,419ms
+2017-06-16 08:27:12 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:27:12 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:27:12 : MainState : WaitTestCompletion
+2017-06-16 08:27:12 : -----------------------------MainState : CheckResult
+2017-06-16 08:27:12 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:27:12 : -----------------------------MainState : CleanUp
+2017-06-16 08:27:17 : 
+
+2017-06-16 08:27:17 : -----------------------------MainState : StageIn
+2017-06-16 08:27:19 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:27:19 : UN : (C00008DD0F05114)
+2017-06-16 08:27:19 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:27:19 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:27:19 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:27:19 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:27:19 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:27:21 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:27:21 : Controller IsPreProcessFisnished Set
+2017-06-16 08:27:21 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:21 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:27:22 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:22 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:27:22 : InspectionThread AreadDustFinised Release
+2017-06-16 08:27:22 : image test start
+2017-06-16 08:27:23 : (LcdArea) Finished, Elapsed Time : 308ms
+2017-06-16 08:27:23 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,978), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:27:23 : Test Result:(LCD DUST), Measure:(1,255), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:27:23 : (LcdDust) Finished, Elapsed Time : 216ms
+2017-06-16 08:27:23 : LcdWhite, Started
+2017-06-16 08:27:23 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:27:24 : (LcdWhite) Finished, Elapsed Time : 403ms
+2017-06-16 08:27:24 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:24 : InspectionThread  IsBlueFinished set
+2017-06-16 08:27:24 : InspectionThread IsBlueFinished Released
+2017-06-16 08:27:24 : LcdBlue, Started
+2017-06-16 08:27:24 : LedBlue, Started
+2017-06-16 08:27:24 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:27:24 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:27:24 : (LedBlue) Finished, Elapsed Time : 116ms
+2017-06-16 08:27:25 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:25 : InspectionThread IsGreenFinished Released
+2017-06-16 08:27:25 : ................(Green)black dot XY(1233,1780),WH(7,4),rotatedWH(3,6)
+2017-06-16 08:27:25 : ................(Green)black dot XY(1414,1725),WH(7,3),rotatedWH(2,6)
+2017-06-16 08:27:25 : ................(Green)black dot XY(1359,1091),WH(7,4),rotatedWH(6,3)
+2017-06-16 08:27:25 : ................(Green)black dot XY(1539,629),WH(9,5),rotatedWH(3.62,8.38)
+2017-06-16 08:27:26 : Test Result:(LCD GREEN), Measure:(9), Min:(0), Max:(6), Result(False)
+2017-06-16 08:27:26 : (LcdGreen) Finished, Elapsed Time : 486ms
+2017-06-16 08:27:26 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:26 : InspectionThread  IsRedFinished set
+2017-06-16 08:27:26 : InspectionThread IsRedFinished Released
+2017-06-16 08:27:26 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:27:26 : LcdRed, Started
+2017-06-16 08:27:26 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:27:27 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:27:27 : [HHP] LcdRed, Elapsed Time : 272
+2017-06-16 08:27:27 : (Thread Main) Finished, Elapsed Time : 8,458ms
+2017-06-16 08:27:27 : MainState : WaitTestCompletion
+2017-06-16 08:27:27 : -----------------------------MainState : CheckResult
+2017-06-16 08:27:27 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:27:27 : -----------------------------MainState : CleanUp
+2017-06-16 08:27:40 : 
+
+2017-06-16 08:27:40 : -----------------------------MainState : StageIn
+2017-06-16 08:27:42 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:27:42 : UN : (C00008DD0F05114)
+2017-06-16 08:27:42 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:27:42 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:27:42 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:27:42 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:27:42 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:27:43 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:27:43 : Controller IsPreProcessFisnished Set
+2017-06-16 08:27:44 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:44 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:27:45 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:45 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:27:45 : InspectionThread AreadDustFinised Release
+2017-06-16 08:27:45 : image test start
+2017-06-16 08:27:45 : (LcdArea) Finished, Elapsed Time : 289ms
+2017-06-16 08:27:46 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,223), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:27:46 : Test Result:(LCD DUST), Measure:(1,262), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:27:46 : (LcdDust) Finished, Elapsed Time : 216ms
+2017-06-16 08:27:46 : LcdWhite, Started
+2017-06-16 08:27:46 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:27:46 : (LcdWhite) Finished, Elapsed Time : 402ms
+2017-06-16 08:27:46 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:46 : InspectionThread  IsBlueFinished set
+2017-06-16 08:27:46 : InspectionThread IsBlueFinished Released
+2017-06-16 08:27:46 : LcdBlue, Started
+2017-06-16 08:27:46 : LedBlue, Started
+2017-06-16 08:27:46 : Test Result:(SVC LED BRIGHT), Measure:(43.4), Min:(30), Max:(150), Result(True)
+2017-06-16 08:27:46 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:27:46 : (LedBlue) Finished, Elapsed Time : 123ms
+2017-06-16 08:27:48 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:48 : InspectionThread IsGreenFinished Released
+2017-06-16 08:27:48 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:27:48 : (LcdGreen) Finished, Elapsed Time : 463ms
+2017-06-16 08:27:49 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:49 : InspectionThread  IsRedFinished set
+2017-06-16 08:27:49 : InspectionThread IsRedFinished Released
+2017-06-16 08:27:49 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:27:49 : LcdRed, Started
+2017-06-16 08:27:49 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:27:49 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:27:49 : [HHP] LcdRed, Elapsed Time : 278
+2017-06-16 08:27:49 : (Thread Main) Finished, Elapsed Time : 8,430ms
+2017-06-16 08:27:49 : MainState : WaitTestCompletion
+2017-06-16 08:27:49 : -----------------------------MainState : CheckResult
+2017-06-16 08:27:49 : -----------------------------MainState : Passed(C00008DD0F05114)
+2017-06-16 08:27:49 : -----------------------------MainState : CleanUp
+2017-06-16 08:27:53 : 
+
+2017-06-16 08:27:53 : -----------------------------MainState : StageIn
+2017-06-16 08:27:54 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:27:54 : UN : (C00008DD0F05114)
+2017-06-16 08:27:54 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:27:54 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:27:54 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:27:54 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:27:54 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:27:56 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:27:56 : Controller IsPreProcessFisnished Set
+2017-06-16 08:27:56 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:56 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:27:57 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:57 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:27:57 : InspectionThread AreadDustFinised Release
+2017-06-16 08:27:57 : image test start
+2017-06-16 08:27:58 : (LcdArea) Finished, Elapsed Time : 291ms
+2017-06-16 08:27:58 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,376), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:27:58 : Test Result:(LCD DUST), Measure:(1,269), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:27:58 : (LcdDust) Finished, Elapsed Time : 218ms
+2017-06-16 08:27:58 : LcdWhite, Started
+2017-06-16 08:27:59 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-16 08:27:59 : (LcdWhite) Finished, Elapsed Time : 413ms
+2017-06-16 08:27:59 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:27:59 : InspectionThread  IsBlueFinished set
+2017-06-16 08:27:59 : InspectionThread IsBlueFinished Released
+2017-06-16 08:27:59 : LcdBlue, Started
+2017-06-16 08:27:59 : LedBlue, Started
+2017-06-16 08:27:59 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:27:59 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:27:59 : (LedBlue) Finished, Elapsed Time : 121ms
+2017-06-16 08:28:00 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:00 : InspectionThread IsGreenFinished Released
+2017-06-16 08:28:01 : ................(Green)black dot XY(1414,1723),WH(7,2),rotatedWH(1,6)
+2017-06-16 08:28:01 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:28:01 : (LcdGreen) Finished, Elapsed Time : 480ms
+2017-06-16 08:28:01 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:01 : InspectionThread  IsRedFinished set
+2017-06-16 08:28:01 : InspectionThread IsRedFinished Released
+2017-06-16 08:28:01 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:28:01 : LcdRed, Started
+2017-06-16 08:28:01 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:28:02 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:28:02 : [HHP] LcdRed, Elapsed Time : 274
+2017-06-16 08:28:02 : (Thread Main) Finished, Elapsed Time : 8,421ms
+2017-06-16 08:28:02 : MainState : WaitTestCompletion
+2017-06-16 08:28:02 : -----------------------------MainState : CheckResult
+2017-06-16 08:28:02 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:28:02 : -----------------------------MainState : CleanUp
+2017-06-16 08:28:21 : 
+
+2017-06-16 08:28:21 : -----------------------------MainState : StageIn
+2017-06-16 08:28:22 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:28:22 : UN : (C00008DD0F05114)
+2017-06-16 08:28:23 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:28:23 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:28:23 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:28:23 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:28:23 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:28:24 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:28:24 : Controller IsPreProcessFisnished Set
+2017-06-16 08:28:24 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:24 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:28:26 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:26 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:28:26 : InspectionThread AreadDustFinised Release
+2017-06-16 08:28:26 : image test start
+2017-06-16 08:28:26 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:28:26 : (LcdArea) Finished, Elapsed Time : 234ms
+2017-06-16 08:28:26 : (Thread Main) Finished, Elapsed Time : 4,399ms
+2017-06-16 08:28:26 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:28:26 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:28:26 : MainState : WaitTestCompletion
+2017-06-16 08:28:27 : -----------------------------MainState : CheckResult
+2017-06-16 08:28:27 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:28:27 : -----------------------------MainState : CleanUp
+2017-06-16 08:28:30 : 
+
+2017-06-16 08:28:30 : -----------------------------MainState : StageIn
+2017-06-16 08:28:32 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:28:32 : UN : (C00008DD0F05114)
+2017-06-16 08:28:32 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:28:32 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:28:32 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:28:32 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:28:32 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:28:34 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:28:34 : Controller IsPreProcessFisnished Set
+2017-06-16 08:28:34 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:34 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:28:35 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:35 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:28:35 : InspectionThread AreadDustFinised Release
+2017-06-16 08:28:35 : image test start
+2017-06-16 08:28:36 : (LcdArea) Finished, Elapsed Time : 290ms
+2017-06-16 08:28:36 : Test Result:(LCD DISPLAY AREA), Measure:(7,097,846), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:28:36 : Test Result:(LCD DUST), Measure:(1,274), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:28:36 : (LcdDust) Finished, Elapsed Time : 218ms
+2017-06-16 08:28:36 : LcdWhite, Started
+2017-06-16 08:28:36 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:28:36 : (LcdWhite) Finished, Elapsed Time : 390ms
+2017-06-16 08:28:37 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:37 : InspectionThread  IsBlueFinished set
+2017-06-16 08:28:37 : InspectionThread IsBlueFinished Released
+2017-06-16 08:28:37 : LcdBlue, Started
+2017-06-16 08:28:37 : LedBlue, Started
+2017-06-16 08:28:37 : Test Result:(SVC LED BRIGHT), Measure:(43), Min:(30), Max:(150), Result(True)
+2017-06-16 08:28:37 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:28:37 : (LedBlue) Finished, Elapsed Time : 122ms
+2017-06-16 08:28:38 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:38 : InspectionThread IsGreenFinished Released
+2017-06-16 08:28:38 : ................(Green)black dot XY(1232,1777),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:28:39 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:28:39 : (LcdGreen) Finished, Elapsed Time : 480ms
+2017-06-16 08:28:39 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:28:39 : InspectionThread  IsRedFinished set
+2017-06-16 08:28:39 : InspectionThread IsRedFinished Released
+2017-06-16 08:28:39 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:28:39 : LcdRed, Started
+2017-06-16 08:28:39 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:28:40 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:28:40 : [HHP] LcdRed, Elapsed Time : 274
+2017-06-16 08:28:40 : (Thread Main) Finished, Elapsed Time : 8,370ms
+2017-06-16 08:28:40 : MainState : WaitTestCompletion
+2017-06-16 08:28:40 : -----------------------------MainState : CheckResult
+2017-06-16 08:28:40 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:28:40 : -----------------------------MainState : CleanUp
+2017-06-16 08:30:38 : 
+
+2017-06-16 08:30:38 : -----------------------------MainState : StageIn
+2017-06-16 08:30:40 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:30:40 : UN : (C00008DD0F05114)
+2017-06-16 08:30:40 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:30:40 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:30:40 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:30:40 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:30:40 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:30:42 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:30:42 : Controller IsPreProcessFisnished Set
+2017-06-16 08:30:42 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:30:42 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:30:43 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:30:43 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:30:43 : InspectionThread AreadDustFinised Release
+2017-06-16 08:30:43 : image test start
+2017-06-16 08:30:43 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:30:44 : (LcdArea) Finished, Elapsed Time : 238ms
+2017-06-16 08:30:44 : (Thread Main) Finished, Elapsed Time : 4,402ms
+2017-06-16 08:30:44 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:30:44 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:30:44 : MainState : WaitTestCompletion
+2017-06-16 08:30:44 : -----------------------------MainState : CheckResult
+2017-06-16 08:30:44 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:30:44 : -----------------------------MainState : CleanUp
+2017-06-16 08:30:56 : 
+
+2017-06-16 08:30:56 : -----------------------------MainState : StageIn
+2017-06-16 08:30:57 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:30:58 : UN : (C00008DD0F05114)
+2017-06-16 08:30:58 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:30:58 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:30:58 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:30:58 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:30:58 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:30:59 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:30:59 : Controller IsPreProcessFisnished Set
+2017-06-16 08:30:59 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:30:59 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:31:01 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:01 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:31:01 : InspectionThread AreadDustFinised Release
+2017-06-16 08:31:01 : image test start
+2017-06-16 08:31:01 : (LcdArea) Finished, Elapsed Time : 291ms
+2017-06-16 08:31:01 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,475), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:31:01 : Test Result:(LCD DUST), Measure:(1,372), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:31:01 : (LcdDust) Finished, Elapsed Time : 219ms
+2017-06-16 08:31:01 : LcdWhite, Started
+2017-06-16 08:31:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:31:02 : (LcdWhite) Finished, Elapsed Time : 400ms
+2017-06-16 08:31:02 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:02 : InspectionThread  IsBlueFinished set
+2017-06-16 08:31:02 : InspectionThread IsBlueFinished Released
+2017-06-16 08:31:02 : LcdBlue, Started
+2017-06-16 08:31:02 : LedBlue, Started
+2017-06-16 08:31:02 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:31:02 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:31:02 : (LedBlue) Finished, Elapsed Time : 122ms
+2017-06-16 08:31:04 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:04 : InspectionThread IsGreenFinished Released
+2017-06-16 08:31:04 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:31:04 : (LcdGreen) Finished, Elapsed Time : 465ms
+2017-06-16 08:31:05 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:05 : InspectionThread  IsRedFinished set
+2017-06-16 08:31:05 : InspectionThread IsRedFinished Released
+2017-06-16 08:31:05 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:31:05 : LcdRed, Started
+2017-06-16 08:31:05 : (Thread Main) Finished, Elapsed Time : 8,170ms
+2017-06-16 08:31:05 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:31:05 : MainState : WaitTestCompletion
+2017-06-16 08:31:05 : -----------------------------MainState : CheckResult
+2017-06-16 08:31:05 : -----------------------------MainState : Passed(C00008DD0F05114)
+2017-06-16 08:31:05 : -----------------------------MainState : CleanUp
+2017-06-16 08:31:05 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 08:31:05 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 08:31:05 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:31:05 : [HHP] LcdRed, Elapsed Time : 160
+2017-06-16 08:31:11 : 
+
+2017-06-16 08:31:11 : -----------------------------MainState : StageIn
+2017-06-16 08:31:13 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:31:13 : UN : (C00008DD0F05114)
+2017-06-16 08:31:13 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:31:13 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:31:13 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:31:13 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:31:13 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:31:14 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:31:14 : Controller IsPreProcessFisnished Set
+2017-06-16 08:31:15 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:15 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:31:16 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:16 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:31:16 : InspectionThread AreadDustFinised Release
+2017-06-16 08:31:16 : image test start
+2017-06-16 08:31:16 : (LcdArea) Finished, Elapsed Time : 291ms
+2017-06-16 08:31:17 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,252), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:31:17 : Test Result:(LCD DUST), Measure:(1,375), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:31:17 : (LcdDust) Finished, Elapsed Time : 219ms
+2017-06-16 08:31:17 : LcdWhite, Started
+2017-06-16 08:31:17 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-16 08:31:17 : (LcdWhite) Finished, Elapsed Time : 414ms
+2017-06-16 08:31:17 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:17 : InspectionThread  IsBlueFinished set
+2017-06-16 08:31:17 : InspectionThread IsBlueFinished Released
+2017-06-16 08:31:17 : LedBlue, Started
+2017-06-16 08:31:17 : LcdBlue, Started
+2017-06-16 08:31:17 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:31:18 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:31:18 : (LedBlue) Finished, Elapsed Time : 120ms
+2017-06-16 08:31:19 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:19 : InspectionThread IsGreenFinished Released
+2017-06-16 08:31:19 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:31:19 : (LcdGreen) Finished, Elapsed Time : 463ms
+2017-06-16 08:31:20 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:20 : InspectionThread  IsRedFinished set
+2017-06-16 08:31:20 : InspectionThread IsRedFinished Released
+2017-06-16 08:31:20 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:31:20 : LcdRed, Started
+2017-06-16 08:31:20 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:31:20 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:31:20 : [HHP] LcdRed, Elapsed Time : 273
+2017-06-16 08:31:20 : MainState : WaitTestCompletion
+2017-06-16 08:31:20 : (Thread Main) Finished, Elapsed Time : 8,444ms
+2017-06-16 08:31:20 : -----------------------------MainState : CheckResult
+2017-06-16 08:31:20 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:31:20 : -----------------------------MainState : CleanUp
+2017-06-16 08:31:39 : 
+
+2017-06-16 08:31:39 : -----------------------------MainState : StageIn
+2017-06-16 08:31:40 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:31:41 : UN : (C00008DD0F05114)
+2017-06-16 08:31:41 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:31:41 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:31:41 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:31:41 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:31:41 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:31:42 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:31:42 : Controller IsPreProcessFisnished Set
+2017-06-16 08:31:42 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:42 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:31:44 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:44 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:31:44 : InspectionThread AreadDustFinised Release
+2017-06-16 08:31:44 : image test start
+2017-06-16 08:31:44 : (LcdArea) Finished, Elapsed Time : 290ms
+2017-06-16 08:31:44 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,172), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:31:44 : Test Result:(LCD DUST), Measure:(1,220), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:31:44 : (LcdDust) Finished, Elapsed Time : 220ms
+2017-06-16 08:31:44 : LcdWhite, Started
+2017-06-16 08:31:45 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-16 08:31:45 : (LcdWhite) Finished, Elapsed Time : 432ms
+2017-06-16 08:31:45 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:45 : InspectionThread  IsBlueFinished set
+2017-06-16 08:31:45 : InspectionThread IsBlueFinished Released
+2017-06-16 08:31:45 : LedBlue, Started
+2017-06-16 08:31:45 : LcdBlue, Started
+2017-06-16 08:31:45 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:31:45 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:31:45 : (LedBlue) Finished, Elapsed Time : 120ms
+2017-06-16 08:31:47 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:47 : InspectionThread IsGreenFinished Released
+2017-06-16 08:31:47 : ................(Green)black dot XY(1540,627),WH(7,5),rotatedWH(2.23,6.69)
+2017-06-16 08:31:47 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:31:47 : (LcdGreen) Finished, Elapsed Time : 484ms
+2017-06-16 08:31:48 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:31:48 : InspectionThread  IsRedFinished set
+2017-06-16 08:31:48 : InspectionThread IsRedFinished Released
+2017-06-16 08:31:48 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:31:48 : LcdRed, Started
+2017-06-16 08:31:48 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:31:48 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:31:48 : [HHP] LcdRed, Elapsed Time : 276
+2017-06-16 08:31:48 : (Thread Main) Finished, Elapsed Time : 8,400ms
+2017-06-16 08:31:48 : MainState : WaitTestCompletion
+2017-06-16 08:31:48 : -----------------------------MainState : CheckResult
+2017-06-16 08:31:48 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:31:48 : -----------------------------MainState : CleanUp
+2017-06-16 08:34:00 : 
+
+2017-06-16 08:34:00 : -----------------------------MainState : StageIn
+2017-06-16 08:34:02 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:34:02 : UN : (C00008DD0F05114)
+2017-06-16 08:34:02 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:34:02 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:34:02 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:34:02 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:34:02 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:34:04 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:34:04 : Controller IsPreProcessFisnished Set
+2017-06-16 08:34:04 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:04 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:34:05 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:05 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:34:05 : InspectionThread AreadDustFinised Release
+2017-06-16 08:34:05 : image test start
+2017-06-16 08:34:06 : (LcdArea) Finished, Elapsed Time : 294ms
+2017-06-16 08:34:06 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,667), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:34:06 : Test Result:(LCD DUST), Measure:(1,303), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:34:06 : (LcdDust) Finished, Elapsed Time : 221ms
+2017-06-16 08:34:06 : LcdWhite, Started
+2017-06-16 08:34:06 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:34:06 : (LcdWhite) Finished, Elapsed Time : 390ms
+2017-06-16 08:34:07 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:07 : InspectionThread  IsBlueFinished set
+2017-06-16 08:34:07 : InspectionThread IsBlueFinished Released
+2017-06-16 08:34:07 : LcdBlue, Started
+2017-06-16 08:34:07 : LedBlue, Started
+2017-06-16 08:34:07 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:34:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:34:07 : (LedBlue) Finished, Elapsed Time : 121ms
+2017-06-16 08:34:08 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:08 : InspectionThread IsGreenFinished Released
+2017-06-16 08:34:08 : ................(Green)black dot XY(1232,1779),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:34:09 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:34:09 : (LcdGreen) Finished, Elapsed Time : 484ms
+2017-06-16 08:34:09 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:09 : InspectionThread  IsRedFinished set
+2017-06-16 08:34:09 : InspectionThread IsRedFinished Released
+2017-06-16 08:34:09 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:34:09 : LcdRed, Started
+2017-06-16 08:34:09 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:34:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:34:10 : [HHP] LcdRed, Elapsed Time : 272
+2017-06-16 08:34:10 : (Thread Main) Finished, Elapsed Time : 8,441ms
+2017-06-16 08:34:10 : MainState : WaitTestCompletion
+2017-06-16 08:34:10 : -----------------------------MainState : CheckResult
+2017-06-16 08:34:10 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:34:10 : -----------------------------MainState : CleanUp
+2017-06-16 08:34:30 : 
+
+2017-06-16 08:34:30 : -----------------------------MainState : StageIn
+2017-06-16 08:34:32 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:34:32 : UN : (C00008DD0F05114)
+2017-06-16 08:34:32 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:34:32 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:34:32 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:34:32 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:34:32 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:34:34 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:34:34 : Controller IsPreProcessFisnished Set
+2017-06-16 08:34:34 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:34 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:34:35 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:35 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:34:35 : InspectionThread AreadDustFinised Release
+2017-06-16 08:34:35 : image test start
+2017-06-16 08:34:36 : (LcdArea) Finished, Elapsed Time : 292ms
+2017-06-16 08:34:36 : Test Result:(LCD DISPLAY AREA), Measure:(7,097,913), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:34:36 : Test Result:(LCD DUST), Measure:(1,272), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:34:36 : (LcdDust) Finished, Elapsed Time : 220ms
+2017-06-16 08:34:36 : LcdWhite, Started
+2017-06-16 08:34:36 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:34:36 : (LcdWhite) Finished, Elapsed Time : 401ms
+2017-06-16 08:34:37 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:37 : InspectionThread  IsBlueFinished set
+2017-06-16 08:34:37 : InspectionThread IsBlueFinished Released
+2017-06-16 08:34:37 : LedBlue, Started
+2017-06-16 08:34:37 : LcdBlue, Started
+2017-06-16 08:34:37 : Test Result:(SVC LED BRIGHT), Measure:(43), Min:(30), Max:(150), Result(True)
+2017-06-16 08:34:37 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:34:37 : (LedBlue) Finished, Elapsed Time : 120ms
+2017-06-16 08:34:38 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:38 : InspectionThread IsGreenFinished Released
+2017-06-16 08:34:39 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 08:34:39 : (LcdGreen) Finished, Elapsed Time : 465ms
+2017-06-16 08:34:39 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:39 : InspectionThread  IsRedFinished set
+2017-06-16 08:34:39 : InspectionThread IsRedFinished Released
+2017-06-16 08:34:39 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:34:39 : LcdRed, Started
+2017-06-16 08:34:39 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:34:39 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:34:39 : [HHP] LcdRed, Elapsed Time : 275
+2017-06-16 08:34:39 : MainState : WaitTestCompletion
+2017-06-16 08:34:39 : (Thread Main) Finished, Elapsed Time : 8,446ms
+2017-06-16 08:34:39 : -----------------------------MainState : CheckResult
+2017-06-16 08:34:40 : -----------------------------MainState : Passed(C00008DD0F05114)
+2017-06-16 08:34:40 : -----------------------------MainState : CleanUp
+2017-06-16 08:34:45 : 
+
+2017-06-16 08:34:45 : -----------------------------MainState : StageIn
+2017-06-16 08:34:47 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:34:47 : UN : (C00008DD0F05114)
+2017-06-16 08:34:47 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:34:47 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:34:47 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:34:47 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:34:47 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:34:49 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:34:49 : Controller IsPreProcessFisnished Set
+2017-06-16 08:34:49 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:49 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:34:50 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:50 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:34:50 : InspectionThread AreadDustFinised Release
+2017-06-16 08:34:50 : image test start
+2017-06-16 08:34:50 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:34:50 : (LcdArea) Finished, Elapsed Time : 268ms
+2017-06-16 08:34:51 : (Thread Main) Finished, Elapsed Time : 4,501ms
+2017-06-16 08:34:51 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:34:51 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:34:51 : MainState : WaitTestCompletion
+2017-06-16 08:34:51 : -----------------------------MainState : CheckResult
+2017-06-16 08:34:51 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:34:51 : -----------------------------MainState : CleanUp
+2017-06-16 08:34:54 : 
+
+2017-06-16 08:34:54 : -----------------------------MainState : StageIn
+2017-06-16 08:34:56 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:34:56 : UN : (C00008DD0F05114)
+2017-06-16 08:34:56 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:34:56 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:34:56 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:34:56 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:34:56 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:34:57 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:34:57 : Controller IsPreProcessFisnished Set
+2017-06-16 08:34:58 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:58 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:34:59 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:34:59 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:34:59 : InspectionThread AreadDustFinised Release
+2017-06-16 08:34:59 : image test start
+2017-06-16 08:34:59 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:34:59 : (LcdArea) Finished, Elapsed Time : 237ms
+2017-06-16 08:34:59 : (Thread Main) Finished, Elapsed Time : 4,449ms
+2017-06-16 08:35:00 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:35:00 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:35:00 : MainState : WaitTestCompletion
+2017-06-16 08:35:00 : -----------------------------MainState : CheckResult
+2017-06-16 08:35:00 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:35:00 : -----------------------------MainState : CleanUp
+2017-06-16 08:35:32 : 
+
+2017-06-16 08:35:32 : -----------------------------MainState : StageIn
+2017-06-16 08:35:34 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:35:34 : UN : (C00008DD0F05114)
+2017-06-16 08:35:34 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:35:34 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:35:34 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:35:34 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:35:34 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:35:36 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:35:36 : Controller IsPreProcessFisnished Set
+2017-06-16 08:35:36 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:36 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:35:37 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:37 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:35:37 : InspectionThread AreadDustFinised Release
+2017-06-16 08:35:37 : image test start
+2017-06-16 08:35:38 : (LcdArea) Finished, Elapsed Time : 293ms
+2017-06-16 08:35:38 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,737), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:35:38 : Test Result:(LCD DUST), Measure:(1,303), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:35:38 : (LcdDust) Finished, Elapsed Time : 221ms
+2017-06-16 08:35:38 : LcdWhite, Started
+2017-06-16 08:35:39 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-16 08:35:39 : (LcdWhite) Finished, Elapsed Time : 415ms
+2017-06-16 08:35:39 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:39 : InspectionThread  IsBlueFinished set
+2017-06-16 08:35:39 : InspectionThread IsBlueFinished Released
+2017-06-16 08:35:39 : LedBlue, Started
+2017-06-16 08:35:39 : LcdBlue, Started
+2017-06-16 08:35:39 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 08:35:39 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:35:39 : (LedBlue) Finished, Elapsed Time : 122ms
+2017-06-16 08:35:39 : (LcdBlue) Finished, Elapsed Time : 336ms
+2017-06-16 08:35:39 : Test Result:(LCD BLUE), Measure:(292), Min:(0), Max:(10), Result(False)
+2017-06-16 08:35:40 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:40 : InspectionThread IsGreenFinished Released
+2017-06-16 08:35:40 : ................(Green)black dot XY(1232,1778),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:35:41 : ................(Green)black dot XY(1413,1723),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:35:41 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:35:41 : (LcdGreen) Finished, Elapsed Time : 488ms
+2017-06-16 08:35:41 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:41 : InspectionThread  IsRedFinished set
+2017-06-16 08:35:41 : InspectionThread IsRedFinished Released
+2017-06-16 08:35:41 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:35:41 : LcdRed, Started
+2017-06-16 08:35:41 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:35:42 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:35:42 : [HHP] LcdRed, Elapsed Time : 288
+2017-06-16 08:35:42 : MainState : WaitTestCompletion
+2017-06-16 08:35:42 : (Thread Main) Finished, Elapsed Time : 8,477ms
+2017-06-16 08:35:42 : -----------------------------MainState : CheckResult
+2017-06-16 08:35:42 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:35:42 : -----------------------------MainState : CleanUp
+2017-06-16 08:35:47 : 
+
+2017-06-16 08:35:47 : -----------------------------MainState : StageIn
+2017-06-16 08:35:49 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:35:49 : UN : (C00008DD0F05114)
+2017-06-16 08:35:49 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:35:49 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:35:49 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:35:49 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:35:49 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:35:50 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:35:50 : Controller IsPreProcessFisnished Set
+2017-06-16 08:35:51 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:51 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:35:52 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:35:52 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:35:52 : InspectionThread AreadDustFinised Release
+2017-06-16 08:35:52 : image test start
+2017-06-16 08:35:52 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:35:52 : (LcdArea) Finished, Elapsed Time : 241ms
+2017-06-16 08:35:52 : (Thread Main) Finished, Elapsed Time : 4,405ms
+2017-06-16 08:35:53 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:35:53 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:35:53 : MainState : WaitTestCompletion
+2017-06-16 08:35:53 : -----------------------------MainState : CheckResult
+2017-06-16 08:35:53 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:35:53 : -----------------------------MainState : CleanUp
+2017-06-16 08:35:57 : 
+
+2017-06-16 08:35:57 : -----------------------------MainState : StageIn
+2017-06-16 08:35:58 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:35:58 : UN : (C00008DD0F05114)
+2017-06-16 08:35:59 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:35:59 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:35:59 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:35:59 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:35:59 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:36:00 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:36:00 : Controller IsPreProcessFisnished Set
+2017-06-16 08:36:00 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:00 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:36:02 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:02 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:36:02 : InspectionThread AreadDustFinised Release
+2017-06-16 08:36:02 : image test start
+2017-06-16 08:36:02 : (LcdArea) Finished, Elapsed Time : 297ms
+2017-06-16 08:36:02 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,992), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:36:02 : Test Result:(LCD DUST), Measure:(1,307), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:36:02 : (LcdDust) Finished, Elapsed Time : 220ms
+2017-06-16 08:36:02 : LcdWhite, Started
+2017-06-16 08:36:03 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-16 08:36:03 : (LcdWhite) Finished, Elapsed Time : 423ms
+2017-06-16 08:36:03 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:03 : InspectionThread  IsBlueFinished set
+2017-06-16 08:36:03 : InspectionThread IsBlueFinished Released
+2017-06-16 08:36:03 : LedBlue, Started
+2017-06-16 08:36:03 : LcdBlue, Started
+2017-06-16 08:36:03 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:36:03 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:36:03 : (LedBlue) Finished, Elapsed Time : 124ms
+2017-06-16 08:36:03 : (LcdBlue) Finished, Elapsed Time : 335ms
+2017-06-16 08:36:03 : Test Result:(LCD BLUE), Measure:(290), Min:(0), Max:(10), Result(False)
+2017-06-16 08:36:04 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:05 : InspectionThread IsGreenFinished Released
+2017-06-16 08:36:05 : ................(Green)black dot XY(1232,1779),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:36:05 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-16 08:36:05 : (LcdGreen) Finished, Elapsed Time : 483ms
+2017-06-16 08:36:06 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:06 : InspectionThread  IsRedFinished set
+2017-06-16 08:36:06 : InspectionThread IsRedFinished Released
+2017-06-16 08:36:06 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:36:06 : LcdRed, Started
+2017-06-16 08:36:06 : (Thread Main) Finished, Elapsed Time : 8,165ms
+2017-06-16 08:36:06 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:36:06 : MainState : WaitTestCompletion
+2017-06-16 08:36:06 : -----------------------------MainState : CheckResult
+2017-06-16 08:36:06 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:36:06 : -----------------------------MainState : CleanUp
+2017-06-16 08:36:06 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 08:36:06 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 08:36:06 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:36:06 : [HHP] LcdRed, Elapsed Time : 165
+2017-06-16 08:36:08 : 
+
+2017-06-16 08:36:08 : -----------------------------MainState : StageIn
+2017-06-16 08:36:10 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:36:10 : UN : (C00008DD0F05114)
+2017-06-16 08:36:10 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:36:10 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:36:10 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:36:10 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:36:10 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:36:12 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:36:12 : Controller IsPreProcessFisnished Set
+2017-06-16 08:36:12 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:12 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:36:13 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:13 : InspectionThread AreadDustFinised Release
+2017-06-16 08:36:13 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:36:13 : image test start
+2017-06-16 08:36:13 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:36:13 : (LcdArea) Finished, Elapsed Time : 238ms
+2017-06-16 08:36:13 : (Thread Main) Finished, Elapsed Time : 4,461ms
+2017-06-16 08:36:14 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:36:14 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:36:14 : MainState : WaitTestCompletion
+2017-06-16 08:36:14 : -----------------------------MainState : CheckResult
+2017-06-16 08:36:14 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:36:14 : -----------------------------MainState : CleanUp
+2017-06-16 08:36:40 : 
+
+2017-06-16 08:36:40 : -----------------------------MainState : StageIn
+2017-06-16 08:36:42 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:36:42 : UN : (C00008DD0F05114)
+2017-06-16 08:36:42 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:36:42 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:36:42 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:36:42 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:36:42 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:36:43 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:36:43 : Controller IsPreProcessFisnished Set
+2017-06-16 08:36:44 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:44 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:36:45 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:45 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:36:45 : InspectionThread AreadDustFinised Release
+2017-06-16 08:36:45 : image test start
+2017-06-16 08:36:45 : (LcdArea) Finished, Elapsed Time : 295ms
+2017-06-16 08:36:46 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,755), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:36:46 : Test Result:(LCD DUST), Measure:(1,345), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:36:46 : (LcdDust) Finished, Elapsed Time : 221ms
+2017-06-16 08:36:46 : LcdWhite, Started
+2017-06-16 08:36:46 : ................(White) : XY(2930,1783), WH(4,3)
+2017-06-16 08:36:46 : Test Result:(LCD WHITE), Measure:(2), Min:(0), Max:(0), Result(False)
+2017-06-16 08:36:46 : (LcdWhite) Finished, Elapsed Time : 447ms
+2017-06-16 08:36:46 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:46 : InspectionThread  IsBlueFinished set
+2017-06-16 08:36:46 : InspectionThread IsBlueFinished Released
+2017-06-16 08:36:46 : LedBlue, Started
+2017-06-16 08:36:46 : LcdBlue, Started
+2017-06-16 08:36:46 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:36:46 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:36:46 : (LedBlue) Finished, Elapsed Time : 129ms
+2017-06-16 08:36:47 : (LcdBlue) Finished, Elapsed Time : 345ms
+2017-06-16 08:36:47 : Test Result:(LCD BLUE), Measure:(293), Min:(0), Max:(10), Result(False)
+2017-06-16 08:36:48 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:48 : InspectionThread IsGreenFinished Released
+2017-06-16 08:36:48 : ................(Green)black dot XY(2930,1783),WH(8,7),rotatedWH(5.66,7.07)
+2017-06-16 08:36:48 : ................(Green)black dot XY(1232,1779),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:36:48 : ................(Green)black dot XY(1414,1724),WH(7,3),rotatedWH(6.06,1.94)
+2017-06-16 08:36:48 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-16 08:36:48 : (LcdGreen) Finished, Elapsed Time : 485ms
+2017-06-16 08:36:49 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:36:49 : InspectionThread  IsRedFinished set
+2017-06-16 08:36:49 : InspectionThread IsRedFinished Released
+2017-06-16 08:36:49 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:36:49 : LcdRed, Started
+2017-06-16 08:36:49 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:36:49 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:36:49 : [HHP] LcdRed, Elapsed Time : 279
+2017-06-16 08:36:49 : (Thread Main) Finished, Elapsed Time : 8,476ms
+2017-06-16 08:36:49 : MainState : WaitTestCompletion
+2017-06-16 08:36:49 : -----------------------------MainState : CheckResult
+2017-06-16 08:36:49 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:36:49 : -----------------------------MainState : CleanUp
+2017-06-16 08:36:59 : 
+
+2017-06-16 08:36:59 : -----------------------------MainState : StageIn
+2017-06-16 08:37:01 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:37:01 : UN : (C00008DD0F05114)
+2017-06-16 08:37:01 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:37:01 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:37:01 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:37:01 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:37:01 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:37:02 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:37:02 : Controller IsPreProcessFisnished Set
+2017-06-16 08:37:03 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:03 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:37:04 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:04 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:37:04 : InspectionThread AreadDustFinised Release
+2017-06-16 08:37:04 : image test start
+2017-06-16 08:37:04 : (LcdArea) Finished, Elapsed Time : 293ms
+2017-06-16 08:37:04 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,995), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:37:04 : Test Result:(LCD DUST), Measure:(1,368), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:37:05 : (LcdDust) Finished, Elapsed Time : 223ms
+2017-06-16 08:37:05 : LcdWhite, Started
+2017-06-16 08:37:05 : ................(White) : XY(2930,1783), WH(4,3)
+2017-06-16 08:37:05 : Test Result:(LCD WHITE), Measure:(2), Min:(0), Max:(0), Result(False)
+2017-06-16 08:37:05 : (LcdWhite) Finished, Elapsed Time : 426ms
+2017-06-16 08:37:05 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:05 : InspectionThread  IsBlueFinished set
+2017-06-16 08:37:05 : InspectionThread IsBlueFinished Released
+2017-06-16 08:37:05 : LedBlue, Started
+2017-06-16 08:37:05 : LcdBlue, Started
+2017-06-16 08:37:05 : Test Result:(SVC LED BRIGHT), Measure:(43.3), Min:(30), Max:(150), Result(True)
+2017-06-16 08:37:05 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:37:05 : (LedBlue) Finished, Elapsed Time : 122ms
+2017-06-16 08:37:05 : (LcdBlue) Finished, Elapsed Time : 341ms
+2017-06-16 08:37:05 : Test Result:(LCD BLUE), Measure:(290), Min:(0), Max:(10), Result(False)
+2017-06-16 08:37:07 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:07 : InspectionThread IsGreenFinished Released
+2017-06-16 08:37:07 : ................(Green)black dot XY(2930,1783),WH(8,7),rotatedWH(7,6)
+2017-06-16 08:37:07 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-16 08:37:07 : (LcdGreen) Finished, Elapsed Time : 484ms
+2017-06-16 08:37:08 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:08 : InspectionThread  IsRedFinished set
+2017-06-16 08:37:08 : InspectionThread IsRedFinished Released
+2017-06-16 08:37:08 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:37:08 : LcdRed, Started
+2017-06-16 08:37:08 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:37:08 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:37:08 : [HHP] LcdRed, Elapsed Time : 275
+2017-06-16 08:37:08 : MainState : WaitTestCompletion
+2017-06-16 08:37:08 : (Thread Main) Finished, Elapsed Time : 8,425ms
+2017-06-16 08:37:08 : -----------------------------MainState : CheckResult
+2017-06-16 08:37:08 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:37:08 : -----------------------------MainState : CleanUp
+2017-06-16 08:37:13 : 
+
+2017-06-16 08:37:13 : -----------------------------MainState : StageIn
+2017-06-16 08:37:15 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:37:15 : UN : (C00008DD0F05114)
+2017-06-16 08:37:15 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:37:15 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:37:15 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:37:15 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:37:15 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:37:16 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:37:16 : Controller IsPreProcessFisnished Set
+2017-06-16 08:37:17 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:17 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:37:18 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:37:18 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:37:18 : InspectionThread AreadDustFinised Release
+2017-06-16 08:37:18 : image test start
+2017-06-16 08:37:18 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:37:18 : (LcdArea) Finished, Elapsed Time : 243ms
+2017-06-16 08:37:18 : (Thread Main) Finished, Elapsed Time : 4,458ms
+2017-06-16 08:37:19 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:37:19 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:37:19 : MainState : WaitTestCompletion
+2017-06-16 08:37:19 : -----------------------------MainState : CheckResult
+2017-06-16 08:37:19 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:37:19 : -----------------------------MainState : CleanUp
+2017-06-16 08:49:38 : 
+
+2017-06-16 08:49:38 : -----------------------------MainState : StageIn
+2017-06-16 08:49:40 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:49:40 : UN : (C00008DD0F05114)
+2017-06-16 08:49:40 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:49:40 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:49:40 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:49:40 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:49:40 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:49:41 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:49:41 : Controller IsPreProcessFisnished Set
+2017-06-16 08:49:42 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:49:42 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:49:43 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:49:43 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:49:43 : InspectionThread AreadDustFinised Release
+2017-06-16 08:49:43 : image test start
+2017-06-16 08:49:43 : (LcdArea) Finished, Elapsed Time : 294ms
+2017-06-16 08:49:44 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,327), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:49:44 : Test Result:(LCD DUST), Measure:(1,491), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:49:44 : (LcdDust) Finished, Elapsed Time : 225ms
+2017-06-16 08:49:44 : LcdWhite, Started
+2017-06-16 08:49:44 : ................(White) : XY(2930,1784), WH(4,4)
+2017-06-16 08:49:44 : Test Result:(LCD WHITE), Measure:(2), Min:(0), Max:(0), Result(False)
+2017-06-16 08:49:44 : (LcdWhite) Finished, Elapsed Time : 432ms
+2017-06-16 08:49:44 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:49:44 : InspectionThread  IsBlueFinished set
+2017-06-16 08:49:44 : InspectionThread IsBlueFinished Released
+2017-06-16 08:49:44 : LedBlue, Started
+2017-06-16 08:49:44 : LcdBlue, Started
+2017-06-16 08:49:44 : Test Result:(SVC LED BRIGHT), Measure:(43.6), Min:(30), Max:(150), Result(True)
+2017-06-16 08:49:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:49:44 : (LedBlue) Finished, Elapsed Time : 122ms
+2017-06-16 08:49:45 : (LcdBlue) Finished, Elapsed Time : 346ms
+2017-06-16 08:49:45 : Test Result:(LCD BLUE), Measure:(291), Min:(0), Max:(10), Result(False)
+2017-06-16 08:49:46 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:49:46 : InspectionThread IsGreenFinished Released
+2017-06-16 08:49:46 : ................(Green)black dot XY(2930,1784),WH(8,6),rotatedWH(5,7)
+2017-06-16 08:49:46 : ................(Green)black dot XY(1232,1779),WH(7,3),rotatedWH(6,2)
+2017-06-16 08:49:46 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-16 08:49:46 : (LcdGreen) Finished, Elapsed Time : 491ms
+2017-06-16 08:49:47 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:49:47 : InspectionThread  IsRedFinished set
+2017-06-16 08:49:47 : InspectionThread IsRedFinished Released
+2017-06-16 08:49:47 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:49:47 : LcdRed, Started
+2017-06-16 08:49:47 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:49:47 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:49:47 : [HHP] LcdRed, Elapsed Time : 286
+2017-06-16 08:49:47 : (Thread Main) Finished, Elapsed Time : 8,495ms
+2017-06-16 08:49:47 : MainState : WaitTestCompletion
+2017-06-16 08:49:47 : -----------------------------MainState : CheckResult
+2017-06-16 08:49:47 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:49:47 : -----------------------------MainState : CleanUp
+2017-06-16 08:49:58 : 
+
+2017-06-16 08:49:58 : -----------------------------MainState : StageIn
+2017-06-16 08:49:59 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:50:00 : UN : (C00008DD0F05114)
+2017-06-16 08:50:00 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:50:00 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:50:00 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:50:00 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:50:00 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:50:01 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:50:01 : Controller IsPreProcessFisnished Set
+2017-06-16 08:50:01 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:50:02 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:50:03 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:50:03 : InspectionThread AreadDustFinised Release
+2017-06-16 08:50:03 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:50:03 : image test start
+2017-06-16 08:50:03 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 08:50:03 : (LcdArea) Finished, Elapsed Time : 236ms
+2017-06-16 08:50:03 : (Thread Main) Finished, Elapsed Time : 4,412ms
+2017-06-16 08:50:04 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:50:04 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:50:04 : MainState : WaitTestCompletion
+2017-06-16 08:50:04 : -----------------------------MainState : CheckResult
+2017-06-16 08:50:04 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:50:04 : -----------------------------MainState : CleanUp
+2017-06-16 08:52:58 : Program Ended...
+2017-06-16 08:53:49 : 
+
+2017-06-16 08:53:49 : 
+
+2017-06-16 08:53:49 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-16 08:54:14 : 
+
+2017-06-16 08:54:14 : -----------------------------MainState : StageIn
+2017-06-16 08:54:16 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 08:54:16 : UN : (C00008DD0F05114)
+2017-06-16 08:54:16 : -----------------------------MainState : ReadyForTest
+2017-06-16 08:54:16 : -----------------------------MainState : GrapRearImages
+2017-06-16 08:54:16 : -----------------------------MainState : GrapFrontImages
+2017-06-16 08:54:16 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 08:54:16 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 08:54:17 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 08:54:17 : Controller IsPreProcessFisnished Set
+2017-06-16 08:54:18 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:54:18 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 08:54:19 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 08:54:19 : InspectionThread  IsAreaDustFinished set
+2017-06-16 08:54:19 : InspectionThread AreadDustFinised Release
+2017-06-16 08:54:19 : image test start
+2017-06-16 08:54:20 : (LcdArea) Finished, Elapsed Time : 321ms
+2017-06-16 08:54:20 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,533), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 08:54:20 : Test Result:(LCD DUST), Measure:(102), Min:(0), Max:(50000), Result(True)
+2017-06-16 08:54:20 : (LcdDust) Finished, Elapsed Time : 226ms
+2017-06-16 08:54:20 : LcdWhite, Started
+2017-06-16 08:54:20 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 08:54:20 : (LcdWhite) Finished, Elapsed Time : 402ms
+2017-06-16 08:54:21 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 08:54:21 : InspectionThread  IsBlueFinished set
+2017-06-16 08:54:21 : InspectionThread IsBlueFinished Released
+2017-06-16 08:54:21 : LcdBlue, Started
+2017-06-16 08:54:21 : LedBlue, Started
+2017-06-16 08:54:21 : Test Result:(SVC LED BRIGHT), Measure:(43.5), Min:(30), Max:(150), Result(True)
+2017-06-16 08:54:21 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 08:54:21 : (LedBlue) Finished, Elapsed Time : 132ms
+2017-06-16 08:54:21 : (LcdBlue) Finished, Elapsed Time : 329ms
+2017-06-16 08:54:21 : Test Result:(LCD BLUE), Measure:(269), Min:(0), Max:(10), Result(False)
+2017-06-16 08:54:22 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 08:54:22 : InspectionThread IsGreenFinished Released
+2017-06-16 08:54:23 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-16 08:54:23 : (LcdGreen) Finished, Elapsed Time : 464ms
+2017-06-16 08:54:23 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 08:54:23 : InspectionThread  IsRedFinished set
+2017-06-16 08:54:23 : InspectionThread IsRedFinished Released
+2017-06-16 08:54:23 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 08:54:23 : LcdRed, Started
+2017-06-16 08:54:23 : -----------------------------MainState : StartFrontTest
+2017-06-16 08:54:24 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 08:54:24 : [HHP] LcdRed, Elapsed Time : 267
+2017-06-16 08:54:24 : MainState : WaitTestCompletion
+2017-06-16 08:54:24 : (Thread Main) Finished, Elapsed Time : 8,576ms
+2017-06-16 08:54:24 : -----------------------------MainState : CheckResult
+2017-06-16 08:54:24 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 08:54:24 : -----------------------------MainState : CleanUp
+2017-06-16 09:00:24 : 
+
+2017-06-16 09:00:24 : -----------------------------MainState : StageIn
+2017-06-16 09:00:26 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 09:00:26 : UN : (C00008DD0F05114)
+2017-06-16 09:00:26 : -----------------------------MainState : ReadyForTest
+2017-06-16 09:00:26 : -----------------------------MainState : GrapRearImages
+2017-06-16 09:00:26 : -----------------------------MainState : GrapFrontImages
+2017-06-16 09:00:26 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 09:00:26 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 09:00:28 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 09:00:28 : Controller IsPreProcessFisnished Set
+2017-06-16 09:00:28 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 09:00:28 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 09:00:29 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 09:00:29 : InspectionThread  IsAreaDustFinished set
+2017-06-16 09:00:29 : InspectionThread AreadDustFinised Release
+2017-06-16 09:00:29 : image test start
+2017-06-16 09:00:30 : (LcdArea) Finished, Elapsed Time : 292ms
+2017-06-16 09:00:30 : Test Result:(LCD DISPLAY AREA), Measure:(7,099,465), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 09:00:30 : Test Result:(LCD DUST), Measure:(374), Min:(0), Max:(50000), Result(True)
+2017-06-16 09:00:30 : (LcdDust) Finished, Elapsed Time : 209ms
+2017-06-16 09:00:30 : LcdWhite, Started
+2017-06-16 09:00:30 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 09:00:30 : (LcdWhite) Finished, Elapsed Time : 401ms
+2017-06-16 09:00:31 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 09:00:31 : InspectionThread  IsBlueFinished set
+2017-06-16 09:00:31 : InspectionThread IsBlueFinished Released
+2017-06-16 09:00:31 : LedBlue, Started
+2017-06-16 09:00:31 : LcdBlue, Started
+2017-06-16 09:00:31 : Test Result:(SVC LED BRIGHT), Measure:(43.2), Min:(30), Max:(150), Result(True)
+2017-06-16 09:00:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 09:00:31 : (LedBlue) Finished, Elapsed Time : 124ms
+2017-06-16 09:00:31 : (LcdBlue) Finished, Elapsed Time : 334ms
+2017-06-16 09:00:31 : Test Result:(LCD BLUE), Measure:(272), Min:(0), Max:(10), Result(False)
+2017-06-16 09:00:32 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 09:00:32 : InspectionThread IsGreenFinished Released
+2017-06-16 09:00:33 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-16 09:00:33 : (LcdGreen) Finished, Elapsed Time : 461ms
+2017-06-16 09:00:33 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 09:00:33 : InspectionThread  IsRedFinished set
+2017-06-16 09:00:33 : InspectionThread IsRedFinished Released
+2017-06-16 09:00:33 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 09:00:33 : LcdRed, Started
+2017-06-16 09:00:33 : -----------------------------MainState : StartFrontTest
+2017-06-16 09:00:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 09:00:34 : [HHP] LcdRed, Elapsed Time : 277
+2017-06-16 09:00:34 : (Thread Main) Finished, Elapsed Time : 8,432ms
+2017-06-16 09:00:34 : MainState : WaitTestCompletion
+2017-06-16 09:00:34 : -----------------------------MainState : CheckResult
+2017-06-16 09:00:34 : -----------------------------MainState : Failed(C00008DD0F05114)
+2017-06-16 09:00:34 : -----------------------------MainState : CleanUp
+2017-06-16 10:53:00 : 
+
+2017-06-16 10:53:00 : -----------------------------MainState : StageIn
+2017-06-16 10:53:02 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 10:53:02 : UN : (C0000BBF3611424)
+2017-06-16 10:53:02 : -----------------------------MainState : ReadyForTest
+2017-06-16 10:53:02 : -----------------------------MainState : GrapRearImages
+2017-06-16 10:53:02 : -----------------------------MainState : GrapFrontImages
+2017-06-16 10:53:02 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 10:53:02 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 10:53:03 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 10:53:03 : Controller IsPreProcessFisnished Set
+2017-06-16 10:53:04 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:04 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 10:53:05 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:05 : InspectionThread  IsAreaDustFinished set
+2017-06-16 10:53:05 : InspectionThread AreadDustFinised Release
+2017-06-16 10:53:05 : image test start
+2017-06-16 10:53:05 : (LcdArea) Finished, Elapsed Time : 294ms
+2017-06-16 10:53:06 : Test Result:(LCD DISPLAY AREA), Measure:(7,098,740), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 10:53:06 : Test Result:(LCD DUST), Measure:(31), Min:(0), Max:(50000), Result(True)
+2017-06-16 10:53:06 : (LcdDust) Finished, Elapsed Time : 208ms
+2017-06-16 10:53:06 : LcdWhite, Started
+2017-06-16 10:53:06 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 10:53:06 : (LcdWhite) Finished, Elapsed Time : 402ms
+2017-06-16 10:53:06 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:06 : InspectionThread  IsBlueFinished set
+2017-06-16 10:53:06 : InspectionThread IsBlueFinished Released
+2017-06-16 10:53:06 : LedBlue, Started
+2017-06-16 10:53:06 : LcdBlue, Started
+2017-06-16 10:53:06 : Test Result:(SVC LED BRIGHT), Measure:(34.8), Min:(30), Max:(150), Result(True)
+2017-06-16 10:53:06 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 10:53:06 : (LedBlue) Finished, Elapsed Time : 120ms
+2017-06-16 10:53:07 : (LcdBlue) Finished, Elapsed Time : 338ms
+2017-06-16 10:53:07 : Test Result:(LCD BLUE), Measure:(264), Min:(0), Max:(10), Result(False)
+2017-06-16 10:53:08 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:08 : InspectionThread IsGreenFinished Released
+2017-06-16 10:53:08 : Test Result:(LCD GREEN), Measure:(), Min:(0), Max:(6), Result(True)
+2017-06-16 10:53:08 : (LcdGreen) Finished, Elapsed Time : 466ms
+2017-06-16 10:53:09 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:09 : InspectionThread  IsRedFinished set
+2017-06-16 10:53:09 : InspectionThread IsRedFinished Released
+2017-06-16 10:53:09 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 10:53:09 : LcdRed, Started
+2017-06-16 10:53:09 : (Thread Main) Finished, Elapsed Time : 8,160ms
+2017-06-16 10:53:09 : -----------------------------MainState : StartFrontTest
+2017-06-16 10:53:09 : MainState : WaitTestCompletion
+2017-06-16 10:53:09 : -----------------------------MainState : CheckResult
+2017-06-16 10:53:09 : -----------------------------MainState : Failed(C0000BBF3611424)
+2017-06-16 10:53:09 : -----------------------------MainState : CleanUp
+2017-06-16 10:53:09 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 10:53:09 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 10:53:09 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 10:53:09 : [HHP] LcdRed, Elapsed Time : 163
+2017-06-16 10:53:30 : 
+
+2017-06-16 10:53:30 : -----------------------------MainState : StageIn
+2017-06-16 10:53:32 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 10:53:32 : UN : (C0000BBF3611424)
+2017-06-16 10:53:32 : -----------------------------MainState : ReadyForTest
+2017-06-16 10:53:32 : -----------------------------MainState : GrapRearImages
+2017-06-16 10:53:32 : -----------------------------MainState : GrapFrontImages
+2017-06-16 10:53:32 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 10:53:32 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 10:53:33 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 10:53:33 : Controller IsPreProcessFisnished Set
+2017-06-16 10:53:34 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:34 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 10:53:35 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:35 : InspectionThread AreadDustFinised Release
+2017-06-16 10:53:35 : InspectionThread  IsAreaDustFinished set
+2017-06-16 10:53:35 : image test start
+2017-06-16 10:53:35 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 10:53:35 : (LcdArea) Finished, Elapsed Time : 236ms
+2017-06-16 10:53:35 : (Thread Main) Finished, Elapsed Time : 4,450ms
+2017-06-16 10:53:36 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 10:53:36 : -----------------------------MainState : StartFrontTest
+2017-06-16 10:53:36 : MainState : WaitTestCompletion
+2017-06-16 10:53:36 : -----------------------------MainState : CheckResult
+2017-06-16 10:53:36 : -----------------------------MainState : Failed(C0000BBF3611424)
+2017-06-16 10:53:36 : -----------------------------MainState : CleanUp
+2017-06-16 10:53:40 : 
+
+2017-06-16 10:53:40 : -----------------------------MainState : StageIn
+2017-06-16 10:53:42 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 10:53:42 : UN : (C0000BBF3611424)
+2017-06-16 10:53:42 : -----------------------------MainState : ReadyForTest
+2017-06-16 10:53:42 : -----------------------------MainState : GrapRearImages
+2017-06-16 10:53:42 : -----------------------------MainState : GrapFrontImages
+2017-06-16 10:53:42 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 10:53:42 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 10:53:43 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 10:53:43 : Controller IsPreProcessFisnished Set
+2017-06-16 10:53:44 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:44 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 10:53:45 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:45 : InspectionThread  IsAreaDustFinished set
+2017-06-16 10:53:45 : InspectionThread AreadDustFinised Release
+2017-06-16 10:53:45 : image test start
+2017-06-16 10:53:45 : (LcdArea) Finished, Elapsed Time : 291ms
+2017-06-16 10:53:46 : Test Result:(LCD DISPLAY AREA), Measure:(7,095,781), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 10:53:46 : Test Result:(LCD DUST), Measure:(82), Min:(0), Max:(50000), Result(True)
+2017-06-16 10:53:46 : (LcdDust) Finished, Elapsed Time : 209ms
+2017-06-16 10:53:46 : LcdWhite, Started
+2017-06-16 10:53:46 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 10:53:46 : (LcdWhite) Finished, Elapsed Time : 397ms
+2017-06-16 10:53:46 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:46 : InspectionThread  IsBlueFinished set
+2017-06-16 10:53:46 : InspectionThread IsBlueFinished Released
+2017-06-16 10:53:46 : LcdBlue, Started
+2017-06-16 10:53:46 : LedBlue, Started
+2017-06-16 10:53:46 : Test Result:(SVC LED BRIGHT), Measure:(34.9), Min:(30), Max:(150), Result(True)
+2017-06-16 10:53:47 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 10:53:47 : (LedBlue) Finished, Elapsed Time : 120ms
+2017-06-16 10:53:47 : (LcdBlue) Finished, Elapsed Time : 335ms
+2017-06-16 10:53:47 : Test Result:(LCD BLUE), Measure:(287), Min:(0), Max:(10), Result(False)
+2017-06-16 10:53:48 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:48 : InspectionThread IsGreenFinished Released
+2017-06-16 10:53:48 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-16 10:53:48 : (LcdGreen) Finished, Elapsed Time : 465ms
+2017-06-16 10:53:49 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 10:53:49 : InspectionThread  IsRedFinished set
+2017-06-16 10:53:49 : InspectionThread IsRedFinished Released
+2017-06-16 10:53:49 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 10:53:49 : LcdRed, Started
+2017-06-16 10:53:49 : (Thread Main) Finished, Elapsed Time : 8,153ms
+2017-06-16 10:53:49 : -----------------------------MainState : StartFrontTest
+2017-06-16 10:53:49 : MainState : WaitTestCompletion
+2017-06-16 10:53:49 : -----------------------------MainState : CheckResult
+2017-06-16 10:53:49 : -----------------------------MainState : Failed(C0000BBF3611424)
+2017-06-16 10:53:49 : -----------------------------MainState : CleanUp
+2017-06-16 10:53:49 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 10:53:49 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 10:53:49 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 10:53:49 : [HHP] LcdRed, Elapsed Time : 164
+2017-06-16 16:15:49 : 
+
+2017-06-16 16:15:49 : -----------------------------MainState : StageIn
+2017-06-16 16:15:51 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 16:15:51 : UN : (C00007566226C24)
+2017-06-16 16:15:51 : -----------------------------MainState : ReadyForTest
+2017-06-16 16:15:51 : -----------------------------MainState : GrapRearImages
+2017-06-16 16:15:51 : -----------------------------MainState : GrapFrontImages
+2017-06-16 16:15:51 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 16:15:51 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 16:15:52 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 16:15:52 : Controller IsPreProcessFisnished Set
+2017-06-16 16:15:53 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 16:15:53 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 16:15:54 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 16:15:54 : InspectionThread  IsAreaDustFinished set
+2017-06-16 16:15:54 : InspectionThread AreadDustFinised Release
+2017-06-16 16:15:54 : image test start
+2017-06-16 16:15:54 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 16:15:54 : (LcdArea) Finished, Elapsed Time : 240ms
+2017-06-16 16:15:54 : (Thread Main) Finished, Elapsed Time : 4,447ms
+2017-06-16 16:15:55 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 16:15:55 : -----------------------------MainState : StartFrontTest
+2017-06-16 16:15:55 : MainState : WaitTestCompletion
+2017-06-16 16:15:55 : -----------------------------MainState : CheckResult
+2017-06-16 16:15:55 : -----------------------------MainState : Failed(C00007566226C24)
+2017-06-16 16:15:55 : -----------------------------MainState : CleanUp
+2017-06-16 16:16:00 : 
+
+2017-06-16 16:16:00 : -----------------------------MainState : StageIn
+2017-06-16 16:16:02 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 16:16:02 : UN : (C00007566226C24)
+2017-06-16 16:16:02 : -----------------------------MainState : ReadyForTest
+2017-06-16 16:16:02 : -----------------------------MainState : GrapRearImages
+2017-06-16 16:16:02 : -----------------------------MainState : GrapFrontImages
+2017-06-16 16:16:02 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 16:16:02 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 16:16:03 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 16:16:03 : Controller IsPreProcessFisnished Set
+2017-06-16 16:16:04 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 16:16:04 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 16:16:05 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 16:16:05 : InspectionThread  IsAreaDustFinished set
+2017-06-16 16:16:05 : InspectionThread AreadDustFinised Release
+2017-06-16 16:16:05 : image test start
+2017-06-16 16:16:05 : (LcdArea) Finished, Elapsed Time : 290ms
+2017-06-16 16:16:06 : Test Result:(LCD DISPLAY AREA), Measure:(7,096,283), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 16:16:06 : Test Result:(LCD DUST), Measure:(6), Min:(0), Max:(50000), Result(True)
+2017-06-16 16:16:06 : (LcdDust) Finished, Elapsed Time : 210ms
+2017-06-16 16:16:06 : LcdWhite, Started
+2017-06-16 16:16:06 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 16:16:06 : (LcdWhite) Finished, Elapsed Time : 411ms
+2017-06-16 16:16:06 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 16:16:06 : InspectionThread  IsBlueFinished set
+2017-06-16 16:16:06 : InspectionThread IsBlueFinished Released
+2017-06-16 16:16:06 : LedBlue, Started
+2017-06-16 16:16:06 : LcdBlue, Started
+2017-06-16 16:16:07 : Test Result:(SVC LED BRIGHT), Measure:(41.3), Min:(30), Max:(150), Result(True)
+2017-06-16 16:16:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 16:16:07 : (LedBlue) Finished, Elapsed Time : 113ms
+2017-06-16 16:16:07 : (LcdBlue) Finished, Elapsed Time : 357ms
+2017-06-16 16:16:07 : Test Result:(LCD BLUE), Measure:(266), Min:(0), Max:(10), Result(False)
+2017-06-16 16:16:08 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 16:16:08 : InspectionThread IsGreenFinished Released
+2017-06-16 16:16:09 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-16 16:16:09 : (LcdGreen) Finished, Elapsed Time : 467ms
+2017-06-16 16:16:09 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 16:16:09 : InspectionThread  IsRedFinished set
+2017-06-16 16:16:09 : InspectionThread IsRedFinished Released
+2017-06-16 16:16:09 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 16:16:09 : LcdRed, Started
+2017-06-16 16:16:09 : -----------------------------MainState : StartFrontTest
+2017-06-16 16:16:09 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 16:16:09 : [HHP] LcdRed, Elapsed Time : 277
+2017-06-16 16:16:09 : (Thread Main) Finished, Elapsed Time : 8,396ms
+2017-06-16 16:16:09 : MainState : WaitTestCompletion
+2017-06-16 16:16:09 : -----------------------------MainState : CheckResult
+2017-06-16 16:16:09 : -----------------------------MainState : Failed(C00007566226C24)
+2017-06-16 16:16:09 : -----------------------------MainState : CleanUp
+2017-06-16 17:28:59 : 
+
+2017-06-16 17:28:59 : -----------------------------MainState : StageIn
+2017-06-16 17:29:00 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 17:29:01 : UN : (C000027B55AEC14)
+2017-06-16 17:29:01 : -----------------------------MainState : ReadyForTest
+2017-06-16 17:29:01 : -----------------------------MainState : GrapRearImages
+2017-06-16 17:29:01 : -----------------------------MainState : GrapFrontImages
+2017-06-16 17:29:01 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 17:29:01 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 17:29:02 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 17:29:02 : Controller IsPreProcessFisnished Set
+2017-06-16 17:29:03 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:03 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 17:29:04 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:04 : InspectionThread  IsAreaDustFinished set
+2017-06-16 17:29:04 : InspectionThread AreadDustFinised Release
+2017-06-16 17:29:04 : image test start
+2017-06-16 17:29:04 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-16 17:29:04 : (LcdArea) Finished, Elapsed Time : 243ms
+2017-06-16 17:29:04 : (Thread Main) Finished, Elapsed Time : 4,429ms
+2017-06-16 17:29:05 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 17:29:05 : -----------------------------MainState : StartFrontTest
+2017-06-16 17:29:05 : MainState : WaitTestCompletion
+2017-06-16 17:29:05 : -----------------------------MainState : CheckResult
+2017-06-16 17:29:05 : -----------------------------MainState : Failed(C000027B55AEC14)
+2017-06-16 17:29:05 : -----------------------------MainState : CleanUp
+2017-06-16 17:29:10 : 
+
+2017-06-16 17:29:10 : -----------------------------MainState : StageIn
+2017-06-16 17:29:11 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 17:29:11 : UN : (C000027B55AEC14)
+2017-06-16 17:29:11 : -----------------------------MainState : ReadyForTest
+2017-06-16 17:29:11 : -----------------------------MainState : GrapRearImages
+2017-06-16 17:29:11 : -----------------------------MainState : GrapFrontImages
+2017-06-16 17:29:11 : !!!!!!!!!!!!!!!Front Image grab start!!!!!!!!!!!!!!!
+2017-06-16 17:29:11 : InspectionThread IsPreProcessFisnished WaitOne
+2017-06-16 17:29:13 : InspectionThread IsPreProcessFisnished Release
+2017-06-16 17:29:13 : Controller IsPreProcessFisnished Set
+2017-06-16 17:29:13 : !!!!!!!!!!!!!!!LCD WHITE Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:13 : InspectionThread IsPreProcessFisnished Reset
+2017-06-16 17:29:14 : !!!!!!!!!!!!!!!LCD BLACK Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:14 : InspectionThread AreadDustFinised Release
+2017-06-16 17:29:14 : InspectionThread  IsAreaDustFinished set
+2017-06-16 17:29:14 : image test start
+2017-06-16 17:29:15 : (LcdArea) Finished, Elapsed Time : 293ms
+2017-06-16 17:29:15 : Test Result:(LCD DISPLAY AREA), Measure:(7,096,827), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-16 17:29:15 : Test Result:(LCD DUST), Measure:(17), Min:(0), Max:(50000), Result(True)
+2017-06-16 17:29:15 : (LcdDust) Finished, Elapsed Time : 218ms
+2017-06-16 17:29:15 : LcdWhite, Started
+2017-06-16 17:29:16 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-16 17:29:16 : (LcdWhite) Finished, Elapsed Time : 404ms
+2017-06-16 17:29:16 : !!!!!!!!!!!!!!!LCD BLUE Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:16 : InspectionThread  IsBlueFinished set
+2017-06-16 17:29:16 : InspectionThread IsBlueFinished Released
+2017-06-16 17:29:16 : LedBlue, Started
+2017-06-16 17:29:16 : LcdBlue, Started
+2017-06-16 17:29:16 : Test Result:(SVC LED BRIGHT), Measure:(40.6), Min:(30), Max:(150), Result(True)
+2017-06-16 17:29:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-16 17:29:16 : (LedBlue) Finished, Elapsed Time : 129ms
+2017-06-16 17:29:16 : (LcdBlue) Finished, Elapsed Time : 333ms
+2017-06-16 17:29:16 : Test Result:(LCD BLUE), Measure:(287), Min:(0), Max:(10), Result(False)
+2017-06-16 17:29:17 : !!!!!!!!!!!!!!!LCD GREEN Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:17 : InspectionThread IsGreenFinished Released
+2017-06-16 17:29:18 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-16 17:29:18 : (LcdGreen) Finished, Elapsed Time : 462ms
+2017-06-16 17:29:18 : !!!!!!!!!!!!!!!LCD RED Grab!!!!!!!!!!!!!!!
+2017-06-16 17:29:18 : InspectionThread  IsRedFinished set
+2017-06-16 17:29:18 : InspectionThread IsRedFinished Released
+2017-06-16 17:29:18 : !!!!!!!!!!!!!!!Front Image grab Finished!!!!!!!!!!!!!!!
+2017-06-16 17:29:18 : LcdRed, Started
+2017-06-16 17:29:18 : (Thread Main) Finished, Elapsed Time : 8,090ms
+2017-06-16 17:29:18 : -----------------------------MainState : StartFrontTest
+2017-06-16 17:29:18 : MainState : WaitTestCompletion
+2017-06-16 17:29:18 : -----------------------------MainState : CheckResult
+2017-06-16 17:29:18 : -----------------------------MainState : Failed(C000027B55AEC14)
+2017-06-16 17:29:18 : -----------------------------MainState : CleanUp
+2017-06-16 17:29:19 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 17:29:19 : Error] SaveLogImage(), Path(D:\LCD_AutoInspection\IMG\20170616\Current\) Dose not exist.
+2017-06-16 17:29:19 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-16 17:29:19 : [HHP] LcdRed, Elapsed Time : 163
+2017-06-16 18:28:20 : 
+
+2017-06-16 18:28:20 : -----------------------------MainState : StageIn
+2017-06-16 18:28:22 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 18:28:23 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 18:28:24 : -----------------------------MainState : CleanUp
+2017-06-16 19:19:36 : 
+
+2017-06-16 19:19:36 : -----------------------------MainState : StageIn
+2017-06-16 19:19:38 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 19:19:39 : -----------------------------MainState : HeadInfoCheck
+2017-06-16 19:19:40 : -----------------------------MainState : CleanUp

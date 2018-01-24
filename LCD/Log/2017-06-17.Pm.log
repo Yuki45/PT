@@ -1,0 +1,1601 @@
+2017-06-17 07:18:25 : 
+
+2017-06-17 07:18:25 : 
+
+2017-06-17 07:18:25 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 07:24:30 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 07:25:31 : Test Result:(LCD DISPLAY AREA), Measure:(7,101,077), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 07:25:31 : Test Result:(LCD DUST), Measure:(73), Min:(0), Max:(50000), Result(True)
+2017-06-17 07:25:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 07:25:31 : Test Result:(SVC LED BRIGHT), Measure:(46.3), Min:(30), Max:(150), Result(True)
+2017-06-17 07:25:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 07:25:31 : Test Result:(LCD BLUE), Measure:(404), Min:(0), Max:(10), Result(False)
+2017-06-17 07:25:33 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 07:25:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 07:25:34 : MainState: FailUN : (C0000A863164814), TestCount(T(378), P(346), F(32)), SetCount(T(1), P(0), F(1), FF(0), FFC(0))
+2017-06-17 07:25:35 : 
+
+2017-06-17 07:49:46 : 
+
+2017-06-17 07:49:46 : 
+
+2017-06-17 07:49:46 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 07:53:17 : Avg(254.2), W(3555), H(2006), Area(7,131,330)
+2017-06-17 07:54:58 : Avg(214.8), W(3550), H(2003), Area(7,110,650)
+2017-06-17 07:55:39 : Avg(113.7), W(3551), H(2004), Area(7,116,204)
+2017-06-17 08:10:05 : 
+
+2017-06-17 08:10:05 : 
+
+2017-06-17 08:10:05 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 08:10:46 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 08:10:46 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 08:10:47 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 08:10:58 : Avg(253.6), W(3570), H(2021), Area(7,214,970)
+2017-06-17 08:12:25 : Avg(145.5), W(3534), H(1996), Area(7,053,864)
+2017-06-17 08:12:45 : Avg(148.8), W(3534), H(1996), Area(7,053,864)
+2017-06-17 08:12:57 : Avg(79.4), W(3477), H(1982), Area(6,891,414)
+2017-06-17 08:13:03 : Avg(79.4), W(3479), H(1981), Area(6,891,899)
+2017-06-17 08:13:36 : Avg(169.2), W(3543), H(2000), Area(7,086,000)
+2017-06-17 08:13:41 : Avg(169.2), W(3543), H(2000), Area(7,086,000)
+2017-06-17 08:14:15 : Avg(168.3), W(3553), H(2005), Area(7,123,765)
+2017-06-17 08:14:24 : Avg(168.3), W(3553), H(2004), Area(7,120,212)
+2017-06-17 08:14:28 : Avg(168.4), W(3553), H(2004), Area(7,120,212)
+2017-06-17 08:14:57 : Avg(165), W(3560), H(2009), Area(7,152,040)
+2017-06-17 08:15:02 : Avg(165.2), W(3558), H(2008), Area(7,144,464)
+2017-06-17 08:15:19 : Avg(113.1), W(3555), H(2005), Area(7,127,775)
+2017-06-17 08:15:39 : Avg(131.8), W(3558), H(2007), Area(7,140,906)
+2017-06-17 08:15:56 : Avg(155.3), W(3559), H(2009), Area(7,150,031)
+2017-06-17 08:16:12 : Avg(89.7), W(3543), H(2003), Area(7,096,629)
+2017-06-17 08:17:00 : Avg(101.5), W(3543), H(1999), Area(7,082,457)
+2017-06-17 08:17:17 : Avg(137.1), W(3549), H(2003), Area(7,108,647)
+2017-06-17 08:17:33 : Avg(106.9), W(3544), H(2001), Area(7,091,544)
+2017-06-17 08:17:49 : Avg(107.1), W(3545), H(2000), Area(7,090,000)
+2017-06-17 08:18:05 : Avg(122), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:18:20 : Avg(121.9), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:18:40 : Avg(113.1), W(3545), H(2000), Area(7,090,000)
+2017-06-17 08:18:58 : Avg(113), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:19:13 : Avg(111.9), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:19:25 : Avg(111.8), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:19:39 : Avg(110.1), W(3545), H(2001), Area(7,093,545)
+2017-06-17 08:19:45 : Avg(110.1), W(3545), H(2000), Area(7,090,000)
+2017-06-17 08:20:04 : Avg(110.1), W(3546), H(2000), Area(7,092,000)
+2017-06-17 08:20:08 : Avg(110.1), W(3545), H(2000), Area(7,090,000)
+2017-06-17 08:32:00 : Avg(110.1), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:32:14 : Avg(109.5), W(3556), H(2006), Area(7,133,336)
+2017-06-17 08:32:31 : Avg(109.3), W(3558), H(2008), Area(7,144,464)
+2017-06-17 08:32:35 : Avg(109.4), W(3557), H(2007), Area(7,138,899)
+2017-06-17 08:32:47 : Avg(110.4), W(3542), H(1998), Area(7,076,916)
+2017-06-17 08:32:59 : Avg(110.4), W(3542), H(1999), Area(7,080,458)
+2017-06-17 08:33:05 : Avg(110.3), W(3543), H(1999), Area(7,082,457)
+2017-06-17 08:33:16 : Avg(110.4), W(3540), H(1997), Area(7,069,380)
+2017-06-17 08:33:27 : Avg(110.5), W(3539), H(1998), Area(7,070,922)
+2017-06-17 08:33:31 : Avg(110.5), W(3539), H(1997), Area(7,067,383)
+2017-06-17 08:33:34 : Avg(110.5), W(3539), H(1997), Area(7,067,383)
+2017-06-17 08:33:45 : Avg(110.5), W(3538), H(1997), Area(7,065,386)
+2017-06-17 08:33:48 : Avg(110.5), W(3539), H(1998), Area(7,070,922)
+2017-06-17 08:33:55 : Avg(110.5), W(3541), H(1997), Area(7,071,377)
+2017-06-17 08:34:02 : Avg(110.4), W(3541), H(1999), Area(7,078,459)
+2017-06-17 08:34:14 : Avg(110.3), W(3543), H(1999), Area(7,082,457)
+2017-06-17 08:34:26 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:34:30 : Avg(110), W(3549), H(2003), Area(7,108,647)
+2017-06-17 08:34:34 : Avg(110), W(3548), H(2003), Area(7,106,644)
+2017-06-17 08:34:37 : Avg(110), W(3549), H(2003), Area(7,108,647)
+2017-06-17 08:34:41 : Avg(110), W(3547), H(2002), Area(7,101,094)
+2017-06-17 08:34:44 : Avg(110), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:34:48 : Avg(110), W(3548), H(2003), Area(7,106,644)
+2017-06-17 08:34:51 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:34:55 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:34:59 : Avg(110), W(3548), H(2001), Area(7,099,548)
+2017-06-17 08:35:02 : Avg(110), W(3547), H(2002), Area(7,101,094)
+2017-06-17 08:35:06 : Avg(110), W(3549), H(2003), Area(7,108,647)
+2017-06-17 08:35:09 : Avg(110), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:35:13 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:35:16 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:35:20 : Avg(110), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:35:24 : Avg(109.9), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:35:27 : Avg(110), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:38:35 : Avg(227), W(3554), H(2006), Area(7,129,324)
+2017-06-17 08:41:06 : Avg(215.6), W(3554), H(2006), Area(7,129,324)
+2017-06-17 08:41:09 : Avg(221.2), W(3555), H(2007), Area(7,134,885)
+2017-06-17 08:41:20 : Avg(221.9), W(3554), H(2006), Area(7,129,324)
+2017-06-17 08:41:23 : Avg(136.9), W(3552), H(2004), Area(7,118,208)
+2017-06-17 08:41:27 : Avg(136.9), W(3551), H(2003), Area(7,112,653)
+2017-06-17 08:41:30 : Avg(136.9), W(3551), H(2003), Area(7,112,653)
+2017-06-17 08:41:34 : Avg(136.9), W(3552), H(2004), Area(7,118,208)
+2017-06-17 08:41:38 : Avg(136.9), W(3552), H(2004), Area(7,118,208)
+2017-06-17 08:41:41 : Avg(136.9), W(3552), H(2004), Area(7,118,208)
+2017-06-17 08:41:56 : Avg(100.8), W(3546), H(2001), Area(7,095,546)
+2017-06-17 08:42:00 : Avg(100.9), W(3544), H(2000), Area(7,088,000)
+2017-06-17 08:42:22 : Avg(100.9), W(3547), H(2002), Area(7,101,094)
+2017-06-17 08:42:25 : Avg(100.9), W(3546), H(2002), Area(7,099,092)
+2017-06-17 08:42:48 : Avg(106.4), W(3547), H(2002), Area(7,101,094)
+2017-06-17 08:42:51 : Avg(106.3), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:43:03 : Avg(106.4), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:43:06 : Avg(106.4), W(3548), H(2002), Area(7,103,096)
+2017-06-17 08:43:18 : Avg(111.9), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:43:22 : Avg(111.9), W(3549), H(2002), Area(7,105,098)
+2017-06-17 08:43:39 : Avg(109.2), W(3547), H(2001), Area(7,097,547)
+2017-06-17 09:33:33 : 
+
+2017-06-17 09:33:55 : 
+
+2017-06-17 09:33:55 : 
+
+2017-06-17 09:33:55 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 09:34:06 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-17 09:34:07 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(379), P(346), F(33)), SetCount(T(1), P(0), F(1), FF(0), FFC(0))
+2017-06-17 09:34:08 : 
+
+2017-06-17 09:34:15 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-17 09:34:16 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(379), P(346), F(33)), SetCount(T(2), P(0), F(2), FF(0), FFC(0))
+2017-06-17 09:34:17 : 
+
+2017-06-17 09:58:13 : Test Result:(Dust_Area), Measure:(8,622,617), Min:(0), Max:(500,000), Result(False)
+2017-06-17 09:58:13 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(379), P(346), F(33)), SetCount(T(3), P(0), F(3), FF(0), FFC(0))
+2017-06-17 09:58:14 : 
+
+2017-06-17 09:58:46 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 10:00:01 : Avg(208.3), W(4169), H(2032), Area(8,471,408)
+2017-06-17 10:00:20 : Avg(99.3), W(4164), H(1994), Area(8,303,016)
+2017-06-17 10:00:31 : Avg(163.9), W(4166), H(2029), Area(8,452,814)
+2017-06-17 10:00:45 : Avg(144), W(4167), H(2028), Area(8,450,676)
+2017-06-17 10:01:24 : 
+
+2017-06-17 10:01:24 : 
+
+2017-06-17 10:01:24 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 10:01:47 : System.ArgumentOutOfRangeException: Value of '70000' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.TrackBar.set_Value(Int32 value)
+   at AutoInspection_GUMI.FrmMainCh2.btnTeachingTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 660
+2017-06-17 10:02:23 : Avg(99.7), W(4165), H(1996), Area(8,313,340)
+2017-06-17 10:02:55 : Test Result:(Dust_Contour), Measure:(9,031), Min:(4,000), Max:(-), Result(False)
+2017-06-17 10:02:55 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(379), P(346), F(33)), SetCount(T(1), P(0), F(1), FF(0), FFC(0))
+2017-06-17 10:02:57 : 
+
+2017-06-17 10:03:20 : Test Result:(Dust_Contour), Measure:(5,073), Min:(4,000), Max:(-), Result(False)
+2017-06-17 10:03:20 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(379), P(346), F(33)), SetCount(T(2), P(0), F(2), FF(0), FFC(0))
+2017-06-17 10:03:21 : 
+
+2017-06-17 10:10:45 : Test Result:(LCD DISPLAY AREA), Measure:(8,418,278), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:10:45 : Test Result:(LCD DUST), Measure:(6,265), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:10:46 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:10:46 : Test Result:(SVC LED BRIGHT), Measure:(57), Min:(30), Max:(150), Result(True)
+2017-06-17 10:10:46 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:10:46 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:10:48 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:10:48 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(379), P(346), F(33)), SetCount(T(2), P(1), F(1), FF(1), FFC(0))
+2017-06-17 10:10:48 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:10:50 : 
+
+2017-06-17 10:12:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,422,050), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:12:13 : Test Result:(LCD DUST), Measure:(10,322), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:12:13 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:12:13 : Test Result:(SVC LED BRIGHT), Measure:(57), Min:(30), Max:(150), Result(True)
+2017-06-17 10:12:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:12:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:12:15 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:12:16 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:12:16 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(380), P(347), F(33)), SetCount(T(1), P(1), F(0), FF(2), FFC(0))
+2017-06-17 10:12:18 : 
+
+2017-06-17 10:13:01 : System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at OpenCvSharp.Extensions.BitmapConverter.ToBitmap(Mat src, PixelFormat pf)
+   at AutoInspection.VisionTest.GetRgbAverage(Bitmap bmprefNormalImageArea, MData_LCD_AREA DataLcdArea, AverageColor ColorMode) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\VisionTest\VisionTest.cs:line 173
+   at AutoInspection_GUMI.FrmMainCh2.btnFrontTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 1089
+2017-06-17 10:13:07 : System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at OpenCvSharp.Extensions.BitmapConverter.ToBitmap(Mat src, PixelFormat pf)
+   at AutoInspection.VisionTest.GetRgbAverage(Bitmap bmprefNormalImageArea, MData_LCD_AREA DataLcdArea, AverageColor ColorMode) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\VisionTest\VisionTest.cs:line 173
+   at AutoInspection_GUMI.FrmMainCh2.btnFrontTab_Click(Object sender, EventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\FrmMainCh2.cs:line 1089
+2017-06-17 10:13:22 : Test Result:(LCD DISPLAY AREA), Measure:(8,423,014), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:13:22 : Test Result:(LCD DUST), Measure:(11,235), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:13:22 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:13:22 : Test Result:(SVC LED BRIGHT), Measure:(57.3), Min:(30), Max:(150), Result(True)
+2017-06-17 10:13:22 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:13:22 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:13:24 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:13:25 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:13:25 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(381), P(348), F(33)), SetCount(T(1), P(1), F(0), FF(2), FFC(0))
+2017-06-17 10:13:26 : 
+
+2017-06-17 10:13:53 : Test Result:(LCD DISPLAY AREA), Measure:(8,422,991), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:13:53 : Test Result:(LCD DUST), Measure:(13,184), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:13:53 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:13:53 : Test Result:(SVC LED BRIGHT), Measure:(57.3), Min:(30), Max:(150), Result(True)
+2017-06-17 10:13:53 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:13:53 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:13:55 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:13:56 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:13:56 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(382), P(349), F(33)), SetCount(T(1), P(1), F(0), FF(2), FFC(0))
+2017-06-17 10:13:57 : 
+
+2017-06-17 10:14:38 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-17 10:14:38 : MainState: FailUN : (CE0517153B4448D10D), TestCount(T(383), P(350), F(33)), SetCount(T(2), P(1), F(1), FF(2), FFC(0))
+2017-06-17 10:14:40 : 
+
+2017-06-17 10:15:14 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,671), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:15:14 : Test Result:(LCD DUST), Measure:(6,682), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:15:14 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:15:14 : Test Result:(SVC LED BRIGHT), Measure:(57.3), Min:(30), Max:(150), Result(True)
+2017-06-17 10:15:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:15:15 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:15:16 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:15:17 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:15:17 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(383), P(350), F(33)), SetCount(T(1), P(1), F(0), FF(3), FFC(0))
+2017-06-17 10:15:19 : 
+
+2017-06-17 10:22:08 : 
+
+2017-06-17 10:22:08 : 
+
+2017-06-17 10:22:08 : PQC Inspector 0.9.0 ( Build :2017-06-15 11:00:41)
+2017-06-17 10:22:30 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,175), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:22:30 : Test Result:(LCD DUST), Measure:(19,582), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:22:31 : Test Result:(SVC LED BRIGHT), Measure:(57.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:22:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:22:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:22:31 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:22:33 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:22:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:22:34 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(384), P(351), F(33)), SetCount(T(1), P(1), F(0), FF(0), FFC(0))
+2017-06-17 10:22:35 : 
+
+2017-06-17 10:25:59 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,540), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:25:59 : Test Result:(LCD DUST), Measure:(22,727), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:26:00 : Test Result:(SVC LED BRIGHT), Measure:(57.8), Min:(30), Max:(150), Result(True)
+2017-06-17 10:26:00 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:26:00 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:26:00 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:26:02 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:26:02 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:26:02 : MainState: Passed UN : (CE0517153B4448D10D)TestCount(T(385), P(352), F(33)), SetCount(T(1), P(1), F(0), FF(0), FFC(0))
+2017-06-17 10:26:04 : 
+
+2017-06-17 10:26:30 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,588), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:26:30 : Test Result:(LCD DUST), Measure:(10,620), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:26:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:26:31 : Test Result:(SVC LED BRIGHT), Measure:(76.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:26:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:26:31 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:26:33 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:26:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:26:34 : MainState: Passed UN : (CE041714AB4B7B0D02)TestCount(T(386), P(353), F(33)), SetCount(T(2), P(2), F(0), FF(0), FFC(0))
+2017-06-17 10:26:35 : 
+
+2017-06-17 10:27:01 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,845), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:27:01 : Test Result:(LCD DUST), Measure:(11,347), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:27:01 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:27:01 : Test Result:(SVC LED BRIGHT), Measure:(76.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:27:01 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:27:02 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:27:03 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-17 10:27:04 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:27:04 : MainState: Passed UN : (CE041714AB4B7B0D02)TestCount(T(387), P(354), F(33)), SetCount(T(2), P(2), F(0), FF(0), FFC(0))
+2017-06-17 10:27:05 : 
+
+2017-06-17 10:27:28 : Test Result:(Logo1), Measure:(12), Min:(70), Max:(100), Result(False)
+2017-06-17 10:27:31 : Test Result:(LCD DISPLAY AREA), Measure:(8,421,019), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:27:31 : Test Result:(LCD DUST), Measure:(8,930), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:27:32 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:27:32 : Test Result:(SVC LED BRIGHT), Measure:(54.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:27:32 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:27:32 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:27:34 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:27:35 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:27:35 : MainState: FailUN : (CE0517156C1B380203), TestCount(T(388), P(355), F(33)), SetCount(T(3), P(2), F(1), FF(0), FFC(0))
+2017-06-17 10:27:36 : 
+
+2017-06-17 10:28:07 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,708), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:28:07 : Test Result:(LCD DUST), Measure:(6,272), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:28:07 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:28:08 : Test Result:(SVC LED BRIGHT), Measure:(54.5), Min:(30), Max:(150), Result(True)
+2017-06-17 10:28:08 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:08 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:10 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:10 : MainState: Passed UN : (CE0517156C1B380203)TestCount(T(389), P(355), F(34)), SetCount(T(3), P(3), F(0), FF(1), FFC(0))
+2017-06-17 10:28:12 : 
+
+2017-06-17 10:28:24 : Test Result:(LCD DISPLAY AREA), Measure:(8,417,143), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:28:24 : Test Result:(LCD DUST), Measure:(7,251), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:28:24 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:28:24 : Test Result:(SVC LED BRIGHT), Measure:(58.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:28:24 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:24 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:26 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:27 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:27 : MainState: Passed UN : (CE0517156C16833303)TestCount(T(390), P(356), F(34)), SetCount(T(4), P(4), F(0), FF(1), FFC(0))
+2017-06-17 10:28:28 : 
+
+2017-06-17 10:28:39 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,748), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:28:39 : Test Result:(LCD DUST), Measure:(10,217), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:28:40 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:28:40 : Test Result:(SVC LED BRIGHT), Measure:(66.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:28:40 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:40 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:42 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:28:43 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:28:43 : MainState: Passed UN : (CE0517156C1B520D03)TestCount(T(391), P(357), F(34)), SetCount(T(5), P(5), F(0), FF(1), FFC(0))
+2017-06-17 10:28:44 : 
+
+2017-06-17 10:29:01 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,723), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:29:01 : Test Result:(LCD DUST), Measure:(6,653), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:29:01 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:29:01 : Test Result:(SVC LED BRIGHT), Measure:(70.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:29:01 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:02 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:03 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:04 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:04 : MainState: Passed UN : (CE05171544DA300701)TestCount(T(392), P(358), F(34)), SetCount(T(6), P(6), F(0), FF(1), FFC(0))
+2017-06-17 10:29:06 : 
+
+2017-06-17 10:29:16 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,144), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:29:16 : Test Result:(LCD DUST), Measure:(11,854), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:29:16 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:29:17 : Test Result:(SVC LED BRIGHT), Measure:(69.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:29:17 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:17 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:19 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:19 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:19 : MainState: Passed UN : (CE0517157456632001)TestCount(T(393), P(359), F(34)), SetCount(T(7), P(7), F(0), FF(1), FFC(0))
+2017-06-17 10:29:21 : 
+
+2017-06-17 10:29:54 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,622), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:29:54 : Test Result:(LCD DUST), Measure:(7,138), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:29:55 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:29:55 : Test Result:(SVC LED BRIGHT), Measure:(57.5), Min:(30), Max:(150), Result(True)
+2017-06-17 10:29:55 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:55 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:57 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:29:58 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:29:58 : MainState: Passed UN : (CE0517153B8C94FC0D)TestCount(T(394), P(360), F(34)), SetCount(T(8), P(8), F(0), FF(1), FFC(0))
+2017-06-17 10:29:59 : 
+
+2017-06-17 10:30:16 : Test Result:(LCD DISPLAY AREA), Measure:(8,416,817), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:30:16 : Test Result:(LCD DUST), Measure:(12,062), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:30:16 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:30:16 : Test Result:(SVC LED BRIGHT), Measure:(56.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:30:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:16 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:18 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:19 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:19 : MainState: Passed UN : (CE051715633A4D3303)TestCount(T(395), P(361), F(34)), SetCount(T(9), P(9), F(0), FF(1), FFC(0))
+2017-06-17 10:30:20 : 
+
+2017-06-17 10:30:35 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,255), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:30:35 : Test Result:(LCD DUST), Measure:(7,060), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:30:36 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:30:36 : Test Result:(SVC LED BRIGHT), Measure:(58.9), Min:(30), Max:(150), Result(True)
+2017-06-17 10:30:36 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:36 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:38 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:39 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:39 : MainState: Passed UN : (CE0517153B4444420D)TestCount(T(396), P(362), F(34)), SetCount(T(10), P(10), F(0), FF(1), FFC(0))
+2017-06-17 10:30:40 : 
+
+2017-06-17 10:30:53 : Test Result:(LCD DISPLAY AREA), Measure:(8,422,006), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:30:53 : Test Result:(LCD DUST), Measure:(7,190), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:30:53 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:30:53 : Test Result:(SVC LED BRIGHT), Measure:(50.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:30:53 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:53 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:55 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:30:56 : MainState: Passed UN : (CE051715744CEB2201)TestCount(T(397), P(363), F(34)), SetCount(T(11), P(11), F(0), FF(1), FFC(0))
+2017-06-17 10:30:56 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:30:57 : 
+
+2017-06-17 10:31:12 : Test Result:(LCD DISPLAY AREA), Measure:(8,418,886), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:31:12 : Test Result:(LCD DUST), Measure:(8,503), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:31:12 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:31:12 : Test Result:(SVC LED BRIGHT), Measure:(57.5), Min:(30), Max:(150), Result(True)
+2017-06-17 10:31:13 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:31:13 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:31:14 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:31:15 : MainState: Passed UN : (CE051715228A28F60C)TestCount(T(398), P(364), F(34)), SetCount(T(12), P(12), F(0), FF(1), FFC(0))
+2017-06-17 10:31:15 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:31:16 : 
+
+2017-06-17 10:31:29 : Test Result:(LCD DISPLAY AREA), Measure:(8,405,460), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:31:29 : Test Result:(LCD DUST), Measure:(6,069), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:31:30 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:31:30 : Test Result:(SVC LED BRIGHT), Measure:(69.9), Min:(30), Max:(150), Result(True)
+2017-06-17 10:31:30 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:31:30 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:31:32 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:31:33 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:31:33 : MainState: Passed UN : (CE0517153B469C760D)TestCount(T(399), P(365), F(34)), SetCount(T(13), P(13), F(0), FF(1), FFC(0))
+2017-06-17 10:31:34 : 
+
+2017-06-17 10:32:07 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,559), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:32:07 : Test Result:(LCD DUST), Measure:(6,199), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:32:07 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:32:07 : Test Result:(SVC LED BRIGHT), Measure:(60.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:32:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:07 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:09 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:10 : MainState: Passed UN : (CE0517154052DC3003)TestCount(T(400), P(366), F(34)), SetCount(T(14), P(14), F(0), FF(1), FFC(0))
+2017-06-17 10:32:11 : 
+
+2017-06-17 10:32:31 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,289), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:32:31 : Test Result:(LCD DUST), Measure:(5,604), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:32:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:32:31 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 10:32:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:32 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:33 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:34 : MainState: Passed UN : (CE0517153B912C370D)TestCount(T(401), P(367), F(34)), SetCount(T(15), P(15), F(0), FF(1), FFC(0))
+2017-06-17 10:32:36 : 
+
+2017-06-17 10:32:49 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,479), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:32:49 : Test Result:(LCD DUST), Measure:(8,369), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:32:49 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:32:49 : Test Result:(SVC LED BRIGHT), Measure:(66.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:32:49 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:50 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:51 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:32:52 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:32:52 : MainState: Passed UN : (CE0517154A1A70EB0D)TestCount(T(402), P(368), F(34)), SetCount(T(16), P(16), F(0), FF(1), FFC(0))
+2017-06-17 10:32:54 : 
+
+2017-06-17 10:33:08 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,937), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:33:08 : Test Result:(LCD DUST), Measure:(14,615), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:33:08 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:33:08 : Test Result:(SVC LED BRIGHT), Measure:(63.9), Min:(30), Max:(150), Result(True)
+2017-06-17 10:33:08 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:08 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:10 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:11 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:11 : MainState: Passed UN : (CE05171564947CDC0D)TestCount(T(403), P(369), F(34)), SetCount(T(17), P(17), F(0), FF(1), FFC(0))
+2017-06-17 10:33:12 : 
+
+2017-06-17 10:33:26 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,580), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:33:26 : Test Result:(LCD DUST), Measure:(5,980), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:33:26 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:33:26 : Test Result:(SVC LED BRIGHT), Measure:(65.1), Min:(30), Max:(150), Result(True)
+2017-06-17 10:33:26 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:27 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:28 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:29 : MainState: Passed UN : (CE0517153AB45E2502)TestCount(T(404), P(370), F(34)), SetCount(T(18), P(18), F(0), FF(1), FFC(0))
+2017-06-17 10:33:29 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:30 : 
+
+2017-06-17 10:33:43 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,151), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:33:43 : Test Result:(LCD DUST), Measure:(5,722), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:33:43 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:33:44 : Test Result:(SVC LED BRIGHT), Measure:(72.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:33:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:44 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:46 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:33:46 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:33:46 : MainState: Passed UN : (CE0517156C1B341703)TestCount(T(405), P(371), F(34)), SetCount(T(19), P(19), F(0), FF(1), FFC(0))
+2017-06-17 10:33:48 : 
+
+2017-06-17 10:34:15 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,857), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:34:15 : Test Result:(LCD DUST), Measure:(10,357), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:34:15 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:34:16 : Test Result:(SVC LED BRIGHT), Measure:(56.9), Min:(30), Max:(150), Result(True)
+2017-06-17 10:34:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:34:16 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:34:18 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-17 10:34:18 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:34:18 : MainState: FailUN : (CE031713BB0074A10D), TestCount(T(406), P(372), F(34)), SetCount(T(20), P(19), F(1), FF(1), FFC(0))
+2017-06-17 10:34:20 : 
+
+2017-06-17 10:35:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,418,411), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:35:13 : Test Result:(LCD DUST), Measure:(15,235), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:35:13 : Test Result:(SVC LED BRIGHT), Measure:(57), Min:(30), Max:(150), Result(True)
+2017-06-17 10:35:13 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:35:13 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:35:13 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:35:15 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:35:16 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:35:16 : MainState: Passed UN : (CE031713BB0074A10D)TestCount(T(407), P(372), F(35)), SetCount(T(20), P(20), F(0), FF(2), FFC(0))
+2017-06-17 10:35:17 : 
+
+2017-06-17 10:35:40 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,417), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:35:40 : Test Result:(LCD DUST), Measure:(12,747), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:35:40 : Test Result:(SVC LED BRIGHT), Measure:(56.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:35:40 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:35:40 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:35:41 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:35:42 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 10:35:43 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:35:43 : MainState: Passed UN : (CE051715709E2B2401)TestCount(T(408), P(373), F(35)), SetCount(T(21), P(21), F(0), FF(2), FFC(0))
+2017-06-17 10:35:44 : 
+
+2017-06-17 10:40:03 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,194), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:40:03 : Test Result:(LCD DUST), Measure:(5,808), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:40:04 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:40:04 : Test Result:(SVC LED BRIGHT), Measure:(52.5), Min:(30), Max:(150), Result(True)
+2017-06-17 10:40:04 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:40:04 : Test Result:(LCD BLUE), Measure:(533), Min:(0), Max:(10), Result(False)
+2017-06-17 10:40:06 : Test Result:(LCD GREEN), Measure:(52), Min:(0), Max:(6), Result(False)
+2017-06-17 10:40:07 : Test Result:(LCD RED), Measure:(63), Min:(0), Max:(10), Result(False)
+2017-06-17 10:40:07 : MainState: FailUN : (CE051715698F430201), TestCount(T(409), P(374), F(35)), SetCount(T(22), P(21), F(1), FF(2), FFC(0))
+2017-06-17 10:40:08 : 
+
+2017-06-17 10:40:23 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-17 10:40:24 : MainState: FailUN : (CE051715698F430201), TestCount(T(410), P(374), F(36)), SetCount(T(23), P(21), F(2), FF(2), FFC(0))
+2017-06-17 10:40:25 : 
+
+2017-06-17 10:41:34 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,884), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:41:34 : Test Result:(LCD DUST), Measure:(7,621), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:41:35 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:41:35 : Test Result:(SVC LED BRIGHT), Measure:(52.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:41:35 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:41:35 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:41:37 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:41:38 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:41:38 : MainState: Passed UN : (CE051715698F430201)TestCount(T(410), P(374), F(36)), SetCount(T(23), P(22), F(1), FF(3), FFC(0))
+2017-06-17 10:41:39 : 
+
+2017-06-17 10:45:17 : Test Result:(LCD DISPLAY AREA), Measure:(8,418,565), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:45:17 : Test Result:(LCD DUST), Measure:(6,705), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:45:17 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:45:17 : Test Result:(SVC LED BRIGHT), Measure:(64.8), Min:(30), Max:(150), Result(True)
+2017-06-17 10:45:17 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:45:18 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:45:19 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:45:20 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:45:20 : MainState: Passed UN : (CE051715404A7E2B02)TestCount(T(411), P(375), F(36)), SetCount(T(24), P(23), F(1), FF(3), FFC(0))
+2017-06-17 10:45:22 : 
+
+2017-06-17 10:46:38 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,575), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:46:38 : Test Result:(LCD DUST), Measure:(9,647), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:46:39 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:46:39 : Test Result:(SVC LED BRIGHT), Measure:(75.8), Min:(30), Max:(150), Result(True)
+2017-06-17 10:46:39 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:46:39 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:46:41 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:46:42 : MainState: Passed UN : (CE0517153AB45A3402)TestCount(T(412), P(376), F(36)), SetCount(T(25), P(24), F(1), FF(3), FFC(0))
+2017-06-17 10:46:42 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:46:43 : 
+
+2017-06-17 10:50:00 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,497), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:50:00 : Test Result:(LCD DUST), Measure:(8,788), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:50:00 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-06-17 10:50:01 : Test Result:(SVC LED BRIGHT), Measure:(64.1), Min:(30), Max:(150), Result(True)
+2017-06-17 10:50:01 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:50:01 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:50:03 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:50:03 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:50:03 : MainState: FailUN : (CE05171544DF762C01), TestCount(T(413), P(377), F(36)), SetCount(T(26), P(24), F(2), FF(3), FFC(0))
+2017-06-17 10:50:05 : 
+
+2017-06-17 10:50:30 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,532), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:50:30 : Test Result:(LCD DUST), Measure:(6,582), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:50:30 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:50:31 : Test Result:(SVC LED BRIGHT), Measure:(63.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:50:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:50:31 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:50:33 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:50:33 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:50:33 : MainState: Passed UN : (CE05171544DF5C0C01)TestCount(T(414), P(377), F(37)), SetCount(T(27), P(25), F(2), FF(3), FFC(0))
+2017-06-17 10:50:35 : 
+
+2017-06-17 10:51:27 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,900), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:51:27 : Test Result:(LCD DUST), Measure:(11,785), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:51:27 : Test Result:(SVC LED BRIGHT), Measure:(65.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:51:27 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:51:27 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:51:27 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:51:29 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:51:30 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:51:30 : MainState: Passed UN : (CE05171544DF731001)TestCount(T(415), P(378), F(37)), SetCount(T(28), P(26), F(2), FF(3), FFC(0))
+2017-06-17 10:51:31 : 
+
+2017-06-17 10:52:07 : Test Result:(LCD DISPLAY AREA), Measure:(8,422,537), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:52:07 : Test Result:(LCD DUST), Measure:(7,577), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:52:07 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:52:07 : Test Result:(SVC LED BRIGHT), Measure:(56.7), Min:(30), Max:(150), Result(True)
+2017-06-17 10:52:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:52:08 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:52:09 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:52:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:52:10 : MainState: Passed UN : (CE0517156C16721903)TestCount(T(416), P(379), F(37)), SetCount(T(29), P(27), F(2), FF(3), FFC(0))
+2017-06-17 10:52:12 : 
+
+2017-06-17 10:52:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,408,188), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:52:28 : Test Result:(LCD DUST), Measure:(5,832), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:52:28 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:52:28 : Test Result:(SVC LED BRIGHT), Measure:(56.5), Min:(30), Max:(150), Result(True)
+2017-06-17 10:52:28 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:52:28 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:52:30 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:52:31 : MainState: Passed UN : (CE0517156348001903)TestCount(T(417), P(380), F(37)), SetCount(T(30), P(28), F(2), FF(3), FFC(0))
+2017-06-17 10:52:31 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:52:32 : 
+
+2017-06-17 10:52:58 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,004), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:52:58 : Test Result:(LCD DUST), Measure:(5,585), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:52:59 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:52:59 : Test Result:(SVC LED BRIGHT), Measure:(59.2), Min:(30), Max:(150), Result(True)
+2017-06-17 10:52:59 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:52:59 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:01 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:53:02 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:02 : MainState: Passed UN : (CE05171544DA9F3C01)TestCount(T(418), P(381), F(37)), SetCount(T(31), P(29), F(2), FF(3), FFC(0))
+2017-06-17 10:53:03 : 
+
+2017-06-17 10:53:18 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,069), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:53:18 : Test Result:(LCD DUST), Measure:(12,386), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:53:18 : Test Result:(SVC LED BRIGHT), Measure:(49), Min:(30), Max:(150), Result(True)
+2017-06-17 10:53:19 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:53:19 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:53:19 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:21 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:53:21 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:21 : MainState: Passed UN : (CE0517153B4448660D)TestCount(T(419), P(382), F(37)), SetCount(T(32), P(30), F(2), FF(3), FFC(0))
+2017-06-17 10:53:23 : 
+
+2017-06-17 10:53:42 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,370), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:53:42 : Test Result:(LCD DUST), Measure:(5,224), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:53:42 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:53:43 : Test Result:(SVC LED BRIGHT), Measure:(55.6), Min:(30), Max:(150), Result(True)
+2017-06-17 10:53:43 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:53:43 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:45 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:53:46 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:53:46 : MainState: Passed UN : (CE0517154B03343D03)TestCount(T(420), P(383), F(37)), SetCount(T(33), P(31), F(2), FF(3), FFC(0))
+2017-06-17 10:53:47 : 
+
+2017-06-17 10:54:19 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,242), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:54:19 : Test Result:(LCD DUST), Measure:(7,526), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:54:19 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:54:19 : Test Result:(SVC LED BRIGHT), Measure:(71.8), Min:(30), Max:(150), Result(True)
+2017-06-17 10:54:20 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:54:20 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:54:21 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 10:54:22 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:54:22 : MainState: Passed UN : (CE051715649480510D)TestCount(T(421), P(384), F(37)), SetCount(T(34), P(32), F(2), FF(3), FFC(0))
+2017-06-17 10:54:24 : 
+
+2017-06-17 10:54:42 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,353), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:54:42 : Test Result:(LCD DUST), Measure:(5,857), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:54:43 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:54:43 : Test Result:(SVC LED BRIGHT), Measure:(62.9), Min:(30), Max:(150), Result(True)
+2017-06-17 10:54:43 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:54:43 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:54:45 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 10:54:46 : MainState: Passed UN : (CE0517156BF1120F03)TestCount(T(422), P(385), F(37)), SetCount(T(35), P(33), F(2), FF(3), FFC(0))
+2017-06-17 10:54:46 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:54:47 : 
+
+2017-06-17 10:55:02 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,801), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:55:02 : Test Result:(LCD DUST), Measure:(8,122), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:55:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:55:02 : Test Result:(SVC LED BRIGHT), Measure:(67.8), Min:(30), Max:(150), Result(True)
+2017-06-17 10:55:02 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:55:03 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:55:04 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:55:05 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:55:05 : MainState: Passed UN : (CE0517154052D80103)TestCount(T(423), P(386), F(37)), SetCount(T(36), P(34), F(2), FF(3), FFC(0))
+2017-06-17 10:55:07 : 
+
+2017-06-17 10:55:53 : Test Result:(LCD DISPLAY AREA), Measure:(8,419,773), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:55:53 : Test Result:(LCD DUST), Measure:(6,979), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:55:54 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:55:54 : Test Result:(SVC LED BRIGHT), Measure:(58.3), Min:(30), Max:(150), Result(True)
+2017-06-17 10:55:54 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:55:54 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:55:56 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:55:57 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:55:57 : MainState: Passed UN : (CE0517153B9130D30D)TestCount(T(424), P(387), F(37)), SetCount(T(37), P(35), F(2), FF(3), FFC(0))
+2017-06-17 10:55:58 : 
+
+2017-06-17 10:56:12 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,340), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:56:12 : Test Result:(LCD DUST), Measure:(6,463), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:56:12 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:56:12 : Test Result:(SVC LED BRIGHT), Measure:(62.4), Min:(30), Max:(150), Result(True)
+2017-06-17 10:56:12 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:12 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:14 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:15 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:15 : MainState: Passed UN : (CE051715709DB00401)TestCount(T(425), P(388), F(37)), SetCount(T(38), P(36), F(2), FF(3), FFC(0))
+2017-06-17 10:56:16 : 
+
+2017-06-17 10:56:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,419,587), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:56:28 : Test Result:(LCD DUST), Measure:(12,786), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:56:29 : Test Result:(SVC LED BRIGHT), Measure:(68), Min:(30), Max:(150), Result(True)
+2017-06-17 10:56:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:56:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:29 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:32 : MainState: Passed UN : (CE0517152287CCA20C)TestCount(T(426), P(389), F(37)), SetCount(T(39), P(37), F(2), FF(3), FFC(0))
+2017-06-17 10:56:33 : 
+
+2017-06-17 10:56:42 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,470), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:56:42 : Test Result:(LCD DUST), Measure:(19,103), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:56:42 : Test Result:(SVC LED BRIGHT), Measure:(75), Min:(30), Max:(150), Result(True)
+2017-06-17 10:56:42 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:43 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:43 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:56:44 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:56:45 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:56:45 : MainState: Passed UN : (CE0517153AB9042A02)TestCount(T(427), P(390), F(37)), SetCount(T(40), P(38), F(2), FF(3), FFC(0))
+2017-06-17 10:56:47 : 
+
+2017-06-17 10:57:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,879), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 10:57:13 : Test Result:(LCD DUST), Measure:(12,546), Min:(0), Max:(500000), Result(True)
+2017-06-17 10:57:14 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 10:57:14 : Test Result:(SVC LED BRIGHT), Measure:(62.2), Min:(30), Max:(150), Result(True)
+2017-06-17 10:57:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 10:57:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:57:16 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 10:57:17 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 10:57:17 : MainState: Passed UN : (CE0517153A6D312402)TestCount(T(428), P(391), F(37)), SetCount(T(41), P(39), F(2), FF(3), FFC(0))
+2017-06-17 10:57:18 : 
+
+2017-06-17 11:03:05 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,910), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:03:05 : Test Result:(LCD DUST), Measure:(6,993), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:03:06 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:03:06 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 11:03:06 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:03:06 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:03:08 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 11:03:09 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:03:09 : MainState: Passed UN : (CE041714C0F880500D)TestCount(T(429), P(392), F(37)), SetCount(T(42), P(40), F(2), FF(3), FFC(0))
+2017-06-17 11:03:10 : 
+
+2017-06-17 11:16:11 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,228), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:16:11 : Test Result:(LCD DUST), Measure:(9,068), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:16:12 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:16:12 : Test Result:(SVC LED BRIGHT), Measure:(66.3), Min:(30), Max:(150), Result(True)
+2017-06-17 11:16:12 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:16:12 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:16:14 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:16:15 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:16:44 : MainState: Passed UN : (CE05171541FA210503)TestCount(T(430), P(393), F(37)), SetCount(T(43), P(41), F(2), FF(3), FFC(0))
+2017-06-17 11:16:45 : 
+
+2017-06-17 11:17:08 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,713), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:17:08 : Test Result:(LCD DUST), Measure:(10,975), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:17:08 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:17:09 : Test Result:(SVC LED BRIGHT), Measure:(59.6), Min:(30), Max:(150), Result(True)
+2017-06-17 11:17:09 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:17:09 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:17:11 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:17:11 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:17:13 : MainState: Passed UN : (CE0517156C1B400F03)TestCount(T(431), P(394), F(37)), SetCount(T(44), P(42), F(2), FF(3), FFC(0))
+2017-06-17 11:17:14 : 
+
+2017-06-17 11:17:22 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,521), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:17:22 : Test Result:(LCD DUST), Measure:(10,883), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:17:22 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:17:22 : Test Result:(SVC LED BRIGHT), Measure:(60), Min:(30), Max:(150), Result(True)
+2017-06-17 11:17:22 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:17:23 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:17:24 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:17:25 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:17:25 : MainState: Passed UN : (CE0517156C1B400F03)TestCount(T(432), P(395), F(37)), SetCount(T(44), P(42), F(2), FF(3), FFC(0))
+2017-06-17 11:17:27 : 
+
+2017-06-17 11:22:15 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,423), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:22:15 : Test Result:(LCD DUST), Measure:(6,777), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:22:15 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:22:16 : Test Result:(SVC LED BRIGHT), Measure:(48), Min:(30), Max:(150), Result(True)
+2017-06-17 11:22:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:22:16 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:22:18 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:22:18 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:22:18 : MainState: Passed UN : (CE0517156C1B490F03)TestCount(T(433), P(396), F(37)), SetCount(T(45), P(43), F(2), FF(3), FFC(0))
+2017-06-17 11:22:20 : 
+
+2017-06-17 11:22:39 : Test Result:(LCD DISPLAY AREA), Measure:(8,408,678), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:22:39 : Test Result:(LCD DUST), Measure:(6,860), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:22:39 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:22:39 : Test Result:(SVC LED BRIGHT), Measure:(73.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:22:40 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:22:40 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:22:41 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:22:42 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:22:42 : MainState: Passed UN : (CE0517156343181403)TestCount(T(434), P(397), F(37)), SetCount(T(46), P(44), F(2), FF(3), FFC(0))
+2017-06-17 11:22:44 : 
+
+2017-06-17 11:29:03 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,897), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:29:03 : Test Result:(LCD DUST), Measure:(20,847), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:29:04 : Test Result:(SVC LED BRIGHT), Measure:(56.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:29:04 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:29:04 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:04 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:06 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:07 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:07 : MainState: Passed UN : (CE0517153AB4453602)TestCount(T(435), P(398), F(37)), SetCount(T(47), P(45), F(2), FF(3), FFC(0))
+2017-06-17 11:29:08 : 
+
+2017-06-17 11:29:19 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,517), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:29:19 : Test Result:(LCD DUST), Measure:(10,794), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:29:20 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:29:20 : Test Result:(SVC LED BRIGHT), Measure:(58.3), Min:(30), Max:(150), Result(True)
+2017-06-17 11:29:20 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:20 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:22 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:23 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:23 : MainState: Passed UN : (CE051715404A5C3902)TestCount(T(436), P(399), F(37)), SetCount(T(48), P(46), F(2), FF(3), FFC(0))
+2017-06-17 11:29:24 : 
+
+2017-06-17 11:29:39 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,922), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:29:39 : Test Result:(LCD DUST), Measure:(10,582), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:29:40 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:29:40 : Test Result:(SVC LED BRIGHT), Measure:(54.2), Min:(30), Max:(150), Result(True)
+2017-06-17 11:29:40 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:40 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:42 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:29:43 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:29:43 : MainState: Passed UN : (CE0517153AC1C81702)TestCount(T(437), P(400), F(37)), SetCount(T(49), P(47), F(2), FF(3), FFC(0))
+2017-06-17 11:29:44 : 
+
+2017-06-17 11:29:53 : 
+
+2017-06-17 11:30:01 : Test Result:(LCD AREA), Measure:(-), Min:(-), Max:(-), Result(False)
+2017-06-17 11:30:02 : MainState: FailUN : (CE0517154052DC3C03), TestCount(T(438), P(401), F(37)), SetCount(T(50), P(47), F(3), FF(3), FFC(0))
+2017-06-17 11:30:03 : 
+
+2017-06-17 11:30:25 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,628), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:30:25 : Test Result:(LCD DUST), Measure:(19,878), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:30:25 : Test Result:(SVC LED BRIGHT), Measure:(79.2), Min:(30), Max:(150), Result(True)
+2017-06-17 11:30:25 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:30:25 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:30:25 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:30:27 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 11:30:28 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:30:28 : MainState: Passed UN : (CE0517154052DC3C03)TestCount(T(438), P(401), F(37)), SetCount(T(50), P(48), F(2), FF(4), FFC(0))
+2017-06-17 11:30:29 : 
+
+2017-06-17 11:31:44 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,725), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:31:44 : Test Result:(LCD DUST), Measure:(7,319), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:31:44 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:31:44 : Test Result:(SVC LED BRIGHT), Measure:(78.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:31:45 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:31:45 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:31:46 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:31:47 : MainState: Passed UN : (CE051715633A513103)TestCount(T(439), P(402), F(37)), SetCount(T(51), P(49), F(2), FF(4), FFC(0))
+2017-06-17 11:31:47 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:31:48 : 
+
+2017-06-17 11:31:59 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,973), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:31:59 : Test Result:(LCD DUST), Measure:(12,314), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:31:59 : Test Result:(SVC LED BRIGHT), Measure:(54.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:31:59 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:00 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:00 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:32:01 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:02 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:02 : MainState: Passed UN : (CE0517155B23441103)TestCount(T(440), P(403), F(37)), SetCount(T(52), P(50), F(2), FF(4), FFC(0))
+2017-06-17 11:32:04 : 
+
+2017-06-17 11:32:15 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,580), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:32:15 : Test Result:(LCD DUST), Measure:(20,253), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:32:16 : Test Result:(SVC LED BRIGHT), Measure:(64.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:32:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:16 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:16 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:32:17 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:18 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:18 : MainState: Passed UN : (CE0517153AB4400A02)TestCount(T(441), P(404), F(37)), SetCount(T(53), P(51), F(2), FF(4), FFC(0))
+2017-06-17 11:32:19 : 
+
+2017-06-17 11:32:29 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,184), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:32:29 : Test Result:(LCD DUST), Measure:(7,166), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:32:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:32:29 : Test Result:(SVC LED BRIGHT), Measure:(67.7), Min:(30), Max:(150), Result(True)
+2017-06-17 11:32:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:30 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:32:32 : MainState: Passed UN : (CE05171544DA381301)TestCount(T(442), P(405), F(37)), SetCount(T(54), P(52), F(2), FF(4), FFC(0))
+2017-06-17 11:32:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:32:33 : 
+
+2017-06-17 11:34:05 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,661), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:34:05 : Test Result:(LCD DUST), Measure:(6,366), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:34:05 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:34:06 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 11:34:06 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:34:06 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:34:08 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-17 11:34:08 : MainState: Passed UN : (CE051715228A2C970C)TestCount(T(443), P(406), F(37)), SetCount(T(55), P(53), F(2), FF(4), FFC(0))
+2017-06-17 11:34:08 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:34:10 : 
+
+2017-06-17 11:34:29 : Test Result:(LCD DISPLAY AREA), Measure:(8,421,506), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:34:29 : Test Result:(LCD DUST), Measure:(9,315), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:34:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:34:29 : Test Result:(SVC LED BRIGHT), Measure:(56.1), Min:(30), Max:(150), Result(True)
+2017-06-17 11:34:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:34:29 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:34:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:34:32 : MainState: Passed UN : (CE0517155B236F1403)TestCount(T(444), P(407), F(37)), SetCount(T(56), P(54), F(2), FF(4), FFC(0))
+2017-06-17 11:34:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:34:33 : 
+
+2017-06-17 11:35:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,096), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:35:13 : Test Result:(LCD DUST), Measure:(12,874), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:35:13 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:35:14 : Test Result:(SVC LED BRIGHT), Measure:(47.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:35:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:16 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:16 : MainState: Passed UN : (CE0517153D83CF1C03)TestCount(T(445), P(408), F(37)), SetCount(T(57), P(55), F(2), FF(4), FFC(0))
+2017-06-17 11:35:16 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:18 : 
+
+2017-06-17 11:35:31 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,913), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:35:31 : Test Result:(LCD DUST), Measure:(10,391), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:35:32 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:35:32 : Test Result:(SVC LED BRIGHT), Measure:(69), Min:(30), Max:(150), Result(True)
+2017-06-17 11:35:32 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:32 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:34 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:34 : MainState: Passed UN : (CE05171544DFAB3E01)TestCount(T(446), P(409), F(37)), SetCount(T(58), P(56), F(2), FF(4), FFC(0))
+2017-06-17 11:35:36 : 
+
+2017-06-17 11:35:49 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,555), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:35:49 : Test Result:(LCD DUST), Measure:(12,978), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:35:49 : Test Result:(SVC LED BRIGHT), Measure:(57.3), Min:(30), Max:(150), Result(True)
+2017-06-17 11:35:49 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:49 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:49 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:35:51 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:35:52 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:35:52 : MainState: Passed UN : (CE0517156C1B3C0803)TestCount(T(447), P(410), F(37)), SetCount(T(59), P(57), F(2), FF(4), FFC(0))
+2017-06-17 11:35:53 : 
+
+2017-06-17 11:36:16 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,029), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:36:16 : Test Result:(LCD DUST), Measure:(13,123), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:36:16 : Test Result:(SVC LED BRIGHT), Measure:(76), Min:(30), Max:(150), Result(True)
+2017-06-17 11:36:16 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:36:16 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:17 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:18 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:19 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:19 : MainState: Passed UN : (CE0517157099083B01)TestCount(T(448), P(411), F(37)), SetCount(T(60), P(58), F(2), FF(4), FFC(0))
+2017-06-17 11:36:21 : 
+
+2017-06-17 11:36:29 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,730), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:36:29 : Test Result:(LCD DUST), Measure:(16,942), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:36:30 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:36:30 : Test Result:(SVC LED BRIGHT), Measure:(68.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:36:30 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:30 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:32 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:33 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:33 : MainState: Passed UN : (CE0517155B234D2303)TestCount(T(449), P(412), F(37)), SetCount(T(61), P(59), F(2), FF(4), FFC(0))
+2017-06-17 11:36:34 : 
+
+2017-06-17 11:36:49 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,236), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:36:49 : Test Result:(LCD DUST), Measure:(10,352), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:36:49 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:36:49 : Test Result:(SVC LED BRIGHT), Measure:(63.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:36:50 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:50 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:51 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:36:52 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:36:52 : MainState: Passed UN : (CE05171544DA340801)TestCount(T(450), P(413), F(37)), SetCount(T(62), P(60), F(2), FF(4), FFC(0))
+2017-06-17 11:36:54 : 
+
+2017-06-17 11:37:12 : Test Result:(LCD DISPLAY AREA), Measure:(8,417,451), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:37:12 : Test Result:(LCD DUST), Measure:(6,914), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:37:13 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:37:13 : Test Result:(SVC LED BRIGHT), Measure:(61.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:37:13 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:13 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:37:15 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:16 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:37:16 : MainState: Passed UN : (CE0517153AED74C30D)TestCount(T(451), P(414), F(37)), SetCount(T(63), P(61), F(2), FF(4), FFC(0))
+2017-06-17 11:37:17 : 
+
+2017-06-17 11:37:35 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,239), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:37:35 : Test Result:(LCD DUST), Measure:(15,218), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:37:35 : Test Result:(SVC LED BRIGHT), Measure:(51.7), Min:(30), Max:(150), Result(True)
+2017-06-17 11:37:35 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:35 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:37:35 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:37:37 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:38 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:37:38 : MainState: Passed UN : (CE0517154052EE2E03)TestCount(T(452), P(415), F(37)), SetCount(T(64), P(62), F(2), FF(4), FFC(0))
+2017-06-17 11:37:39 : 
+
+2017-06-17 11:37:55 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,614), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:37:55 : Test Result:(LCD DUST), Measure:(8,940), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:37:56 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:37:56 : Test Result:(SVC LED BRIGHT), Measure:(63.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:37:56 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:56 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:37:58 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:37:59 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:38:06 : MainState: Passed UN : (CE051715633A492E03)TestCount(T(453), P(416), F(37)), SetCount(T(65), P(63), F(2), FF(4), FFC(0))
+2017-06-17 11:38:07 : 
+
+2017-06-17 11:38:17 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,633), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:38:17 : Test Result:(LCD DUST), Measure:(6,624), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:38:17 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:38:17 : Test Result:(SVC LED BRIGHT), Measure:(72.2), Min:(30), Max:(150), Result(True)
+2017-06-17 11:38:18 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:38:18 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:38:19 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:38:20 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:38:20 : MainState: Passed UN : (CE051715709DCE1301)TestCount(T(454), P(417), F(37)), SetCount(T(66), P(64), F(2), FF(4), FFC(0))
+2017-06-17 11:38:22 : 
+
+2017-06-17 11:38:32 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,027), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:38:32 : Test Result:(LCD DUST), Measure:(9,154), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:38:32 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:38:33 : Test Result:(SVC LED BRIGHT), Measure:(66.5), Min:(30), Max:(150), Result(True)
+2017-06-17 11:38:33 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:38:33 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:38:35 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:38:36 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:38:36 : MainState: Passed UN : (CE0517154A1C74C60D)TestCount(T(455), P(418), F(37)), SetCount(T(67), P(65), F(2), FF(4), FFC(0))
+2017-06-17 11:38:37 : 
+
+2017-06-17 11:39:08 : Test Result:(LCD DISPLAY AREA), Measure:(8,421,485), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:39:08 : Test Result:(LCD DUST), Measure:(13,782), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:39:08 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:39:08 : Test Result:(SVC LED BRIGHT), Measure:(70.8), Min:(30), Max:(150), Result(True)
+2017-06-17 11:39:08 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:39:09 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:39:10 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:39:11 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:39:11 : MainState: Passed UN : (CE0517153AEFB06C0D)TestCount(T(456), P(419), F(37)), SetCount(T(68), P(66), F(2), FF(4), FFC(0))
+2017-06-17 11:39:13 : 
+
+2017-06-17 11:39:41 : Test Result:(LCD DISPLAY AREA), Measure:(8,417,501), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:39:41 : Test Result:(LCD DUST), Measure:(7,437), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:39:41 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:39:41 : Test Result:(SVC LED BRIGHT), Measure:(73.2), Min:(30), Max:(150), Result(True)
+2017-06-17 11:39:41 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:39:42 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:39:43 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:39:44 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:39:44 : MainState: Passed UN : (CE041714C0F5780A0D)TestCount(T(457), P(420), F(37)), SetCount(T(69), P(67), F(2), FF(4), FFC(0))
+2017-06-17 11:39:46 : 
+
+2017-06-17 11:43:01 : Test Result:(LCD DISPLAY AREA), Measure:(8,421,384), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:43:01 : Test Result:(LCD DUST), Measure:(11,823), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:43:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:43:02 : Test Result:(SVC LED BRIGHT), Measure:(54.7), Min:(30), Max:(150), Result(True)
+2017-06-17 11:43:02 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:43:02 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:43:04 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:43:04 : MainState: Passed UN : (CE0517153DDFD92803)TestCount(T(458), P(421), F(37)), SetCount(T(70), P(68), F(2), FF(4), FFC(0))
+2017-06-17 11:43:04 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:43:06 : 
+
+2017-06-17 11:51:56 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,400), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:51:56 : Test Result:(LCD DUST), Measure:(10,127), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:51:57 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:51:57 : Test Result:(SVC LED BRIGHT), Measure:(65.6), Min:(30), Max:(150), Result(True)
+2017-06-17 11:51:57 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:51:57 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:51:59 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 11:52:00 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:52:00 : MainState: Passed UN : (CE05171529E0651403)TestCount(T(459), P(422), F(37)), SetCount(T(71), P(69), F(2), FF(4), FFC(0))
+2017-06-17 11:52:01 : 
+
+2017-06-17 11:52:51 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,345), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:52:51 : Test Result:(LCD DUST), Measure:(7,988), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:52:52 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:52:52 : Test Result:(SVC LED BRIGHT), Measure:(77.2), Min:(30), Max:(150), Result(True)
+2017-06-17 11:52:52 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:52:52 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:52:54 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:52:55 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:52:55 : MainState: Passed UN : (CE0517154052EE3D03)TestCount(T(460), P(423), F(37)), SetCount(T(72), P(70), F(2), FF(4), FFC(0))
+2017-06-17 11:52:56 : 
+
+2017-06-17 11:53:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,522), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:53:13 : Test Result:(LCD DUST), Measure:(9,890), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:53:14 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:53:14 : Test Result:(SVC LED BRIGHT), Measure:(57.9), Min:(30), Max:(150), Result(True)
+2017-06-17 11:53:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:53:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:53:16 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:53:17 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:53:17 : MainState: Passed UN : (CE05171544D5362B01)TestCount(T(461), P(424), F(37)), SetCount(T(73), P(71), F(2), FF(4), FFC(0))
+2017-06-17 11:53:18 : 
+
+2017-06-17 11:53:48 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,677), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:53:48 : Test Result:(LCD DUST), Measure:(10,801), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:53:48 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:53:49 : Test Result:(SVC LED BRIGHT), Measure:(77.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:53:49 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:53:49 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:53:51 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 11:53:51 : MainState: Passed UN : (CE0517153AC6BA0A02)TestCount(T(462), P(425), F(37)), SetCount(T(74), P(72), F(2), FF(4), FFC(0))
+2017-06-17 11:53:51 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:53:52 : 
+
+2017-06-17 11:54:21 : Test Result:(LCD DISPLAY AREA), Measure:(8,410,991), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:54:21 : Test Result:(LCD DUST), Measure:(9,530), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:54:22 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:54:22 : Test Result:(SVC LED BRIGHT), Measure:(57.4), Min:(30), Max:(150), Result(True)
+2017-06-17 11:54:22 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:54:22 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:54:24 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-17 11:54:25 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:54:25 : MainState: Passed UN : (CE051715709DCB2101)TestCount(T(463), P(426), F(37)), SetCount(T(75), P(73), F(2), FF(4), FFC(0))
+2017-06-17 11:54:26 : 
+
+2017-06-17 11:54:39 : Test Result:(LCD DISPLAY AREA), Measure:(8,408,823), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 11:54:39 : Test Result:(LCD DUST), Measure:(11,089), Min:(0), Max:(500000), Result(True)
+2017-06-17 11:54:40 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 11:54:40 : Test Result:(SVC LED BRIGHT), Measure:(61.3), Min:(30), Max:(150), Result(True)
+2017-06-17 11:54:40 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 11:54:40 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:54:42 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 11:54:42 : MainState: Passed UN : (CE0517156C16613D03)TestCount(T(464), P(427), F(37)), SetCount(T(76), P(74), F(2), FF(4), FFC(0))
+2017-06-17 11:54:42 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 11:54:44 : 
+
+2017-06-17 12:01:29 : Test Result:(Dust_Contour), Measure:(6,904), Min:(4,000), Max:(-), Result(False)
+2017-06-17 12:01:29 : MainState: FailUN : (CE0517153AB90C3A02), TestCount(T(465), P(428), F(37)), SetCount(T(77), P(74), F(3), FF(4), FFC(0))
+2017-06-17 12:01:31 : 
+
+2017-06-17 12:02:16 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,858), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:02:16 : Test Result:(LCD DUST), Measure:(10,310), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:02:17 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:02:17 : Test Result:(SVC LED BRIGHT), Measure:(67.1), Min:(30), Max:(150), Result(True)
+2017-06-17 12:02:17 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:02:17 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:02:19 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 12:02:20 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:02:20 : MainState: Passed UN : (CE0517153AB90C3A02)TestCount(T(465), P(428), F(37)), SetCount(T(77), P(75), F(2), FF(5), FFC(0))
+2017-06-17 12:02:21 : 
+
+2017-06-17 12:02:56 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,239), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:02:56 : Test Result:(LCD DUST), Measure:(56,828), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:02:57 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:02:57 : Test Result:(SVC LED BRIGHT), Measure:(50), Min:(30), Max:(150), Result(True)
+2017-06-17 12:02:57 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:02:57 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:02:59 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 12:03:00 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:03:00 : MainState: Passed UN : (CE05171564600C7A0D)TestCount(T(466), P(429), F(37)), SetCount(T(78), P(76), F(2), FF(5), FFC(0))
+2017-06-17 12:03:01 : 
+
+2017-06-17 12:05:11 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,562), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:05:11 : Test Result:(LCD DUST), Measure:(6,695), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:05:11 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:05:11 : Test Result:(SVC LED BRIGHT), Measure:(71.2), Min:(30), Max:(150), Result(True)
+2017-06-17 12:05:11 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:05:11 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:05:13 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 12:05:14 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:05:14 : MainState: Passed UN : (CE051715404F280B02)TestCount(T(467), P(430), F(37)), SetCount(T(79), P(77), F(2), FF(5), FFC(0))
+2017-06-17 12:05:16 : 
+
+2017-06-17 12:53:43 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,844), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:53:43 : Test Result:(LCD DUST), Measure:(10,848), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:53:43 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:53:44 : Test Result:(SVC LED BRIGHT), Measure:(64.3), Min:(30), Max:(150), Result(True)
+2017-06-17 12:53:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:53:44 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:53:46 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 12:53:46 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:53:46 : MainState: Passed UN : (CE051715633A483703)TestCount(T(468), P(431), F(37)), SetCount(T(80), P(78), F(2), FF(5), FFC(0))
+2017-06-17 12:53:48 : 
+
+2017-06-17 12:55:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,471), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:55:28 : Test Result:(LCD DUST), Measure:(12,666), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:55:28 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:55:28 : Test Result:(SVC LED BRIGHT), Measure:(77.9), Min:(30), Max:(150), Result(True)
+2017-06-17 12:55:28 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:55:28 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:55:30 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 12:55:31 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:55:31 : MainState: Passed UN : (CE0517153A6D421802)TestCount(T(469), P(432), F(37)), SetCount(T(81), P(79), F(2), FF(5), FFC(0))
+2017-06-17 12:55:32 : 
+
+2017-06-17 12:57:09 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,895), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 12:57:09 : Test Result:(LCD DUST), Measure:(16,190), Min:(0), Max:(500000), Result(True)
+2017-06-17 12:57:10 : Test Result:(SVC LED BRIGHT), Measure:(56), Min:(30), Max:(150), Result(True)
+2017-06-17 12:57:10 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 12:57:10 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 12:57:10 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:57:12 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 12:57:13 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 12:57:13 : MainState: Passed UN : (CE0517153AB45E2202)TestCount(T(470), P(433), F(37)), SetCount(T(82), P(80), F(2), FF(5), FFC(0))
+2017-06-17 12:57:14 : 
+
+2017-06-17 13:13:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,982), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:13:28 : Test Result:(LCD DUST), Measure:(10,872), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:13:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:13:29 : Test Result:(SVC LED BRIGHT), Measure:(60.2), Min:(30), Max:(150), Result(True)
+2017-06-17 13:13:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:13:29 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:13:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:13:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:13:32 : MainState: Passed UN : (CE0517154207AF2C03)TestCount(T(471), P(434), F(37)), SetCount(T(83), P(81), F(2), FF(5), FFC(0))
+2017-06-17 13:13:33 : 
+
+2017-06-17 13:46:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,419,539), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:46:28 : Test Result:(LCD DUST), Measure:(11,182), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:46:28 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:46:28 : Test Result:(SVC LED BRIGHT), Measure:(64.7), Min:(30), Max:(150), Result(True)
+2017-06-17 13:46:28 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:46:28 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:46:30 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:46:31 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:46:31 : MainState: Passed UN : (CE05171544D5303F01)TestCount(T(472), P(435), F(37)), SetCount(T(84), P(82), F(2), FF(5), FFC(0))
+2017-06-17 13:46:32 : 
+
+2017-06-17 13:46:57 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,617), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:46:57 : Test Result:(LCD DUST), Measure:(7,675), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:46:57 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:46:57 : Test Result:(SVC LED BRIGHT), Measure:(55.9), Min:(30), Max:(150), Result(True)
+2017-06-17 13:46:57 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:46:58 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:46:59 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:47:00 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:47:00 : MainState: Passed UN : (CE0517153B4208600D)TestCount(T(473), P(436), F(37)), SetCount(T(85), P(83), F(2), FF(5), FFC(0))
+2017-06-17 13:47:02 : 
+
+2017-06-17 13:47:39 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,103), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:47:39 : Test Result:(LCD DUST), Measure:(8,815), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:47:39 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:47:39 : Test Result:(SVC LED BRIGHT), Measure:(62.8), Min:(30), Max:(150), Result(True)
+2017-06-17 13:47:39 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:47:40 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:47:41 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:47:42 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:47:42 : MainState: Passed UN : (CE051715404F461C02)TestCount(T(474), P(437), F(37)), SetCount(T(86), P(84), F(2), FF(5), FFC(0))
+2017-06-17 13:47:44 : 
+
+2017-06-17 13:48:00 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,008), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:48:00 : Test Result:(LCD DUST), Measure:(9,095), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:48:00 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:48:01 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 13:48:01 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:48:01 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:48:03 : Test Result:(LCD GREEN), Measure:(2), Min:(0), Max:(6), Result(True)
+2017-06-17 13:48:03 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:48:03 : MainState: Passed UN : (CE05171544DA5F0101)TestCount(T(475), P(438), F(37)), SetCount(T(87), P(85), F(2), FF(5), FFC(0))
+2017-06-17 13:48:05 : 
+
+2017-06-17 13:48:36 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,304), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:48:36 : Test Result:(LCD DUST), Measure:(10,196), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:48:36 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:48:36 : Test Result:(SVC LED BRIGHT), Measure:(62.8), Min:(30), Max:(150), Result(True)
+2017-06-17 13:48:36 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:48:36 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:48:38 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-17 13:48:39 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:48:39 : MainState: FailUN : (CE05171544DA391401), TestCount(T(476), P(439), F(37)), SetCount(T(88), P(85), F(3), FF(5), FFC(0))
+2017-06-17 13:48:40 : 
+
+2017-06-17 13:49:07 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,499), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:49:07 : Test Result:(LCD DUST), Measure:(7,974), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:49:08 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:49:08 : Test Result:(SVC LED BRIGHT), Measure:(59.8), Min:(30), Max:(150), Result(True)
+2017-06-17 13:49:08 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:49:08 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:10 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-17 13:49:10 : MainState: FailUN : (CE05171544DA391401), TestCount(T(477), P(439), F(38)), SetCount(T(89), P(85), F(4), FF(5), FFC(0))
+2017-06-17 13:49:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:12 : 
+
+2017-06-17 13:49:24 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,581), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:49:24 : Test Result:(LCD DUST), Measure:(8,315), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:49:24 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:49:24 : Test Result:(SVC LED BRIGHT), Measure:(63.2), Min:(30), Max:(150), Result(True)
+2017-06-17 13:49:24 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:49:24 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:26 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(6), Result(False)
+2017-06-17 13:49:27 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:27 : MainState: FailUN : (CE05171544DA391401), TestCount(T(478), P(439), F(39)), SetCount(T(90), P(85), F(5), FF(5), FFC(0))
+2017-06-17 13:49:29 : 
+
+2017-06-17 13:49:45 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,537), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:49:45 : Test Result:(LCD DUST), Measure:(10,032), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:49:45 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:49:46 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 13:49:46 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:49:46 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:48 : Test Result:(LCD GREEN), Measure:(8), Min:(0), Max:(6), Result(False)
+2017-06-17 13:49:48 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:49:48 : MainState: FailUN : (CE05171544DA391401), TestCount(T(479), P(439), F(40)), SetCount(T(91), P(85), F(6), FF(5), FFC(0))
+2017-06-17 13:49:50 : 
+
+2017-06-17 13:51:46 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,009), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:51:46 : Test Result:(LCD DUST), Measure:(6,134), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:51:46 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:51:47 : Test Result:(SVC LED BRIGHT), Measure:(67.2), Min:(30), Max:(150), Result(True)
+2017-06-17 13:51:47 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:51:47 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:51:49 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:51:49 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:51:49 : MainState: Passed UN : (CE05171541A7C72803)TestCount(T(480), P(439), F(41)), SetCount(T(92), P(86), F(6), FF(5), FFC(0))
+2017-06-17 13:51:51 : 
+
+2017-06-17 13:52:32 : Test Result:(Dust_Contour), Measure:(13,935), Min:(4,000), Max:(-), Result(False)
+2017-06-17 13:52:33 : MainState: FailUN : (CE05171544DA772301), TestCount(T(481), P(440), F(41)), SetCount(T(93), P(86), F(7), FF(5), FFC(0))
+2017-06-17 13:52:34 : 
+
+2017-06-17 13:54:02 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,641), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:54:02 : Test Result:(LCD DUST), Measure:(9,114), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:54:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:54:02 : Test Result:(SVC LED BRIGHT), Measure:(64.1), Min:(30), Max:(150), Result(True)
+2017-06-17 13:54:02 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:54:03 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:54:04 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:54:05 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:54:05 : MainState: Passed UN : (CE051715420CC73103)TestCount(T(481), P(440), F(41)), SetCount(T(94), P(87), F(7), FF(5), FFC(0))
+2017-06-17 13:54:07 : 
+
+2017-06-17 13:54:43 : Test Result:(LCD DISPLAY AREA), Measure:(8,417,695), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:54:43 : Test Result:(LCD DUST), Measure:(6,290), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:54:44 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:54:44 : Test Result:(SVC LED BRIGHT), Measure:(63.1), Min:(30), Max:(150), Result(True)
+2017-06-17 13:54:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:54:44 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:54:46 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:54:47 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:54:47 : MainState: Passed UN : (CE051715228A28F00C)TestCount(T(482), P(441), F(41)), SetCount(T(95), P(88), F(7), FF(5), FFC(0))
+2017-06-17 13:54:48 : 
+
+2017-06-17 13:55:06 : Test Result:(LCD DISPLAY AREA), Measure:(8,408,756), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:55:06 : Test Result:(LCD DUST), Measure:(8,653), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:55:07 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:55:07 : Test Result:(SVC LED BRIGHT), Measure:(69.5), Min:(30), Max:(150), Result(True)
+2017-06-17 13:55:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:55:07 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:55:09 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:55:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:55:10 : MainState: Passed UN : (CE05171541C45F3502)TestCount(T(483), P(442), F(41)), SetCount(T(96), P(89), F(7), FF(5), FFC(0))
+2017-06-17 13:55:11 : 
+
+2017-06-17 13:55:31 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,003), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:55:31 : Test Result:(LCD DUST), Measure:(9,755), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:55:32 : Test Result:(SVC LED BRIGHT), Measure:(53.4), Min:(30), Max:(150), Result(True)
+2017-06-17 13:55:32 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:55:32 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:55:32 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:55:34 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 13:55:35 : MainState: Passed UN : (CE0517156C1B4A1C03)TestCount(T(484), P(443), F(41)), SetCount(T(97), P(90), F(7), FF(5), FFC(0))
+2017-06-17 13:55:35 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:55:36 : 
+
+2017-06-17 13:56:03 : Test Result:(LCD DISPLAY AREA), Measure:(8,426,207), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:56:03 : Test Result:(LCD DUST), Measure:(7,998), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:56:04 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:56:04 : Test Result:(SVC LED BRIGHT), Measure:(79.9), Min:(30), Max:(150), Result(True)
+2017-06-17 13:56:04 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:56:04 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:56:06 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 13:56:07 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:56:07 : MainState: Passed UN : (CE051715404F731E02)TestCount(T(485), P(444), F(41)), SetCount(T(98), P(91), F(7), FF(5), FFC(0))
+2017-06-17 13:56:08 : 
+
+2017-06-17 13:56:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,402,724), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:56:28 : Test Result:(LCD DUST), Measure:(6,977), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:56:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:56:29 : Test Result:(SVC LED BRIGHT), Measure:(63.7), Min:(30), Max:(150), Result(True)
+2017-06-17 13:56:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:56:29 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:56:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:56:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:56:32 : MainState: Passed UN : (CE0517153AE8D4530D)TestCount(T(486), P(445), F(41)), SetCount(T(99), P(92), F(7), FF(5), FFC(0))
+2017-06-17 13:56:33 : 
+
+2017-06-17 13:57:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,409,990), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:57:13 : Test Result:(LCD DUST), Measure:(7,627), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:57:14 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:57:14 : Test Result:(SVC LED BRIGHT), Measure:(67), Min:(30), Max:(150), Result(True)
+2017-06-17 13:57:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:16 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:17 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:17 : MainState: Passed UN : (CE05171570993E2F01)TestCount(T(487), P(446), F(41)), SetCount(T(100), P(93), F(7), FF(5), FFC(0))
+2017-06-17 13:57:18 : 
+
+2017-06-17 13:57:31 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,633), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:57:31 : Test Result:(LCD DUST), Measure:(10,824), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:57:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:57:32 : Test Result:(SVC LED BRIGHT), Measure:(72), Min:(30), Max:(150), Result(True)
+2017-06-17 13:57:32 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:32 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:34 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:34 : MainState: Passed UN : (CE0517154A1878C70D)TestCount(T(488), P(447), F(41)), SetCount(T(101), P(94), F(7), FF(5), FFC(0))
+2017-06-17 13:57:36 : 
+
+2017-06-17 13:57:48 : Test Result:(LCD DISPLAY AREA), Measure:(8,402,102), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:57:48 : Test Result:(LCD DUST), Measure:(12,193), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:57:49 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:57:49 : Test Result:(SVC LED BRIGHT), Measure:(63.6), Min:(30), Max:(150), Result(True)
+2017-06-17 13:57:49 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:49 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:51 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:57:52 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:57:52 : MainState: Passed UN : (CE05171544D52C2801)TestCount(T(489), P(448), F(41)), SetCount(T(102), P(95), F(7), FF(5), FFC(0))
+2017-06-17 13:57:53 : 
+
+2017-06-17 13:58:02 : Test Result:(LCD DISPLAY AREA), Measure:(8,407,560), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:58:02 : Test Result:(LCD DUST), Measure:(6,990), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:58:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:58:03 : Test Result:(SVC LED BRIGHT), Measure:(62.5), Min:(30), Max:(150), Result(True)
+2017-06-17 13:58:03 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:58:03 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:58:05 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:58:05 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:58:06 : MainState: Passed UN : (CE0517153AB44E2C02)TestCount(T(490), P(449), F(41)), SetCount(T(103), P(96), F(7), FF(5), FFC(0))
+2017-06-17 13:58:07 : 
+
+2017-06-17 13:58:28 : Test Result:(LCD DISPLAY AREA), Measure:(8,412,777), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:58:28 : Test Result:(LCD DUST), Measure:(15,677), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:58:29 : Test Result:(SVC LED BRIGHT), Measure:(71.1), Min:(30), Max:(150), Result(True)
+2017-06-17 13:58:29 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:58:29 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:58:29 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:58:31 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:58:32 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:58:32 : MainState: Passed UN : (CE0517154B08123C03)TestCount(T(491), P(450), F(41)), SetCount(T(104), P(97), F(7), FF(5), FFC(0))
+2017-06-17 13:58:33 : 
+
+2017-06-17 13:59:01 : Test Result:(LCD DISPLAY AREA), Measure:(8,415,751), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:59:01 : Test Result:(LCD DUST), Measure:(21,073), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:59:01 : Test Result:(SVC LED BRIGHT), Measure:(60.6), Min:(30), Max:(150), Result(True)
+2017-06-17 13:59:01 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:02 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:02 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:59:03 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:04 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:04 : MainState: Passed UN : (CE05171544D5343701)TestCount(T(492), P(451), F(41)), SetCount(T(105), P(98), F(7), FF(5), FFC(0))
+2017-06-17 13:59:05 : 
+
+2017-06-17 13:59:27 : Test Result:(LCD DISPLAY AREA), Measure:(8,416,387), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:59:27 : Test Result:(LCD DUST), Measure:(7,258), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:59:27 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:59:28 : Test Result:(SVC LED BRIGHT), Measure:(60.5), Min:(30), Max:(150), Result(True)
+2017-06-17 13:59:28 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:28 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:30 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:30 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:30 : MainState: Passed UN : (CE05171563D3C32103)TestCount(T(493), P(452), F(41)), SetCount(T(106), P(99), F(7), FF(5), FFC(0))
+2017-06-17 13:59:32 : 
+
+2017-06-17 13:59:48 : Test Result:(LCD DISPLAY AREA), Measure:(8,403,896), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 13:59:48 : Test Result:(LCD DUST), Measure:(14,707), Min:(0), Max:(500000), Result(True)
+2017-06-17 13:59:49 : Test Result:(SVC LED BRIGHT), Measure:(69.5), Min:(30), Max:(150), Result(True)
+2017-06-17 13:59:49 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 13:59:49 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:49 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:51 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 13:59:52 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 13:59:52 : MainState: Passed UN : (CE0517153B9130C10D)TestCount(T(494), P(453), F(41)), SetCount(T(107), P(100), F(7), FF(5), FFC(0))
+2017-06-17 13:59:53 : 
+
+2017-06-17 14:20:56 : Test Result:(LCD DISPLAY AREA), Measure:(8,417,678), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:20:56 : Test Result:(LCD DUST), Measure:(7,227), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:20:57 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:20:57 : Test Result:(SVC LED BRIGHT), Measure:(70.7), Min:(30), Max:(150), Result(True)
+2017-06-17 14:20:57 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:20:57 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:20:59 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:21:00 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:21:00 : MainState: Passed UN : (CE0517153B9384550D)TestCount(T(495), P(454), F(41)), SetCount(T(108), P(101), F(7), FF(5), FFC(0))
+2017-06-17 14:21:01 : 
+
+2017-06-17 14:21:30 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,249), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:21:30 : Test Result:(LCD DUST), Measure:(18,033), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:21:31 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:21:31 : Test Result:(SVC LED BRIGHT), Measure:(73.4), Min:(30), Max:(150), Result(True)
+2017-06-17 14:21:31 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:21:31 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:21:33 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:21:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:21:34 : MainState: Passed UN : (CE0517155B233C0703)TestCount(T(496), P(455), F(41)), SetCount(T(109), P(102), F(7), FF(5), FFC(0))
+2017-06-17 14:21:35 : 
+
+2017-06-17 14:25:48 : Test Result:(LCD DISPLAY AREA), Measure:(8,408,176), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:25:48 : Test Result:(LCD DUST), Measure:(12,785), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:25:48 : Test Result:(SVC LED BRIGHT), Measure:(46.7), Min:(30), Max:(150), Result(True)
+2017-06-17 14:25:48 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:25:48 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:25:49 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:25:50 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-06-17 14:25:51 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:25:51 : MainState: Passed UN : (CE0517155B1E6C1D03)TestCount(T(497), P(456), F(41)), SetCount(T(110), P(103), F(7), FF(5), FFC(0))
+2017-06-17 14:25:53 : 
+
+2017-06-17 14:26:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,405,356), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:26:13 : Test Result:(LCD DUST), Measure:(10,168), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:26:14 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:26:14 : Test Result:(SVC LED BRIGHT), Measure:(71.5), Min:(30), Max:(150), Result(True)
+2017-06-17 14:26:14 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:26:14 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:26:16 : Test Result:(LCD GREEN), Measure:(4), Min:(0), Max:(6), Result(True)
+2017-06-17 14:26:17 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:26:17 : MainState: Passed UN : (CE0517153B912C9C0D)TestCount(T(498), P(457), F(41)), SetCount(T(111), P(104), F(7), FF(5), FFC(0))
+2017-06-17 14:26:18 : 
+
+2017-06-17 14:26:29 : 
+
+2017-06-17 14:27:13 : Test Result:(LCD DISPLAY AREA), Measure:(8,414,034), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:27:13 : Test Result:(LCD DUST), Measure:(13,444), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:27:13 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:27:13 : Test Result:(SVC LED BRIGHT), Measure:(58.6), Min:(30), Max:(150), Result(True)
+2017-06-17 14:27:13 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:27:13 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:27:15 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:27:16 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:27:16 : MainState: Passed UN : (CE05171541A79F2C03)TestCount(T(499), P(458), F(41)), SetCount(T(112), P(105), F(7), FF(5), FFC(0))
+2017-06-17 14:27:17 : 
+
+2017-06-17 14:27:44 : Test Result:(LCD DISPLAY AREA), Measure:(8,413,717), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:27:44 : Test Result:(LCD DUST), Measure:(30,247), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:27:44 : Test Result:(SVC LED BRIGHT), Measure:(64.4), Min:(30), Max:(150), Result(True)
+2017-06-17 14:27:44 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:27:45 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:27:45 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:27:46 : Test Result:(LCD GREEN), Measure:(5), Min:(0), Max:(6), Result(True)
+2017-06-17 14:27:47 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:27:47 : MainState: Passed UN : (CE0517154AFA4C0603)TestCount(T(500), P(459), F(41)), SetCount(T(113), P(106), F(7), FF(5), FFC(0))
+2017-06-17 14:27:48 : 
+
+2017-06-17 14:28:48 : Test Result:(LCD DISPLAY AREA), Measure:(8,406,459), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:28:48 : Test Result:(LCD DUST), Measure:(51,666), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:28:48 : Test Result:(SVC LED BRIGHT), Measure:(66.5), Min:(30), Max:(150), Result(True)
+2017-06-17 14:28:48 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:28:48 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:28:48 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:28:50 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:28:51 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:28:51 : MainState: Passed UN : (CE051715698F0A3A01)TestCount(T(501), P(460), F(41)), SetCount(T(114), P(107), F(7), FF(5), FFC(0))
+2017-06-17 14:28:52 : 
+
+2017-06-17 14:29:08 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,089), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:29:08 : Test Result:(LCD DUST), Measure:(14,964), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:29:08 : Test Result:(SVC LED BRIGHT), Measure:(70.9), Min:(30), Max:(150), Result(True)
+2017-06-17 14:29:08 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:29:08 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:29:09 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:29:10 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:29:11 : MainState: Passed UN : (CE0517156CAD04B00D)TestCount(T(502), P(461), F(41)), SetCount(T(115), P(108), F(7), FF(5), FFC(0))
+2017-06-17 14:29:11 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:29:12 : 
+
+2017-06-17 14:53:38 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,698), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:53:38 : Test Result:(LCD DUST), Measure:(44,603), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:53:38 : Test Result:(SVC LED BRIGHT), Measure:(71.3), Min:(30), Max:(150), Result(True)
+2017-06-17 14:53:39 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:53:39 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:53:39 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:53:39 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:53:40 : MainState: Passed UN : (CE0517156CAD04B00D)TestCount(T(503), P(462), F(41)), SetCount(T(115), P(108), F(7), FF(5), FFC(0))
+2017-06-17 14:53:40 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:53:41 : 
+
+2017-06-17 14:58:32 : Test Result:(LCD DISPLAY AREA), Measure:(8,411,924), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-06-17 14:58:32 : Test Result:(LCD DUST), Measure:(51,130), Min:(0), Max:(500000), Result(True)
+2017-06-17 14:58:32 : Test Result:(SVC LED BRIGHT), Measure:(70.9), Min:(30), Max:(150), Result(True)
+2017-06-17 14:58:32 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-06-17 14:58:33 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-06-17 14:58:33 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:58:33 : Test Result:(LCD GREEN), Measure:(3), Min:(0), Max:(6), Result(True)
+2017-06-17 14:58:34 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-06-17 14:58:34 : MainState: Passed UN : (CE0517156CAD04B00D)TestCount(T(504), P(463), F(41)), SetCount(T(115), P(108), F(7), FF(5), FFC(0))
+2017-06-17 14:58:35 : 
+

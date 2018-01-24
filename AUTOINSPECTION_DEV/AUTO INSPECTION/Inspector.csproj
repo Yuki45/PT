@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\build\OpenCvSharp-AnyCPU.props" Condition="Exists('..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\build\OpenCvSharp-AnyCPU.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FEEC2FC-6C31-45A2-BE91-1839C12975CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoInspection</RootNamespace>
+    <AssemblyName>AUTO INSPECTION</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib.BarcodeReader, Version=4.3.0.0, Culture=neutral, PublicKeyToken=00f9b35554156684, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\BarcodeLib.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Basler.Pylon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\Basler.Pylon.dll</HintPath>
+    </Reference>
+    <Reference Include="DGS">
+      <HintPath>..\DGS.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\lib\net45\OpenCvSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp.Blob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\lib\net45\OpenCvSharp.Blob.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp.CPlusPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\lib\net45\OpenCvSharp.CPlusPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\lib\net45\OpenCvSharp.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\lib\net45\OpenCvSharp.UserInterface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PSM">
+      <HintPath>..\PSM\bin\Debug\PSM.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tesseract, Version=2.3.0.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\Tesseract.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="W_X16Y16, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\W_X16Y16.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.14.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FrmFilenameInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmFilenameInput.designer.cs">
+      <DependentUpon>FrmFilenameInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sec\GUMI\InspectionLcdCopCrack.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdDust.cs" />
+    <Compile Include="Forms\IUserInterface.cs" />
+    <Compile Include="HeadInfoData.cs" />
+    <Compile Include="sec\GUMI\Inspection.cs" />
+    <Compile Include="sec\GUMI\InspectionBarcode.cs" />
+    <Compile Include="sec\GUMI\InspectionKeyTouch.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sec\GUMI\InspectionLcdMCD.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdRed.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdReddish.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdWhite.cs" />
+    <Compile Include="sec\GUMI\InspectionLedBlue.cs" />
+    <Compile Include="sec\GUMI\InspectionLogo.cs" />
+    <Compile Include="sec\GUMI\InspectionOcr.cs" />
+    <Compile Include="sec\GUMI\Log.cs" />
+    <Compile Include="sec\BaslerCamera.cs" />
+    <Compile Include="sec\GUMI\FrmMainCh2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sec\GUMI\FrmMainCh2.Designer.cs">
+      <DependentUpon>FrmMainCh2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sec\GUMI\Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sec\GUMI\Password.designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sec\ICameraInterface.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdBlue.cs" />
+    <Compile Include="sec\Rect_Obj.cs" />
+    <Compile Include="sec\VisionTest\CRect.cs" />
+    <Compile Include="sec\VisionTest\ResultBase.cs" />
+    <Compile Include="sec\VisionTest\TestSpec.cs" />
+    <Compile Include="sec\VisionTest\VisionTest.cs" />
+    <Compile Include="sec\VisionTest\VisionTools.cs" />
+    <Compile Include="TestResultInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sec\AltLightController.cs" />
+    <Compile Include="sec\AnyWayControl.cs" />
+    <Compile Include="sec\Config.cs" />
+    <Compile Include="sec\GUMI\Controller.cs" />
+    <Compile Include="sec\Define.cs" />
+    <Compile Include="sec\Json.cs" />
+    <Compile Include="sec\NeptuneCam.cs" />
+    <Compile Include="sec\NeptuneC_Interface.cs" />
+    <Compile Include="sec\ScenarioManager.cs" />
+    <Compile Include="sec\GUMI\InspectionThread.cs" />
+    <Compile Include="sec\GUMI\InspectionLcdGreen.cs" />
+    <Compile Include="Utils\FolderOperation.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\PmLogger.cs" />
+    <EmbeddedResource Include="Forms\FrmFilenameInput.resx">
+      <DependentUpon>FrmFilenameInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sec\GUMI\FrmMainCh2.resx">
+      <DependentUpon>FrmMainCh2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sec\GUMI\Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspected1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woq2z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-captureLargeBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiG8krBiL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiG8krBiL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="memo.txt" />
+    <None Include="Resources\GLOBES_RED.png" />
+    <None Include="Resources\GLOBES_GREEN.png" />
+    <None Include="Resources\ZoomIn.png" />
+    <None Include="Resources\ZoomOut.png" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\arrow_right.png" />
+    <None Include="Resources\arrow_left.png" />
+    <None Include="Resources\arrow_down.png" />
+    <None Include="Resources\but_07exit_select.jpg" />
+    <None Include="Resources\but_07exit_enable.jpg" />
+    <None Include="Resources\but_05log_select.JPG" />
+    <None Include="Resources\but_04teach_select.JPG" />
+    <None Include="Resources\but_03data_select.JPG" />
+    <None Include="Resources\but_02manual_select.JPG" />
+    <None Include="Resources\but_01auto_select.JPG" />
+    <None Include="Resources\but_07exit_disable.jpg" />
+    <None Include="Resources\but_05log_disable.JPG" />
+    <None Include="Resources\but_04teach_disable.JPG" />
+    <None Include="Resources\but_03data_disable.JPG" />
+    <None Include="Resources\but_02manual_disable.JPG" />
+    <None Include="Resources\but_01auto_disable.JPG" />
+    <None Include="Resources\Teaching IMEI.jpg" />
+    <None Include="Resources\HelpIMEIBG.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\build\OpenCvSharp-AnyCPU.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenCvSharp-AnyCPU.2.4.10.20160316\build\OpenCvSharp-AnyCPU.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

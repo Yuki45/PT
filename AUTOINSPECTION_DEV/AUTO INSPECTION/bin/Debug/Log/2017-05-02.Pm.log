@@ -1,0 +1,55 @@
+2017-05-02 17:31:54 : 
+
+2017-05-02 17:31:54 : 
+
+2017-05-02 17:31:54 : PQC Inspector 0.9.0 ( Build :2017-05-02 17:31:36)
+2017-05-02 17:32:18 : Test Result:(LCD DISPLAY AREA), Measure:(8,419,646), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-05-02 17:32:18 : Test Result:(LCD DUST), Measure:(3,380), Min:(0), Max:(50000), Result(True)
+2017-05-02 17:32:18 : Test Result:(SVC LED BRIGHT), Measure:(62), Min:(30), Max:(150), Result(True)
+2017-05-02 17:32:18 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-05-02 17:32:19 : Test Result:(LCD WHITE), Measure:(0), Min:(0), Max:(0), Result(True)
+2017-05-02 17:32:19 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:32:20 : Test Result:(LCD GREEN), Measure:(7), Min:(0), Max:(8), Result(True)
+2017-05-02 17:32:20 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:32:20 : MainState: Passed UN : (CE03171350813C980C)TestCount(T(0), P(0), F(0)), SetCount(T(1), P(1), F(0), FF(0), FFC(0))
+2017-05-02 17:32:22 : 
+
+2017-05-02 17:33:02 : System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at AutoInspection_GUMI.InspectionLogo.TestIamge(Object sender, DoWorkEventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\InspectionLogo.cs:line 62
+2017-05-02 17:33:02 : System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at AutoInspection_GUMI.InspectionLogo.TestIamge(Object sender, DoWorkEventArgs e) in C:\Users\Administrator\Desktop\NEW\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\GUMI\InspectionLogo.cs:line 62
+2017-05-02 17:33:06 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,928), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-05-02 17:33:06 : Test Result:(LCD DUST), Measure:(3,633), Min:(0), Max:(50000), Result(True)
+2017-05-02 17:33:07 : Test Result:(SVC LED BRIGHT), Measure:(62.3), Min:(30), Max:(150), Result(True)
+2017-05-02 17:33:07 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-05-02 17:33:07 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-05-02 17:33:07 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:33:08 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(6), Result(True)
+2017-05-02 17:33:08 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:33:08 : MainState: FailUN : (CE03171350813C980C), TestCount(T(1), P(1), F(0)), SetCount(T(2), P(1), F(1), FF(0), FFC(0))
+2017-05-02 17:33:10 : 
+
+2017-05-02 17:34:08 : Test Result:(LCD DISPLAY AREA), Measure:(8,420,266), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-05-02 17:34:08 : Test Result:(LCD DUST), Measure:(4,012), Min:(0), Max:(50000), Result(True)
+2017-05-02 17:34:09 : Test Result:(SVC LED BRIGHT), Measure:(62.2), Min:(30), Max:(150), Result(True)
+2017-05-02 17:34:09 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-05-02 17:34:09 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-05-02 17:34:09 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:34:10 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(5), Result(False)
+2017-05-02 17:34:10 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:34:10 : MainState: FailUN : (CE03171350813C980C), TestCount(T(2), P(1), F(1)), SetCount(T(3), P(1), F(2), FF(0), FFC(0))
+2017-05-02 17:34:12 : 
+
+2017-05-02 17:36:11 : Test Result:(LCD DISPLAY AREA), Measure:(8,421,323), Min:(5,000,000), Max:(10,000,000), Result(True)
+2017-05-02 17:36:11 : Test Result:(LCD DUST), Measure:(4,226), Min:(0), Max:(50000), Result(True)
+2017-05-02 17:36:12 : Test Result:(SVC LED BRIGHT), Measure:(62.2), Min:(30), Max:(150), Result(True)
+2017-05-02 17:36:12 : Test Result:(SVC LED DIFF), Measure:(0), Min:(0), Max:(6), Result(True)
+2017-05-02 17:36:12 : Test Result:(LCD WHITE), Measure:(1), Min:(0), Max:(0), Result(False)
+2017-05-02 17:36:13 : Test Result:(LCD BLUE), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:36:13 : Test Result:(LCD GREEN), Measure:(6), Min:(0), Max:(5), Result(False)
+2017-05-02 17:36:13 : Test Result:(LCD RED), Measure:(0), Min:(0), Max:(10), Result(True)
+2017-05-02 17:36:13 : MainState: FailUN : (CE03171350813C980C), TestCount(T(3), P(1), F(2)), SetCount(T(4), P(1), F(3), FF(0), FFC(0))
+2017-05-02 17:36:15 : 
+

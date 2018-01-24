@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{b78a5c73-d7ba-4a7f-b2b1-5ff796a363be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Ocx">
+      <UniqueIdentifier>{b72f2790-76c9-4ad0-ad40-01377921d3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Comm">
+      <UniqueIdentifier>{54580e63-bcb6-4a5e-9e27-6b88088c13d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcp">
+      <UniqueIdentifier>{80747e9c-2b0f-4f7f-bbdb-1bd863785e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Motion">
+      <UniqueIdentifier>{cb02a813-9d50-47a5-9cee-e342b53380b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcp\Station">
+      <UniqueIdentifier>{58a6b527-7f43-48bb-a049-974e7760c46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcp\System">
+      <UniqueIdentifier>{cf7e05a8-4700-4678-9930-eab9738a0fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Dialog">
+      <UniqueIdentifier>{ac4dad2f-96cf-4eee-a8e1-03cfce97d8e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EinComplex.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EinComplexDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EinComplex.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EinComplex.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="EinComplexDoc.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="EinComplexView.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\BtnEnh.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\CellsManager.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\Font.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\MsFlexGrid.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\Picture.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\RowCursor.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\SurfaceColor.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\TextDescriptor.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocx\Texture.h">
+      <Filter>Gui\Ocx</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\Serial.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\SerialHub.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\COMM_Define.h">
+      <Filter>Gui\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\FAS_EziMOTIONPlusR.h">
+      <Filter>Gui\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\MOTION_DEFINE.h">
+      <Filter>Gui\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\ReturnCodes_Define.h">
+      <Filter>Gui\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\MCPController.h">
+      <Filter>Mcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\System\OPSystem.h">
+      <Filter>Mcp\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\MainControlStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\System\CommSystem.h">
+      <Filter>Mcp\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgIOMonitor.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommWorld.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LeftTransferStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LeftPPStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\RightPPStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\RightTransferStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LeftNGCVStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LoadCVStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\RightNGCVStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\UnloadCVStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\System\InsertCVSystem.h">
+      <Filter>Mcp\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgLeftTrTeach.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgRightTrTeach.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgSelectTeach.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgAxisOrigin.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgError.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgSelectMode.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommBCR.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommTester.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\System\JigSystem.h">
+      <Filter>Mcp\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgDataEdit.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgManualControl.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgProductInfo.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgCharPad.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgDigitPad.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgPpTeach.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgLogView.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgSixBtn.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LeftSafetyStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\RightSafetyStation.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgInit.h">
+      <Filter>Gui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommLabelPrinter.h">
+      <Filter>Gui\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mcp\Station\LoadCV2Station.h">
+      <Filter>Mcp\Station</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EinComplex.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EinComplexDoc.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EinComplexView.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\BtnEnh.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\CellsManager.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\Font.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\MsFlexGrid.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\Picture.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\RowCursor.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\SurfaceColor.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\TextDescriptor.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocx\Texture.cpp">
+      <Filter>Gui\Ocx</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\Serial.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\SerialHub.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\MCPController.cpp">
+      <Filter>Mcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\System\OPSystem.cpp">
+      <Filter>Mcp\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\MainControlStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\System\CommSystem.cpp">
+      <Filter>Mcp\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgIOMonitor.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\CommWorld.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LeftTransferStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LeftPPStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\RightPPStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\RightTransferStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LeftNGCVStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LoadCVStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\RightNGCVStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\UnloadCVStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\System\InsertCVSystem.cpp">
+      <Filter>Mcp\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgLeftTrTeach.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgRightTrTeach.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgSelectTeach.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgAxisOrigin.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgError.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgSelectMode.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\CommBCR.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\CommTester.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\System\JigSystem.cpp">
+      <Filter>Mcp\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgDataEdit.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgManualControl.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgProductInfo.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgCharPad.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgDigitPad.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgPpTeach.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgLogView.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgSixBtn.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LeftSafetyStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\RightSafetyStation.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgInit.cpp">
+      <Filter>Gui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\CommLabelPrinter.cpp">
+      <Filter>Gui\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mcp\Station\LoadCV2Station.cpp">
+      <Filter>Mcp\Station</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EinComplex.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

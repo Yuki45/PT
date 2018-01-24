@@ -1,0 +1,100 @@
+[13:43:33.933] [m_nState] Init State
+[13:43:33.944] ---- [Monitor] Init : m_idle
+[13:43:33.966] ---- [Event] Init : CT_IDLE
+[13:43:33.967] [m_nState] Idle State
+[13:45:40.470] [m_nState] Init State
+[13:45:40.482] ---- [Monitor] Init : m_idle
+[13:45:40.504] ---- [Event] Init : CT_IDLE
+[13:45:40.505] [m_nState] Idle State
+[13:46:20.293] [m_nState] Init State
+[13:46:20.305] ---- [Monitor] Init : m_idle
+[13:46:20.328] ---- [Event] Init : CT_IDLE
+[13:46:20.329] [m_nState] Idle State
+[13:46:38.014] [m_nState] Init State
+[13:46:38.026] ---- [Monitor] Init : m_idle
+[13:46:38.048] ---- [Event] Init : CT_IDLE
+[13:46:38.049] [m_nState] Idle State
+[13:49:21.036] [m_nState] Init State
+[13:49:21.047] ---- [Monitor] Init : m_idle
+[13:49:21.070] ---- [Event] Init : CT_IDLE
+[13:49:21.071] [m_nState] Idle State
+[13:55:51.980] [m_nState] Init State
+[13:55:51.992] ---- [Monitor] Init : m_idle
+[13:55:52.014] ---- [Event] Init : CT_IDLE
+[13:55:52.015] [m_nState] Idle State
+[14:00:45.072] [m_nState] Init State
+[14:00:45.087] ---- [Monitor] Init : m_idle
+[14:00:45.119] ---- [Event] Init : CT_IDLE
+[14:00:45.119] [m_nState] Idle State
+[14:01:36.103] [m_nState] Init State
+[14:01:36.119] ---- [Monitor] Init : m_idle
+[14:01:36.150] ---- [Event] Init : CT_IDLE
+[14:01:36.150] [m_nState] Idle State
+[14:17:09.306] [m_nState] Init State
+[14:17:09.322] ---- [Monitor] Init : m_idle
+[14:17:09.353] ---- [Event] Init : CT_IDLE
+[14:17:09.353] [m_nState] Idle State
+[15:53:15.775] [m_nState] Init State
+[15:53:15.791] ---- [Monitor] Init : m_idle
+[15:53:15.822] ---- [Event] Init : CT_IDLE
+[15:53:15.822] [m_nState] Idle State
+[16:25:49.447] [m_nState] Init State
+[16:25:49.462] ---- [Monitor] Init : m_idle
+[16:25:49.494] ---- [Event] Init : CT_IDLE
+[16:25:49.494] [m_nState] Idle State
+[16:54:42.134] [m_nState] Init State
+[16:54:42.150] ---- [Monitor] Init : m_idle
+[16:54:42.181] ---- [Event] Init : CT_IDLE
+[16:54:42.181] [m_nState] Idle State
+[16:55:33.978] ---- [Flow] CT_START Set
+[16:55:34.009] ---- [Event] Idle : CT_START
+[16:55:34.009] [m_nState] Auto State
+[16:55:34.697] ---- [Flow] CT_START Set
+[16:56:06.759] [m_nState] Init State
+[16:56:06.775] ---- [Monitor] Init : m_idle
+[16:56:06.806] ---- [Event] Init : CT_IDLE
+[16:56:06.806] [m_nState] Idle State
+[16:56:26.103] ---- [Flow] CT_START Set
+[16:56:26.134] ---- [Event] Idle : CT_START
+[16:56:26.134] [m_nState] Auto State
+[16:56:28.759] ---- [Flow] CT_STOP Set
+[16:56:28.806] ---- [Event] Auto : CT_STOP
+[16:56:28.806] --------- [Monitor] StopTasks() : before m_stopped
+[16:56:28.806] --------- [Monitor] StopTasks() : m_stopped
+[16:56:28.806] [m_nState] AutoStop State
+[17:19:54.916] [m_nState] Init State
+[17:19:54.931] ---- [Monitor] Init : m_idle
+[17:19:54.962] ---- [Event] Init : CT_IDLE
+[17:19:54.962] [m_nState] Idle State
+[17:23:45.212] [m_nState] Init State
+[17:23:45.228] ---- [Monitor] Init : m_idle
+[17:23:45.259] ---- [Event] Init : CT_IDLE
+[17:23:45.259] [m_nState] Idle State
+[17:27:49.106] [m_nState] Init State
+[17:27:49.118] ---- [Monitor] Init : m_idle
+[17:27:49.140] ---- [Event] Init : CT_IDLE
+[17:27:49.141] [m_nState] Idle State
+[17:29:39.952] ---- [Flow] CT_START Set
+[17:29:39.974] ---- [Event] Idle : CT_START
+[17:29:39.975] [m_nState] Auto State
+[17:29:40.551] ---- [Flow] CT_STOP Set
+[17:29:40.574] ---- [Event] Auto : CT_STOP
+[17:29:40.575] --------- [Monitor] StopTasks() : before m_stopped
+[17:29:40.590] --------- [Monitor] StopTasks() : m_stopped
+[17:29:40.591] [m_nState] AutoStop State
+[17:29:40.613] ---- [Flow] CT_STOP Set
+[17:29:40.645] ---- [Flow] CT_STOP Set
+[17:29:41.897] ---- [Flow] CT_START Set
+[17:29:41.919] ---- [Event] AutoStop : CT_START
+[17:29:41.920] [m_nState] Auto State
+[17:29:42.794] ---- [Flow] CT_STOP Set
+[17:29:42.817] ---- [Event] Auto : CT_STOP
+[17:29:42.818] --------- [Monitor] StopTasks() : before m_stopped
+[17:29:43.124] ---- [Flow] CT_STOP Set
+[17:29:43.249] ---- [Flow] CT_STOP Set
+[17:29:43.476] --------- [Monitor] StopTasks() : m_stopped
+[17:29:43.478] [m_nState] AutoStop State
+[18:05:26.275] [m_nState] Init State
+[18:05:26.291] ---- [Monitor] Init : m_idle
+[18:05:26.322] ---- [Event] Init : CT_IDLE
+[18:05:26.322] [m_nState] Idle State

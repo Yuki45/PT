@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="repairhhp.Pages.ExecutionAbolishView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" Loaded="UCLoaded">
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFE8F5FD" Offset="0"/>
+            <GradientStop Color="#FFDDF2FF" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="313"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="EXECUTION ABOLISH" Margin="4,9,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Search" Grid.Column="4" HorizontalAlignment="Right" Margin="0,7,144,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="45"/>
+        <TextBox x:Name="searchGrid" Grid.Column="4" Height="26" Margin="0,9,77,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Right" Width="66" TextChanged="searchChange"/>
+        <Button Content="Refresh" Grid.Column="4" HorizontalAlignment="Right" Margin="0,9,10,0" VerticalAlignment="Top" Width="54" Grid.Row="1" Height="25" Click="refreshClick" Cursor="Hand"/>
+        <DataGrid x:Name="DataGridFiles" Grid.Column="1" Margin="10,0" Grid.Row="2" Grid.ColumnSpan="4" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" MouseDoubleClick="rowDoubleClick"/>
+        <GroupBox Grid.Column="3" Header="EXECUTION" Margin="6,10,9,10" Grid.Row="3" Padding="1,2" ScrollViewer.CanContentScroll="True" Grid.ColumnSpan="2">
+            <StackPanel Margin="0,0,0,0" Background="White"/>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="DATA NV" Margin="10,10,5,10" Grid.Row="3" Padding="1,2" Grid.ColumnSpan="2">
+            <StackPanel Margin="0,0,0,0" Background="White"/>
+        </GroupBox>
+        <Label Content="Scan NV" HorizontalAlignment="Left" Margin="19,45,0,0" VerticalAlignment="Top" Width="66" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="CN" HorizontalAlignment="Left" Margin="19,80,0,0" VerticalAlignment="Top" Width="46" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="UN" HorizontalAlignment="Left" Margin="1,80,0,0" VerticalAlignment="Top" Width="48" Height="25" Grid.Row="3" Grid.Column="2"/>
+        <Label Content="Defect Code" HorizontalAlignment="Left" Margin="19,115,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Defect Name" HorizontalAlignment="Left" Margin="19,150,0,0" VerticalAlignment="Top" Width="85" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Model" HorizontalAlignment="Left" Margin="19,185,0,0" VerticalAlignment="Top" Width="66" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Line" HorizontalAlignment="Left" Margin="1,185,0,0" VerticalAlignment="Top" Width="67" Height="25" Grid.Row="3" Grid.Column="2"/>
+        <TextBox x:Name="scanNV" Grid.Column="1" Height="26" Margin="102,45,104,0" Grid.Row="3" VerticalAlignment="Top" Grid.ColumnSpan="2" TextChanged="scanNVChange"/>
+        <TextBox x:Name="cnNV" Grid.Column="1" Height="26" Margin="102,80,0,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="unNV" Grid.Column="2" Height="26" Margin="91,80,22,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="codeNV" Grid.Column="1" Height="26" Margin="102,115,0,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="dnameNV" Grid.Column="1" Height="26" Margin="102,150,22,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="modelNV" Grid.Column="1" Height="26" Margin="102,185,0,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="lineNV" Grid.Column="2" Height="26" Margin="91,185,22,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <Button x:Name="clearGI" Content="Clear" Margin="23,80,0,0" Grid.Row="3" VerticalAlignment="Top" Height="25" Grid.Column="3" Cursor="Hand" Click="clear_click"/>
+        <Button x:Name="submitDec" Content="EXEC" Margin="12,79,24,0" Grid.Row="3" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Grid.Column="4" Cursor="Hand" Click="submitDec_Click"/>
+        <Label x:Name="labelStock" Content="-" Grid.Column="1" HorizontalAlignment="Left" Margin="138,7,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFF1DCC6" Height="26"/>
+        <Label x:Name="txtCheckNV" Content="-" Margin="0,45,22,242" Width="77" Grid.Row="3" Grid.Column="2" Background="#FFD3C5C5" BorderBrush="#FF2149CF" HorizontalAlignment="Right"/>
+        <Label Content="Process" HorizontalAlignment="Left" Margin="19,220,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Part No." HorizontalAlignment="Left" Margin="1,220,0,0" VerticalAlignment="Top" Width="76" Height="25" Grid.Row="3" Grid.Column="2"/>
+        <TextBox x:Name="processNV" Grid.Column="1" Height="26" Margin="102,220,0,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="partNumber" Grid.Column="2" Height="26" Margin="91,220,22,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="r_status" Grid.Column="3" Height="17" Margin="24,186,134,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True" Visibility="Hidden"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="16,45,0,0" VerticalAlignment="Top" Width="36" Height="25" Grid.Row="3" Grid.Column="3"/>
+        <TextBox x:Name="txtID" Grid.Column="3" Height="26" Margin="99,45,0,0" Grid.Row="3" VerticalAlignment="Top" IsReadOnly="True" IsEnabled="False"/>
+    </Grid>
+</UserControl>

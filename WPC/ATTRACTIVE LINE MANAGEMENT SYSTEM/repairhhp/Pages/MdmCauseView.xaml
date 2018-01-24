@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="repairhhp.Pages.MdmCauseView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" Loaded="UCLoaded">
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFE8F5FD" Offset="0"/>
+            <GradientStop Color="#FFDDF2FF" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="190*" MinWidth="190"/>
+            <ColumnDefinition Width="127*" MinWidth="127"/>
+            <ColumnDefinition Width="127*" MinWidth="127"/>
+            <ColumnDefinition Width="127*" MinWidth="127"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Manage Cause" HorizontalAlignment="Left" Margin="4,9,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="96" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Search" Grid.Column="4" HorizontalAlignment="Right" Margin="0,9,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="45"/>
+        <TextBox x:Name="searchGrid" Grid.Column="5" Height="26" Margin="5,10,67,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" TextChanged="searchChange"/>
+        <Button Content="Refresh" Grid.Column="5" HorizontalAlignment="Right" Margin="0,9,10,0" VerticalAlignment="Top" Width="52" Grid.Row="1" Height="25" Click="refreshClick" Cursor="Hand"/>
+        <DataGrid x:Name="DataGridFiles" Grid.Column="1" Margin="10,0,0,10" Grid.Row="2" Grid.ColumnSpan="2" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" MouseDoubleClick="rowDoubleClick"/>
+        <GroupBox Grid.Column="3" Header="SET UP" Margin="6,0,9,10" Grid.Row="2" Padding="1,2" ScrollViewer.CanContentScroll="True" Grid.ColumnSpan="3">
+            <StackPanel Margin="0,0,0,-1" Background="White"/>
+        </GroupBox>
+        <Button x:Name="clearGI" Content="CLEAR" Margin="14,147,10,0" Grid.Row="2" VerticalAlignment="Top" Height="25" Grid.Column="3" Cursor="Hand" Click="clear_click"/>
+        <Button x:Name="submitDec" Content="SUBMIT" Margin="0,147,23,0" Grid.Row="2" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Grid.Column="5" Cursor="Hand" Click="submitDec_Click"/>
+        <Label x:Name="labelStock" Content="-" Grid.Column="1" HorizontalAlignment="Left" Margin="100,7,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFF1DCC6" Height="26"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="14,40,0,0" VerticalAlignment="Top" Width="36" Height="25" Grid.Row="2" Grid.Column="3"/>
+        <TextBox x:Name="txtID" Grid.Column="3" Height="26" Margin="100,40,23,0" Grid.Row="2" VerticalAlignment="Top" IsReadOnly="True" Grid.ColumnSpan="3"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="14,91,0,0" VerticalAlignment="Top" Width="78" Height="25" Grid.Row="2" Grid.Column="3"/>
+        <TextBox x:Name="txtDesc" Grid.Column="3" Height="26" Margin="100,91,23,0" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        <Button x:Name="deleteCause" Content="DELETE" Margin="2,147,8,0" Grid.Row="2" VerticalAlignment="Top" Height="25" Grid.Column="4" Cursor="Hand" Click="delete_click" Background="#FFF9D4A7"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,8 @@
+[16:15:29.397] ---- [Flow] CT_START Set
+[16:15:29.420] ---- [Event] AutoStop : CT_START
+[16:15:29.421] [m_nState] Auto State
+[16:30:34.260] ---- [Flow] CT_STOP Set
+[16:30:34.283] ---- [Event] Auto : CT_STOP
+[16:30:34.284] --------- [Monitor] StopTasks() : before m_stopped
+[16:30:34.298] --------- [Monitor] StopTasks() : m_stopped
+[16:30:34.298] [m_nState] AutoStop State

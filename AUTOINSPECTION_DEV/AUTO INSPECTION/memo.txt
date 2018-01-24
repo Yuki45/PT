@@ -1,0 +1,190 @@
+﻿
+2017-04-24 양상 적용 광학계 설정값
+
+- Camera 기구부 X,Y,Z 높이
+  - 상부 카메라 
+	. X : 정면을 바라보고 왼쪽에서 40mm
+	. Y : 7칸 (35mm)
+	. Z : 10칸 3m (53mm)
+  - 하부 카메라 
+	. X : 뒤에서 볼때 브라켓 왼쪽에서 100mm
+	. Y : 6칸  3mm
+	. Z : 하단 게이지 3칸 3mm , 상부 카메라 게이지 : 7칸 2mm
+
+- Front exposure
+	white : 250000
+	dust : 250000
+	red blue : 74970
+	green  : 70000
+
+- polon view 카메라 센서 설정값
+	카메라 AOI Controls
+		width : 4608
+		hei9ght : 2300
+		x offset : 0
+		y offset : 460
+
+
+
+2016-09-22 BAE 
+1. 불필요 파일 삭제 
+	Setting.cs
+	Process_Item.cs
+	Model.cs
+	Khai bao bien.cs
+	libOpenCvSharpExtern.so
+	MODEL_FILE.cs
+	frmLogViewer.cs.bak
+
+2016-10-05 BAE
+1. timer 추가 ( 500ms ), 검사 시간 업데이트 
+2. DisplayElapsedTime()추가. 
+
+2016-10-06 BAE
+1. neptune 추가
+	. ICameraInterface -> 	void DisplaySetupPannel() 추가
+	. m_Thread.IsBackground = true; 추가
+
+
+2016-11-16 BAE
+
+1. 	CtrlIo.Y_05 = 1; -> IOInsertPack(); 형식으로 변경
+	Controller.GetOutStage() 에서 Area 센서 체크하도록 수정
+
+2. 검사 fail 시 retry 기능 추가 중. 
+	2.1 Controller.MainThread() 추가 중
+		- 검사 시작 / 종료 / 재검사 관리
+	MainThread() 생성 종료 등....
+
+3. 프로그램 상단에 버전(Config.version), 날짜 정보 추가
+
+4. 프로그램 halt 확인 용, Logger 추가
+	
+5. 직행율 소수점 1자리 까지 표시
+	리셋된 값, 저장되도록 수정
+
+
+
+measure 소수점 1자리 까지	
+
+2016-11-30 HUN
+
+1. 프로그램 통합 
+Program.cs 에서 #define 주석 처리로 GUMI/SEVT 구분
+
+2. BackKey Command 추가(상단 팝업창으로 인한 가불량 방지)
+
+2016-12-02
+
+1. DisplayModelName 에 modelname 변수 입력 추가 
+2. ResultNgimg Bitmap -> Mat
+3. grabImg backgroundworker -> thread 변경
+4. 배출할때 불끄게
+5. <white> mungPixelCntSpec 추가 기존 200 default
+
+2016-12-05
+
+1. UN IS NULL 출력 추가
+
+
+
+
+2017-04-08
+-. 검사 스레드 구조 개선
+	1. InspectionThread 분리
+	2. front, rear 캡쳐 동작은 시퀀스로
+	3. 다른 검사 스레드 결과 상관없이 끝까지 가는 걸로 ( 구조 단순화 ) 
+
+
+2017-04-10
+-. BtnLedSave -> BtnLedLogo 로 변경 ( 버튼 누름시 동작 안됨 수정 )
+
+2017-04-21 - NAM
+- UN파일 - Result Image Save 폴더를 C, D로 선택할 수 있도록 변경
+- jpg, bmp 저장 변경
+- Lamp 주석 처리
+
+
+
+2017-04-26 BAE 
+1. 로그 파일. 프로그램 버전 기록ㅁ
+
+2017-04-28 BAE 
+1. 측정값도 텍스트 파일에 기록
+2. Green Avg 계산값 ( Avg, x, y, width, height) 텍스트 파일에 기록
+
+2017-04-30 BAE
+2. 실행폴더에 Log 폴더 없으면 생성하도록 수정
+3. Log 파일 가독성 개선
+4. 모든 catch문에  txt 로그에 기록 되도록 수정
+5. Inspection thread SaveImage() 삭제
+6. 불필요 Using 문/변수/ 주석 코드 일부 제거 
+7. Error 로그 파일 추가 완료. 
+
+2017-05-03 BAE
+1. 이미지 로그 이름 변경 : 021010 -> 141010
+2. 로그 이미지 Numbering
+
+
+
+2017-05-05 BAE
+<< 머지 송부 >>
+
+2017-05-05 BAE
+1. GreenAvg, W, H, Area 출력 
+2. Green BlackDot 로그에, W, H 추가
+3. CamBox1 클릭 시 -> Fail 이미지 순처적 표시 
+
+2017-05-06 BAE
+1. Black Dot 검사 시, 최대 픽셀 크기 + Area 옵션 추가, Risk 포인트는 흰색으로 표시
+2. 불량 좌표 표시 할 때, 글자 크기 변경 ( 1 -> 3 ) 
+
+2017-05-07 BAE
+1. imgOk, imgNg -> ImageResult로 통합
+2. CamBox2 클릭 시 -> 이미지 로그 폴더 표시
+
+
+2017-05-09 BAE
+1. Csv Log 생성 PmLogger.cs 추가 중....
+
+
+ 2017.05.10. BAE : 
+ 1. 시간 단축 테스트 버전 적용 ( JHS Ver.) public void PreProcessing()
+ 2. Csv Log 생성 PmLogger.cs 추가 중....
+
+
+
+
+TODO: 
+-. UI : 개선 
+-. Controller 에서 io 분리 -> 신규 클래스
+-. 릴레이 적용 테스트
+-. AltLightController CtrlLight, AltLightController CtrlLightRear 통합 ( 컨트롤러 전압 통일 후 )
+
+
+. 광학계 설정값
+
+- Front exposure 쪽
+	white : 119980
+	dust : 49980
+	red blue : 74970
+	green  : 49980
+
+- polon view 카메라 센서 설정값
+	1호기
+		AOI Controls
+		width : 4608
+		hei9ght : 2300
+		x offset : 0
+		y offset : 460
+	이외의 호기
+		AOI Controls
+		width : 4608
+		hei9ght : 2300
+		x offset : 0
+		y offset : 400
+
+
+
+
+23->35

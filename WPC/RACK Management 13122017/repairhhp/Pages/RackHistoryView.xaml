@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="repairhhp.Pages.RackHistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Loaded="UCLoaded"
+             mc:Ignorable="d"  >
+    <Grid Margin="0,0,0,0" Background="#FFD3F7F7"   >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="98"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="MENU HISTORY TRANSACTION" VerticalAlignment="Top" FontWeight="Bold" Height="40" HorizontalAlignment="Left" Width="193" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,24,0,0" Grid.Column="1"/>
+        <Label Content="Storage" Grid.Column="1" HorizontalAlignment="Left" Margin="199,9,0,0" VerticalAlignment="Top" Width="54" Height="26" RenderTransformOrigin="1.4,0.538"/>
+        <Label Content="Item Name" Grid.Column="1" HorizontalAlignment="Left" Margin="515,7,0,0" VerticalAlignment="Top" Width="85" Height="26" RenderTransformOrigin="0.571,0.038"/>
+        <ComboBox x:Name="ItemSearch" Grid.Column="1" HorizontalAlignment="Left" Margin="441,25,0,0" VerticalAlignment="Top" Width="216" RenderTransformOrigin="0.35,0.692" Height="26"/>
+        <Button x:Name="Search" Content="Search" Grid.Column="1" HorizontalAlignment="Left" Margin="463,60,0,0" VerticalAlignment="Top" Width="184" Height="28" Click="Search_Click" RenderTransformOrigin="1.162,0.571"/>
+        <DataGrid x:Name="DataStock" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Margin="0,5,0,10" ColumnWidth="*" FontSize="15" Grid.Row="1" LoadingRow="DataStock_LoadingRow" Grid.Column="1"  />
+        <ComboBox x:Name="cmbStorage" Grid.Column="1" HorizontalAlignment="Left" Margin="253,7,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.35,0.692" Height="26" SelectionChanged="cmbStorage_SelectionChanged"/>
+        <Label Content="Zone" Grid.Column="1" HorizontalAlignment="Left" Margin="198,34,0,0" VerticalAlignment="Top" Width="37" Height="26" RenderTransformOrigin="1.4,0.538"/>
+        <ComboBox x:Name="cmbZone" Grid.Column="1" HorizontalAlignment="Left" Margin="253,34,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.35,0.692" Height="26" SelectionChanged="cmbZone_SelectionChanged"/>
+        <Label Content="Bin" Grid.Column="1" HorizontalAlignment="Left" Margin="199,62,0,0" VerticalAlignment="Top" Width="37" Height="26" RenderTransformOrigin="1.4,0.538"/>
+        <ComboBox x:Name="cmbBin" Grid.Column="1" HorizontalAlignment="Left" Margin="253,62,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.35,0.692" Height="26"/>
+    </Grid>
+</UserControl>

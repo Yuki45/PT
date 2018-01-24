@@ -1,0 +1,23 @@
+오후 4:58> Program Ended...
+오후 5:15> Program Ended...
+오후 8:58> BaslerCamera() in BaslerCamera exception System.Exception: Failed to open 'Basler acA4600-7gc#0030531F556A#169.254.107.85:3956'. The device is controlled by another application. Err: An attempt was made to access an address location which is currently/momentary not accessible. (0xE1018006)
+ : RuntimeException thrown (file 'GigEDevice.cpp', line 259)
+   at Basler.Pylon.Camera.Open()
+   at AutoInspection.BaslerCamera..ctor(String modelName) in d:\____PQCSetupFiles\AUTOINSPECTION_SEC_1704012_2\AUTO INSPECTION\sec\BaslerCamera.cs:line 89
+오후 8:58> BaslerCamera() in BaslerCamera exception System.Exception: Failed to open 'Basler acA3800-10gm#00305321211D#169.254.30.33:3956'. The device is controlled by another application. Err: An attempt was made to access an address location which is currently/momentary not accessible. (0xE1018006)
+ : RuntimeException thrown (file 'GigEDevice.cpp', line 259)
+   at Basler.Pylon.Camera.Open()
+   at AutoInspection.BaslerCamera..ctor(String modelName) in d:\____PQCSetupFiles\AUTOINSPECTION_SEC_1704012_2\AUTO INSPECTION\sec\BaslerCamera.cs:line 89
+오후 8:58> Open() in AltLightController exception System.UnauthorizedAccessException: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at AutoInspection.AltLightController.Open(String _portName, Int32 _baudRate) in d:\____PQCSetupFiles\AUTOINSPECTION_SEC_1704012_2\AUTO INSPECTION\sec\AltLightController.cs:line 20
+오후 8:58> Program Start...2017-04-14 오후 8:45:53
+오후 8:58> Program Ended...
+오후 8:59> Open() in AltLightController exception System.UnauthorizedAccessException: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at AutoInspection.AltLightController.Open(String _portName, Int32 _baudRate) in d:\____PQCSetupFiles\AUTOINSPECTION_SEC_1704012_2\AUTO INSPECTION\sec\AltLightController.cs:line 20
+오후 8:59> Program Start...2017-04-14 오후 8:45:53

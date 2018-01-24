@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeDebug|Win32">
+      <Configuration>UnicodeDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|Win32">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;.\Include;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;.\Lib</LibraryPath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;$(VCInstallDir)atlmfc\src;</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <OutDir>.\UnicodeRelease\</OutDir>
+    <IntDir>.\UnicodeRelease\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(VCInstallDir)atlmfc\include;.\Include;</IncludePath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;$(VCInstallDir)atlmfc\src;</SourcePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;.\Lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <OutDir>.\UnicodeDebug\</OutDir>
+    <IntDir>.\UnicodeDebug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_WINDLL;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\AceMP.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy Release\AceMP.dll c:\windows\System32
+copy Release\AceMP.dll .\
+copy Release\AceMP.lib lib</Command>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\AceMP.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\AceMP.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\AceMP.dll</OutputFile>
+      <ImportLibrary>.\Release\AceMP.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Cif32dll.lib;MMCWHP154.lib;MdFunc32.lib;EipFunc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\AceMP.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_WINDLL;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\UnicodeRelease\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\UnicodeRelease\AceMP.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\UnicodeRelease\</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnicodeRelease\</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy UnicodeRelease\AceMP.dll d:\windows\System32
+copy UnicodeRelease\AceMP.dll .\
+copy UnicodeRelease\AceMP.lib lib</Command>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\UnicodeRelease\AceMP.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnicodeRelease\AceMP.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\UnicodeRelease\AceMP.dll</OutputFile>
+      <ImportLibrary>.\UnicodeRelease\AceMP.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Cif32dll.lib;VC60FP36.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\AceMP.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <AdditionalIncludeDirectories>Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINDLL;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\AceMP.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy Debug\AceMP.dll %SystemRoot%\System32
+copy Debug\AceMP.dll .
+copy Debug\AceMP.lib Lib</Command>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\AceMP.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\AceMP.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\AceMP.dll</OutputFile>
+      <ImportLibrary>.\Debug\AceMP.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Cif32dll.lib;MMCWHP154.lib;MdFunc32.lib;EipFunc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\AceMP.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <AdditionalIncludeDirectories>Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINDLL;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\UnicodeDebug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\UnicodeDebug\AceMP.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\UnicodeDebug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnicodeDebug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy UnicodeDebug\AceMP.dll %SystemRoot%\System32
+copy UnicodeDebug\AceMP.dll .\
+copy UnicodeDebug\AceMP.lib lib</Command>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\UnicodeDebug\AceMP.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnicodeDebug\AceMP.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\UnicodeDebug\AceMP.dll</OutputFile>
+      <ImportLibrary>.\UnicodeDebug\AceMP.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Cif32dll.lib;MmcWfp40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\AceMP.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\AceMP.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AceMP.h" />
+    <ClInclude Include="Include\AxAxis.h" />
+    <ClInclude Include="Include\AxControl.h" />
+    <ClInclude Include="Include\AxController.h" />
+    <ClInclude Include="Include\AxControlPanel.h" />
+    <ClInclude Include="Include\AxConvertVariable.h" />
+    <ClInclude Include="Include\AxDefine.h" />
+    <ClInclude Include="Include\AxDiData.h" />
+    <ClInclude Include="Include\AxErrMsg.h" />
+    <ClInclude Include="Include\AxErrorCtrl.h" />
+    <ClInclude Include="Include\AxErrorMgr.h" />
+    <ClInclude Include="Include\AxErrStr.h" />
+    <ClInclude Include="Include\AxEvent.h" />
+    <ClInclude Include="Include\AxEventMgr.h" />
+    <ClInclude Include="Include\AxFile.h" />
+    <ClInclude Include="Include\AxHilscherScanner.h" />
+    <ClInclude Include="Include\AxIni.h" />
+    <ClInclude Include="Include\AxInput.h" />
+    <ClInclude Include="Include\AxIOCtrl.h" />
+    <ClInclude Include="Include\AxIOMgr.h" />
+    <ClInclude Include="Include\AxIOScanner.h" />
+    <ClInclude Include="Include\AxLoc.h" />
+    <ClInclude Include="Include\AxMaster.h" />
+    <ClInclude Include="Include\AxMmcCmd.h" />
+    <ClInclude Include="Include\AxMmcMgr.h" />
+    <ClInclude Include="Include\AxNetData.h" />
+    <ClInclude Include="Include\AxNetDriver.h" />
+    <ClInclude Include="Include\AxNetEipDrv.h" />
+    <ClInclude Include="Include\AxNetMelsecDrv.h" />
+    <ClInclude Include="Include\AxNetMgr.h" />
+    <ClInclude Include="Include\AxObject.h" />
+    <ClInclude Include="Include\AxOutput.h" />
+    <ClInclude Include="Include\AxProfile.h" />
+    <ClInclude Include="Include\AxRecipe.h" />
+    <ClInclude Include="Include\AxRobot.h" />
+    <ClInclude Include="Include\AxRobotCtrl.h" />
+    <ClInclude Include="Include\AxRobotLoc.h" />
+    <ClInclude Include="Include\AxSafety.h" />
+    <ClInclude Include="Include\AxService.h" />
+    <ClInclude Include="Include\AxServiceHub.h" />
+    <ClInclude Include="Include\AxSimMmcWfp.h" />
+    <ClInclude Include="Include\AxStation.h" />
+    <ClInclude Include="Include\AxStationHub.h" />
+    <ClInclude Include="Include\AxSystem.h" />
+    <ClInclude Include="Include\AxSystemError.h" />
+    <ClInclude Include="Include\AxSystemHub.h" />
+    <ClInclude Include="Include\AxTask.h" />
+    <ClInclude Include="Include\AxThread.h" />
+    <ClInclude Include="Include\AxTimer.h" />
+    <ClInclude Include="Include\AxTower.h" />
+    <ClInclude Include="Include\AxTrace.h" />
+    <ClInclude Include="Include\AxWaitTimer.h" />
+    <ClInclude Include="Include\CIFUSER.h" />
+    <ClInclude Include="Include\EipFunc.h" />
+    <ClInclude Include="Include\Mdfunc.h" />
+    <ClInclude Include="Include\MMCWHP154.h" />
+    <ClInclude Include="Include\WTypes.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AceMP.cpp" />
+    <ClCompile Include="Source\AxAxis.cpp" />
+    <ClCompile Include="Source\AxControl.cpp" />
+    <ClCompile Include="Source\AxController.cpp" />
+    <ClCompile Include="Source\AxControlPanel.cpp" />
+    <ClCompile Include="Source\AxConvertVariable.cpp" />
+    <ClCompile Include="Source\AxDiData.cpp" />
+    <ClCompile Include="Source\AxErrMsg.cpp" />
+    <ClCompile Include="Source\AxErrorCtrl.cpp" />
+    <ClCompile Include="Source\AxErrorMgr.cpp" />
+    <ClCompile Include="Source\AxErrStr.cpp" />
+    <ClCompile Include="Source\AxEvent.cpp" />
+    <ClCompile Include="Source\AxEventMgr.cpp" />
+    <ClCompile Include="Source\AxFile.cpp" />
+    <ClCompile Include="Source\AxHilscherScanner.cpp" />
+    <ClCompile Include="Source\AxIni.cpp" />
+    <ClCompile Include="Source\AxInput.cpp" />
+    <ClCompile Include="Source\AxIOCtrl.cpp" />
+    <ClCompile Include="Source\AxIOMgr.cpp" />
+    <ClCompile Include="Source\AxIOScanner.cpp" />
+    <ClCompile Include="Source\AxLoc.cpp" />
+    <ClCompile Include="Source\AxMaster.cpp" />
+    <ClCompile Include="Source\AxMmcCmd.cpp" />
+    <ClCompile Include="Source\AxMmcMgr.cpp" />
+    <ClCompile Include="Source\AxNetData.cpp" />
+    <ClCompile Include="Source\AxNetDriver.cpp" />
+    <ClCompile Include="Source\AxNetEipDrv.cpp" />
+    <ClCompile Include="Source\AxNetMelsecDrv.cpp" />
+    <ClCompile Include="Source\AxNetMgr.cpp" />
+    <ClCompile Include="Source\AxObject.cpp" />
+    <ClCompile Include="Source\AxOutput.cpp" />
+    <ClCompile Include="Source\AxProfile.cpp" />
+    <ClCompile Include="Source\AxRecipe.cpp" />
+    <ClCompile Include="Source\AxRobot.cpp" />
+    <ClCompile Include="Source\AxRobotCtrl.cpp" />
+    <ClCompile Include="Source\AxRobotLoc.cpp" />
+    <ClCompile Include="Source\AxSafety.cpp" />
+    <ClCompile Include="Source\AxService.cpp" />
+    <ClCompile Include="Source\AxServiceHub.cpp" />
+    <ClCompile Include="Source\AxSimMmcWfp.cpp" />
+    <ClCompile Include="Source\AxStation.cpp" />
+    <ClCompile Include="Source\AxStationHub.cpp" />
+    <ClCompile Include="Source\AxSystem.cpp" />
+    <ClCompile Include="Source\AxSystemError.cpp" />
+    <ClCompile Include="Source\AxSystemHub.cpp" />
+    <ClCompile Include="Source\AxTask.cpp" />
+    <ClCompile Include="Source\AxThread.cpp" />
+    <ClCompile Include="Source\AxTimer.cpp" />
+    <ClCompile Include="Source\AxTower.cpp" />
+    <ClCompile Include="Source\AxTrace.cpp" />
+    <ClCompile Include="Source\AxWaitTimer.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AceMP.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AceMP.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AceMP.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

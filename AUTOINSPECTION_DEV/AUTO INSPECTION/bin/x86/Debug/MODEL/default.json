@@ -1,0 +1,123 @@
+{
+  "AnywayType": "Type2",
+  "RectBarcode": "50, 50, 50, 50",
+  "RectLogo1": "50, 50, 50, 50",
+  "RectLogo2": "50, 50, 50, 50",
+  "RectImei": "50, 50, 50, 50",
+  "SpecLcdDust": {
+    "dDustOffsetPixel": 4,
+    "dDustThreshold": 60,
+    "dJudgeDustArea": 100000
+  },
+  "SpecLcdArea": {
+    "m_nPsmSideOffset": 3,
+    "m_LedRoughRoi": {
+      "left": -330,
+      "top": 1680,
+      "right": 100,
+      "bottom": 100
+    },
+    "m_BackRoughRoi": {
+      "left": 120,
+      "top": 260,
+      "right": 130,
+      "bottom": 180
+    },
+    "m_MenuRoughRoi": {
+      "left": 120,
+      "top": 1460,
+      "right": 130,
+      "bottom": 180
+    },
+    "m_nDisplayThreshold": 150,
+    "m_nLedThreshold": 80,
+    "m_nKeyThreshold": 40,
+    "m_dJudgeDisplayAreaLL": 5000000.0,
+    "m_dJudgeDisplayAreaUL": 10000000.0,
+    "m_dJudgeMenuAreaLL": 2000.0,
+    "m_dJudgeMenuAreaUL": 15000.0,
+    "m_dJudgeBackAreaLL": 2500.0,
+    "m_dJudgeBackAreaUL": 12000.0,
+    "m_dJudgeLedAreaLL": 1000.0,
+    "m_dJudgeLedAreaUL": 3200.0
+  },
+  "SpecLcdRed": {
+    "m_nBlackDot_RFindBlackDotBlockSize": 31,
+    "m_nBlackDot_RFindBlackDotThreshold": 15.0,
+    "m_nBlackDot_RJudgeAreaLL": 10
+  },
+  "SpecLcdBlue": {
+    "m_nBlackDot_BFindBlackDotBlockSize": 31,
+    "m_nBlackDot_BFindBlackDotThreshold": 11,
+    "m_nBlackDot_BJudgeAreaLL": 10
+  },
+  "SpecLcdGreen": {
+    "m_nBlackDot_GFindBlackDotBlockSize": 31,
+    "m_nBlackDot_GFindBlackDotThreshold": 15,
+    "m_nBlackDot_GJudgeAreaLL": 10
+  },
+  "SpecLcdWhite": {
+    "m_dMungThreshold": 40.0,
+    "m_nMungAreaLL": 3,
+    "m_nSpecCorner": 100,
+    "m_nSolisCircleOffset": 5,
+    "m_dAreaThreshold": 150.0,
+    "m_dSpecAreaSolis": 1000000.0,
+    "m_nSpecCornerPixel": 230,
+    "skipconer": false
+  },
+  "SpecRear": {
+    "LogoRegOffset": 20,
+    "ImeiRegOffset": 100,
+    "LogoMatchingRate": 70,
+    "m_nBarcodeThreshold": 100,
+    "m_nBarcodeThresIdx": 1,
+    "m_nOcrThreshold": 99,
+    "m_nOcrThresIdx": 0,
+    "m_nOcrAvgValue": 170,
+    "LogoCount": 1,
+    "IMEILength": 15,
+    "OCROffsetX": 0,
+    "OCROffsetY": 0
+  },
+  "SpecTouchKey": {
+    "m_iDefectBoxThickness": 10,
+    "TouchKeyBrightAreaSpec": 3
+  },
+  "SpecLedBlue": {
+    "m_nDiffWH_BLOffsetSize": 2,
+    "m_nBrightness_BLJudgeBrightnessLL": 50,
+    "m_nBrightness_BLJudgeBrightnessUL": 230,
+    "m_nDiffWH_BLDiffThreshold": 20,
+    "m_nDiffWH_BLDiffSpecArea": 2
+  },
+  "SpecExposure": {
+    "TestArea": 35000,
+    "TestDust": 35000,
+    "TestRed": 35000,
+    "TestBlue": 35000,
+    "TestGreen": 35000,
+    "TestImeiLabel": 35000,
+    "TestImeiLaser": 35000,
+    "TestLogo": 35000
+  },
+  "SpecTestList": {
+    "SkipRear": false,
+    "SkipFrontKey": false,
+    "SkipFrontLed": false,
+    "TestSolis": false,
+    "SkipLaser": false,
+    "SkipLogo": true,
+    "SkipRed": true
+  },
+  "SpecLight": {
+    "LogoLightValue": 0,
+    "DustLightValue": 1,
+    "LogoBackLightValue": 3,
+    "LogoBarLightValue": 2,
+    "LabelBackValue": 5,
+    "LabelBarLightValue": 4,
+    "LaserBackLightValue": 0,
+    "LaserBarLightValue": 6
+  }
+}

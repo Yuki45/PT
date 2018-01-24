@@ -1,0 +1,37 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="repairhhp.Pages.MtrackingView" 
+             mc:Ignorable="d" Loaded="UCLoaded" >
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFE8F5FD" Offset="0"/>
+            <GradientStop Color="#FFDDF2FF" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid Margin="0,0,0,0" Background="#FFD3F7F7" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition MinWidth="190" Width="215"/>
+            <ColumnDefinition MinWidth="190" Width="367*"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="TRACKING HISTORY MDL REWORK" VerticalAlignment="Top" FontWeight="Bold" Height="40" Grid.Column="1" Width="215" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <DataGrid x:Name="DataGridFiles" Grid.Column="2" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Grid.Row="1" MouseDoubleClick="DataGridFiles_MouseDoubleClick" Grid.ColumnSpan="2" LoadingRow="DataGridFiles_LoadingRow" />
+        <Label Content="Model" HorizontalAlignment="Left" Margin="0,47,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="48" HorizontalContentAlignment="Center"/>
+        <ComboBox x:Name="cmbModel" HorizontalAlignment="Left" Margin="48,47,0,0" Grid.Row="1" VerticalAlignment="Top" Width="159" Grid.Column="1" Height="26" RenderTransformOrigin="0.463,0.462"/>
+        <Button x:Name="submitDec" Content="SEARCH" Margin="35,112,5,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF76A9F3" Height="25" Grid.Column="1" Cursor="Hand" Click="submitDec_Click"  />
+        <Button x:Name="export2Excel" Content="EXPORT TO EXCEL RATE" Margin="35,149,5,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Grid.Column="1" Cursor="Hand" Click="export2Excel_Click"  />
+        <Label Content="UN" HorizontalAlignment="Left" Margin="0,78,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="48" HorizontalContentAlignment="Center"/>
+        <Label Grid.ColumnSpan="2" Content="SEARCH CONDITION" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="215" Height="30" Custom:ControlsHelper.ContentCharacterCasing="Upper" FontWeight="Bold"/>
+        <Label x:Name="labelStock" Content="-" Grid.Column="1" HorizontalAlignment="Left" Margin="214,8,0,0" VerticalAlignment="Top" Background="#FFF1DCC6" Height="26" Grid.ColumnSpan="2" Width="168"/>
+        <TextBox x:Name="txt_un" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="48,78,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+
+    </Grid>
+</UserControl>

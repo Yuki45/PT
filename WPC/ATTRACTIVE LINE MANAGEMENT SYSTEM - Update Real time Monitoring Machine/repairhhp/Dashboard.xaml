@@ -1,0 +1,136 @@
+﻿<Controls:MetroWindow
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:Pages="clr-namespace:repairhhp.Pages"
+                      xmlns:ViewModel="clr-namespace:repairhhp.ViewModel"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="repairhhp.Dashboard"
+                      Title="HMS (HHP Management System)"
+                      Width="1000"
+                      Height="600"
+                      GlowBrush="{DynamicResource AccentColorBrush}"
+                      Icon="Resources/helmet.png"
+                      Loaded="WinLoaded"
+                      ShowIconOnTitleBar="True"
+                      ShowMaxRestoreButton="False"
+                      WindowStartupLocation="CenterScreen"
+                      WindowState="Maximized">
+    <Controls:MetroWindow.Resources>
+        <DataTemplate DataType="{x:Type ViewModel:HomePageVM}">
+            <Pages:HomePageView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:WPC}">
+            <Pages:WPCAgingView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:RFCalVM}">
+            <Pages:RFView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:AttractiveLineVM}">
+            <Pages:AttrLine />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:MachineVM}">
+            <Pages:Machine />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:HWVersionVM}">
+            <Pages:HWVersionView />
+        </DataTemplate>
+    </Controls:MetroWindow.Resources>
+    <Grid>
+        <DockPanel>
+            <Menu Height="25"
+				DockPanel.Dock="Top"
+				FontSize="11"
+				IsMainMenu="True">
+                <Menu.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="0.007" Color="#FFEEECEC" />
+                        <GradientStop Offset="1" Color="#FFF5F4F4" />
+                    </LinearGradientBrush>
+                </Menu.Background>
+                <MenuItem Command="{Binding LoadHomePageCommand}" Header="_HOME" />
+                <MenuItem x:Name="menu_receipt" Header="_ATTRACTIVE MANAGEMENT" IsEnabled="False">
+                    <MenuItem Command="{Binding LoadReceiptNvCommand}" Header="_ATTRACTIVE WPC">
+                        <MenuItem.Icon>
+                            <Image Width="16"
+								Height="16"
+								Source="Resources/search.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Command="{Binding LoadAttractiveline}" Header="_ATTRACTIVE LINE">
+                        <MenuItem.Icon>
+                            <Image Width="16"
+								Height="16"
+								Source="Resources/search.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem x:Name="menu_report" Header="_MACHINE MANAGEMENT">
+                    <MenuItem x:Name="menu_gathering" Header="_Gathering Machine RF Cal" Command="{Binding LoadgatheringRFCommand}">
+                        <MenuItem.Icon>
+                            <Image Width="16"
+								Height="16"
+								Source="Resources/search.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menu_realtime1" Header="_Gathering Machine Monitoring" Command="{Binding LoadgatheringRealtimeCommand}">
+                        <MenuItem.Icon>
+                            <Image Width="16"
+								Height="16"
+								Source="Resources/search.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menu_HWVersion" Header="_HW Version Monitoring RF Cal" Command="{Binding LoadHwVersionCommand}">
+                        <MenuItem.Icon>
+                            <Image Width="16"
+								Height="16"
+								Source="Resources/search.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+
+            <StatusBar DockPanel.Dock="Bottom" Foreground="Black">
+                <StatusBar.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="90" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="95" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="200" />
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </StatusBar.ItemsPanel>
+                <StatusBarItem MouseDoubleClick="StatusBarItem_MouseDoubleClick" Margin="0,2,-2,-2" HorizontalAlignment="Left" Width="152">
+                    <Label x:Name="xName" Content="{Binding Name}" />
+                </StatusBarItem>
+                <Separator Grid.Column="1" Height="12" Margin="2,2,2,0" VerticalAlignment="Top" />
+                <StatusBarItem Grid.Column="2" Margin="68,1,-68,-1">
+                    <Label x:Name="xGen" Content="{Binding Gen}" />
+                </StatusBarItem>
+                <Separator Grid.Column="3" />
+                <StatusBarItem Grid.Column="4" Margin="130,1,-130,-1">
+                    <Label x:Name="xIp" Content="{Binding Ip}" />
+                </StatusBarItem>
+                <Separator Grid.Column="5" />
+                <StatusBarItem Grid.Column="6">
+                    <!--<Label Name="xPath" Content="{Binding Path}" />-->
+                </StatusBarItem>
+                <Separator Grid.Column="7" />
+                <StatusBarItem Grid.Column="8">
+                    <!--<ProgressBar Width="200"
+                                 Height="16"
+                                 Value="50" />-->
+                </StatusBarItem>
+            </StatusBar>
+            <ContentControl Content="{Binding CurrentViewModel}" />
+        </DockPanel>
+
+    </Grid>
+</Controls:MetroWindow>

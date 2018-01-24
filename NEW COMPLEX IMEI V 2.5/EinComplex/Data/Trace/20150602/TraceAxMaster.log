@@ -1,0 +1,46 @@
+[00:54:31.058] ---- [Flow] CT_START Set
+[00:54:47.749] ---- [Flow] CT_START Set
+[00:57:48.220] ---- [Flow] CT_START Set
+[00:57:50.825] ---- [Flow] CT_START Set
+[01:19:55.686] ---- [Flow] CT_START Set
+[01:20:29.211] ---- [Flow] CT_STOP Set
+[01:20:29.234] ---- [Event] Auto : CT_STOP
+[01:20:29.235] --------- [Monitor] StopTasks() : before m_stopped
+[01:20:29.601] --------- [Monitor] StopTasks() : m_stopped
+[01:20:29.602] [m_nState] AutoStop State
+[01:29:48.199] ---- [Flow] CT_START Set
+[01:29:48.221] ---- [Event] AutoStop : CT_START
+[01:29:48.222] [m_nState] Auto State
+[01:29:48.787] ---- [Flow] CT_START Set
+[01:35:09.777] ---- [Flow] CT_START Set
+[03:36:55.298] ---- [Flow] CT_START Set
+[04:30:25.813] ---- [Flow] CT_STOP Set
+[04:30:25.835] ---- [Event] Auto : CT_STOP
+[04:30:25.836] --------- [Monitor] StopTasks() : before m_stopped
+[04:30:26.462] --------- [Monitor] StopTasks() : m_stopped
+[04:30:26.463] [m_nState] AutoStop State
+[05:10:26.105] ---- [Flow] CT_START Set
+[05:10:26.127] ---- [Event] AutoStop : CT_START
+[05:10:26.128] [m_nState] Auto State
+[05:10:26.765] ---- [Flow] CT_START Set
+[05:17:07.150] [m_nState] Init State
+[05:17:07.162] ---- [Monitor] Init : m_idle
+[05:17:07.184] ---- [Event] Init : CT_IDLE
+[05:17:07.185] [m_nState] Idle State
+[05:17:59.771] ---- [Flow] CT_START Set
+[05:17:59.793] ---- [Event] Idle : CT_START
+[05:17:59.794] [m_nState] Auto State
+[05:18:02.660] ---- [Flow] CT_START Set
+[05:20:26.545] ---- [Flow] CT_START Set
+[05:22:44.896] ---- [Flow] CT_START Set
+[05:23:23.360] ---- [Flow] CT_START Set
+[05:24:58.491] ---- [Flow] CT_START Set
+[05:25:18.773] ---- [Flow] CT_START Set
+[05:26:08.393] ---- [Flow] CT_START Set
+[05:26:47.333] ---- [Flow] CT_START Set
+[05:30:28.465] ---- [Flow] CT_START Set
+[07:06:27.133] ---- [Flow] CT_STOP Set
+[07:06:27.156] ---- [Event] Auto : CT_STOP
+[07:06:27.157] --------- [Monitor] StopTasks() : before m_stopped
+[07:06:27.235] --------- [Monitor] StopTasks() : m_stopped
+[07:06:27.236] [m_nState] AutoStop State

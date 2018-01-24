@@ -1,0 +1,46 @@
+[03:45:16.091] ---- [Flow] CT_START Set
+[03:45:16.115] ---- [Event] AutoStop : CT_START
+[03:45:16.116] [m_nState] Auto State
+[04:36:42.095] ---- [Flow] CT_STOP Set
+[04:36:42.118] ---- [Event] Auto : CT_STOP
+[04:36:42.119] --------- [Monitor] StopTasks() : before m_stopped
+[04:36:42.137] --------- [Monitor] StopTasks() : m_stopped
+[04:36:42.138] [m_nState] AutoStop State
+[04:37:33.375] ---- [Flow] CT_START Set
+[04:37:33.398] ---- [Event] AutoStop : CT_START
+[04:37:33.399] [m_nState] Auto State
+[04:37:34.084] ---- [Flow] CT_START Set
+[05:00:09.070] ---- [Flow] CT_STOP Set
+[05:00:09.092] ---- [Event] Auto : CT_STOP
+[05:00:09.093] --------- [Monitor] StopTasks() : before m_stopped
+[05:00:09.131] --------- [Monitor] StopTasks() : m_stopped
+[05:00:09.132] [m_nState] AutoStop State
+[05:06:01.404] ---- [Flow] CT_START Set
+[05:06:01.426] ---- [Event] AutoStop : CT_START
+[05:06:01.427] [m_nState] Auto State
+[05:31:04.640] ---- [Flow] CT_STOP Set
+[05:31:04.663] ---- [Event] Auto : CT_STOP
+[05:31:04.664] --------- [Monitor] StopTasks() : before m_stopped
+[05:31:04.729] --------- [Monitor] StopTasks() : m_stopped
+[05:31:04.730] [m_nState] AutoStop State
+[05:36:06.661] ---- [Flow] CT_START Set
+[05:36:06.683] ---- [Event] AutoStop : CT_START
+[05:36:06.684] [m_nState] Auto State
+[05:42:23.772] ---- [Flow] CT_STOP Set
+[05:42:23.794] ---- [Event] Auto : CT_STOP
+[05:42:23.795] --------- [Monitor] StopTasks() : before m_stopped
+[05:42:23.820] --------- [Monitor] StopTasks() : m_stopped
+[05:42:23.821] [m_nState] AutoStop State
+[06:47:06.328] [m_nState] Init State
+[06:47:06.339] ---- [Monitor] Init : m_idle
+[06:47:06.362] ---- [Event] Init : CT_IDLE
+[06:47:06.363] [m_nState] Idle State
+[07:07:28.357] ---- [Flow] CT_START Set
+[07:07:28.379] ---- [Event] Idle : CT_START
+[07:07:28.380] [m_nState] Auto State
+[07:07:28.875] ---- [Flow] CT_START Set
+[07:17:06.416] ---- [Flow] CT_STOP Set
+[07:17:06.439] ---- [Event] Auto : CT_STOP
+[07:17:06.440] --------- [Monitor] StopTasks() : before m_stopped
+[07:17:06.503] --------- [Monitor] StopTasks() : m_stopped
+[07:17:06.504] [m_nState] AutoStop State

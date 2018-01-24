@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AceMP", "AceMP.vcxproj", "{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		UnicodeDebug|Win32 = UnicodeDebug|Win32
+		UnicodeRelease|Win32 = UnicodeRelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.Debug|Win32.Build.0 = Debug|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.Release|Win32.ActiveCfg = Release|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.Release|Win32.Build.0 = Release|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.UnicodeDebug|Win32.ActiveCfg = UnicodeDebug|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.UnicodeDebug|Win32.Build.0 = UnicodeDebug|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.UnicodeRelease|Win32.ActiveCfg = UnicodeRelease|Win32
+		{9309A076-B1EE-BBC6-2A42-BC9E8EF93A9D}.UnicodeRelease|Win32.Build.0 = UnicodeRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

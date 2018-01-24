@@ -1,0 +1,34 @@
+﻿<Controls:MetroWindow x:Class="repairhhp.Pages.Popup.Popup_detail_rate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Detail History" Height="568" Width="800"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        ResizeMode="NoResize"
+        ShowMaxRestoreButton="False"
+        WindowStartupLocation="CenterScreen" Background="#FFDDF2FF" Loaded="popupLoaded">
+    <Grid Margin="0,0,0,-2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="381*"/>
+            <ColumnDefinition Width="399*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtUN" HorizontalAlignment="Left" Height="23" Margin="0,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="49" Visibility="Hidden" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtModel" HorizontalAlignment="Left" Height="23" Margin="0,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="49" Visibility="Hidden" Grid.ColumnSpan="2"/>
+        <GroupBox Header="Detail Worst Defect" Margin="0" Padding="1,2" Background="#CC7B8DB2" Grid.ColumnSpan="2">
+            <DataGrid x:Name="dgWorst" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Margin="0,0,1,0" ColumnWidth="*" FontSize="15" MouseDoubleClick="dgWorst_MouseDoubleClick" />
+        </GroupBox>
+        <GroupBox Header="Defect Qty" Margin="3,0,1,0" Padding="1,2" Background="#CC7B8DB2" Grid.Column="2">
+            <DataGrid x:Name="dgDefect" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Margin="0,0,1,0" ColumnWidth="*" FontSize="15" MouseDoubleClick="dgDefect_MouseDoubleClick" />
+        </GroupBox>
+        <GroupBox Header="Detail Defect List" Margin="0,5,1,0" Padding="1,2" Background="#CC7B8DB2" Grid.Row="1" Grid.ColumnSpan="3">
+            <DataGrid x:Name="dgDetailPort" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Margin="0,0,1,0"  FontSize="15" />
+        </GroupBox>
+        <Button x:Name="export2Excel" Content="EXPORT TO EXCEL" Margin="292,10,313,-24" Grid.Row="2" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Grid.Column="1" Cursor="Hand" Click="export2Excel_Click" Grid.ColumnSpan="2"  />
+    </Grid>
+</Controls:MetroWindow>

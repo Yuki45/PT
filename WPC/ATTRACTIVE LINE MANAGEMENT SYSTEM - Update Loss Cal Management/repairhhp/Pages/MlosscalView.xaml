@@ -1,0 +1,74 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="repairhhp.Pages.MlosscalView" 
+             mc:Ignorable="d" Loaded="UCLoaded" d:DesignWidth="418" d:DesignHeight="395" >
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFE8F5FD" Offset="0"/>
+            <GradientStop Color="#FFDDF2FF" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid Margin="0,0,0,0" Background="#FFD3F7F7" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition MinWidth="190" Width="215"/>
+            <ColumnDefinition MinWidth="190" Width="500*"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="STANDART LOSS ANALYS" VerticalAlignment="Top" FontWeight="Bold" Height="40" Grid.Column="1" Width="215" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <DataGrid x:Name="DataGridFiles" Grid.Column="2" MinColumnWidth="100" GridLinesVisibility="All" IsReadOnly="True" Grid.Row="1" MouseDoubleClick="DataGridFiles_MouseDoubleClick" LoadingRow="DataGridFiles_LoadingRow" />
+        <Label Content="Model" HorizontalAlignment="Left" Margin="0,99,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="48" HorizontalContentAlignment="Center"/>
+        <ComboBox x:Name="cmbModel" HorizontalAlignment="Left" Margin="48,99,0,0" Grid.Row="1" VerticalAlignment="Top" Width="159" Grid.Column="1" Height="26" RenderTransformOrigin="0.463,0.462"/>
+        <Button x:Name="submitDec" Content="SEARCH" Margin="21,233,19,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF76A9F3" Height="25" Grid.Column="1" Cursor="Hand" Click="submitDec_Click"  />
+        <Button x:Name="export2Excel" Content="EXPORT TO EXCEL RATE" Margin="21,270,19,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF76F38D" Height="25" Grid.Column="1" Cursor="Hand" Click="export2Excel_Click"  />
+        <CheckBox x:Name="checkTimer" Grid.ColumnSpan="2" Content="Refresh On" HorizontalAlignment="Left" Margin="13,196,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
+        <ComboBox x:Name="cmbTime" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="101,193,0,0" Grid.Row="1" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Minutes" HorizontalAlignment="Left" Margin="151,195,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="58" HorizontalContentAlignment="Center"/>
+        <RadioButton x:Name="rdAll" Grid.ColumnSpan="2" Content="ALL" HorizontalAlignment="Left" Margin="45,162,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="rdNG" Grid.ColumnSpan="2" Content="NG" HorizontalAlignment="Left" Margin="106,162,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
+        <RadioButton x:Name="rdOK" Grid.ColumnSpan="2" Content="OK" HorizontalAlignment="Left" Margin="163,162,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="False"/>
+        <Label Content="ITEM" HorizontalAlignment="Left" Margin="0,130,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="48" HorizontalContentAlignment="Center"/>
+        <ComboBox x:Name="cmbItem" HorizontalAlignment="Left" Margin="48,130,0,0" Grid.Row="1" VerticalAlignment="Top" Width="159" Grid.Column="1" Height="26" RenderTransformOrigin="0.463,0.462"/>
+        <Button x:Name="btnUpload" Content="Upload Data" Margin="21,307,19,0" Grid.Row="1" VerticalAlignment="Top" Background="YellowGreen" Height="25" Grid.Column="1" Cursor="Hand" Click="btnUpload_Click"  />
+        <Label Grid.ColumnSpan="2" Content="SEARCH CONDITION" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="215" Height="30" Custom:ControlsHelper.ContentCharacterCasing="Upper" FontWeight="Bold"/>
+        <Label x:Name="labelStock" Content="-" Grid.Column="2" HorizontalAlignment="Left" Margin="4,8,0,0" VerticalAlignment="Top" Background="#FFF1DCC6" Height="26" Width="168"/>
+        <DatePicker x:Name="dtStart" HorizontalAlignment="Left" Margin="49,34,0,0" Grid.Row="1" VerticalAlignment="Top" Width="158" Grid.Column="1" Height="26" SelectedDate="{Binding SellStartDate, StringFormat=\{0:yyyy-MM-dd\}}">
+            <DatePicker.Resources>
+                <Style TargetType="{x:Type DatePickerTextBox}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <TextBox x:Name="dtStartText"
+        							Text="{Binding SelectedDate, RelativeSource={RelativeSource AncestorType={x:Type DatePicker}}, StringFormat=\{0:yyyy-MM-dd\}}" />
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DatePicker.Resources>
+        </DatePicker>
+        <Label Content="Start" HorizontalAlignment="Left" Margin="10,34,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="33" HorizontalContentAlignment="Right" FlowDirection="RightToLeft"/>
+        <DatePicker x:Name="dtEnd" HorizontalAlignment="Left" Margin="49,65,0,0" Grid.Row="1" VerticalAlignment="Top" Width="158" Grid.Column="1" Height="26" SelectedDate="{Binding SellStartDate, StringFormat=\{0:yyyy-MM-dd\}}">
+            <DatePicker.Resources>
+                <Style TargetType="{x:Type DatePickerTextBox}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <TextBox x:Name="dtEndText"
+        							Text="{Binding SelectedDate, RelativeSource={RelativeSource AncestorType={x:Type DatePicker}}, StringFormat=\{0:yyyy-MM-dd\}}" />
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DatePicker.Resources>
+        </DatePicker>
+        <Label Content="End" HorizontalAlignment="Left" Margin="10,65,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="23" Width="33" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,178 @@
+{
+  "testInfo0": [
+    1,
+    2,
+    4,
+    6,
+    5,
+    7
+  ],
+  "testInfo1": [],
+  "isTestDust": true,
+  "isTestLcdArea": true,
+  "isTestLcdRed": true,
+  "isTestLcdGreen": true,
+  "isTestLcdBlue": true,
+  "isTestLcdWhite": true,
+  "isTestLcdBlack": true,
+  "isTestMcd": true,
+  "isTestKeyTouch": true,
+  "isTestLedBlue": true,
+  "isTestImei": true,
+  "isTestImeiBGlass": true,
+  "isTestLogo": true,
+  "isTestLogoFront": false,
+  "isTestMem": false,
+  "isTest2DBarcode": false,
+  "sRefImgeImei": "",
+  "sRefImge_ImeiBGlass": "",
+  "sRefImge_Logo": "",
+  "sRefImge_LogoFront": "",
+  "sRefImge_Mem": "",
+  "sRefImge_2DBarcode": "",
+  "lightValueImei": 0,
+  "lightValueLogo": 20,
+  "lightValueLabel": 70,
+  "specLcdDust": {
+    "dDustThreshold": 60,
+    "dJudgeDustArea": 100000,
+    "dDustOffsetPixel": 4,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdArea": {
+    "m_DisplayRoughRoi": null,
+    "m_LedRoughRoi": {
+      "left": -330,
+      "top": 1680,
+      "right": 100,
+      "bottom": 100,
+      "width": 430,
+      "height": -1580
+    },
+    "m_BackRoughRoi": {
+      "left": 120,
+      "top": 260,
+      "right": 130,
+      "bottom": 180,
+      "width": 10,
+      "height": -80
+    },
+    "m_MenuRoughRoi": {
+      "left": 120,
+      "top": 1460,
+      "right": 130,
+      "bottom": 180,
+      "width": 10,
+      "height": -1280
+    },
+    "m_TextAreahRoi": null,
+    "m_nDisplayThreshold": 150,
+    "m_nLedThreshold": 80,
+    "m_nKeyThreshold": 40,
+    "m_nPsmSideOffset": 3,
+    "m_dDisplayRoughAreaLL": 5000000.0,
+    "m_dJudgeDisplayAreaLL": 5000000.0,
+    "m_dJudgeDisplayAreaUL": 10000000.0,
+    "m_dJudgeMenuAreaLL": 2000.0,
+    "m_dJudgeMenuAreaUL": 15000.0,
+    "m_dJudgeBackAreaLL": 2500.0,
+    "m_dJudgeBackAreaUL": 12000.0,
+    "m_dJudgeLedAreaLL": 1000.0,
+    "m_dJudgeLedAreaUL": 3200.0,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdRed": {
+    "m_nBlackDot_RFindBlackDotBlockSize": 31,
+    "m_nBlackDot_RFindBlackDotThreshold": 15.0,
+    "m_nBlackDot_RJudgeAreaLL": 10,
+    "m_nBlackDot_RPsmThreshold": 15,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdBlue": {
+    "m_nBlackDot_BFindBlackDotBlockSize": 31,
+    "m_nBlackDot_BFindBlackDotThreshold": 11,
+    "m_nBlackDot_BJudgeAreaLL": 10,
+    "m_nBlackDot_BPsmThreshold": 13,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdGreen": {
+    "m_nBlackDot_GFindBlackDotBlockSize": 31,
+    "m_nBlackDot_GFindBlackDotThreshold": 15,
+    "m_nBlackDot_GJudgeAreaLL": 10,
+    "m_nBlackDot_GPsmThreshold": 15,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdWhite": {
+    "m_dMungThreshold": 40.0,
+    "m_nMungAreaLL": 3,
+    "m_nSpecCorner": 100,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdBlack": {
+    "m_nBrightDotWH_BrBrightDotWhThreshold": 50,
+    "m_nBrightDotWH_BrBrightDotWhJudgeSizeLL": 3,
+    "m_nBrightDotWH_BrBrightDotWhJudgeAreaLL": 10,
+    "m_nBrightArea_BrBrightAreaJudgeAreaLL": 1000
+  },
+  "specRear": {
+    "LogoRegOffset": 20,
+    "Logo1MatchingRate": 70,
+    "Logo2MatchingRate": 70,
+    "m_nBarcodeThreshold": 100,
+    "m_nOcrThreshold": 100,
+    "m_nBarcodeThresIdx": 1,
+    "m_nOcrThresIdx": 0,
+    "imgLogo1Tmpl": null,
+    "imgLogo2Tmpl": null,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLcdMcd": {
+    "m_nBrightLine_McdThreshold": 0,
+    "m_nBrightLine_McdJudgeSizeLL": 0
+  },
+  "specTouchKey": {
+    "m_iDefectBoxThickness": 10,
+    "TouchKeyBrightAreaSpec": 3
+  },
+  "specTouchBackKey": {
+    "m_nBrightness_BackKeyBrightnessLowSpec": 50,
+    "m_nBrightness_BackKeyBrightnessUpperSpec": 200,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specTouchMenuKey": {
+    "m_nBrightness_MenuKeyBrightnessLowSpec": 50,
+    "m_nBrightness_MenuKeyBrightnessUpperSpec": 215,
+    "SpecMin": null,
+    "SpecMax": null
+  },
+  "specLedBlue": {
+    "m_nBrightness_BLJudgeBrightnessLL": 50,
+    "m_nBrightness_BLJudgeBrightnessUL": 230,
+    "m_nDiffWH_BLDiffThreshold": 20,
+    "m_nDiffWH_BLDiffSpecArea": 2,
+    "m_nDiffWH_BLOffsetSize": 2
+  },
+  "specExposure": {
+    "TestArea": 35000,
+    "TestDust": 35000,
+    "TestRed": 35000,
+    "TestBlue": 35000,
+    "TestGreen": 35000,
+    "TestWhite": 35000,
+    "TestImeiLabel": 35000,
+    "TestImeiLaser": 35000,
+    "TestLogo": 35000
+  },
+  "RectBarcode": "50, 50, 50, 50",
+  "RectLogo1": "50, 50, 50, 50",
+  "RectLogo2": "50, 50, 50, 50",
+  "RectOCR": "50, 50, 50, 50"
+}

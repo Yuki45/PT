@@ -1,0 +1,198 @@
+﻿Build started 11/04/2017 14:01:12.
+     1>Project "C:\EinComplex\Gui\EinComplex.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EinComplex.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /IDialog /IOcx /IComm /IMotion /I..\Mcp /I..\Mcp\Station /I..\Mcp\System /I..\AceMP\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\EinComplex.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /IDialog /IOcx /IComm /IMotion /I..\Mcp /I..\Mcp\Station /I..\Mcp\System /I..\AceMP\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\EinComplex.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Mcp\MCPController.cpp ..\Mcp\Station\LeftNGCVStation.cpp ..\Mcp\Station\LeftPPStation.cpp ..\Mcp\Station\LeftSafetyStation.cpp ..\Mcp\Station\LeftTransferStation.cpp ..\Mcp\Station\LoadCV2Station.cpp ..\Mcp\Station\LoadCVStation.cpp ..\Mcp\Station\MainControlStation.cpp ..\Mcp\Station\RightNGCVStation.cpp ..\Mcp\Station\RightPPStation.cpp ..\Mcp\Station\RightSafetyStation.cpp ..\Mcp\Station\RightTransferStation.cpp ..\Mcp\Station\UnloadCVStation.cpp ..\Mcp\System\CommSystem.cpp ..\Mcp\System\InsertCVSystem.cpp ..\Mcp\System\JigSystem.cpp ..\Mcp\System\OPSystem.cpp Comm\CommBCR.cpp Comm\CommLabelPrinter.cpp Comm\CommTester.cpp Comm\CommWorld.cpp Comm\Serial.cpp Comm\SerialHub.cpp Dialog\DlgAxisOrigin.cpp Dialog\DlgCharPad.cpp Dialog\DlgDataEdit.cpp Dialog\DlgDigitPad.cpp Dialog\DlgError.cpp Dialog\DlgInit.cpp Dialog\DlgIOMonitor.cpp Dialog\DlgLeftTrTeach.cpp Dialog\DlgLogView.cpp Dialog\DlgManualControl.cpp Dialog\DlgPpTeach.cpp Dialog\DlgProductInfo.cpp Dialog\DlgRightTrTeach.cpp Dialog\DlgSelectMode.cpp Dialog\DlgSelectTeach.cpp Dialog\DlgSixBtn.cpp EinComplex.cpp EinComplexDoc.cpp EinComplexView.cpp MainFrm.cpp Ocx\BtnEnh.cpp Ocx\CellsManager.cpp Ocx\Font.cpp Ocx\MsFlexGrid.cpp Ocx\Picture.cpp Ocx\RowCursor.cpp Ocx\SurfaceColor.cpp Ocx\TextDescriptor.cpp Ocx\Texture.cpp
+         Texture.cpp
+         TextDescriptor.cpp
+         SurfaceColor.cpp
+         RowCursor.cpp
+         Picture.cpp
+         MsFlexGrid.cpp
+         Font.cpp
+         CellsManager.cpp
+         BtnEnh.cpp
+         MainFrm.cpp
+         EinComplexView.cpp
+         EinComplexDoc.cpp
+         EinComplex.cpp
+         DlgSixBtn.cpp
+         DlgSelectTeach.cpp
+         DlgSelectMode.cpp
+         DlgRightTrTeach.cpp
+         DlgProductInfo.cpp
+         DlgPpTeach.cpp
+         DlgManualControl.cpp
+         Generating Code...
+         Compiling...
+         DlgLogView.cpp
+         DlgLeftTrTeach.cpp
+         DlgIOMonitor.cpp
+         DlgInit.cpp
+         DlgError.cpp
+         DlgDigitPad.cpp
+         DlgDataEdit.cpp
+         DlgCharPad.cpp
+         DlgAxisOrigin.cpp
+         SerialHub.cpp
+         Serial.cpp
+         CommWorld.cpp
+         CommTester.cpp
+         CommLabelPrinter.cpp
+         CommBCR.cpp
+         OPSystem.cpp
+         JigSystem.cpp
+         InsertCVSystem.cpp
+         CommSystem.cpp
+         UnloadCVStation.cpp
+         Generating Code...
+         Compiling...
+         RightTransferStation.cpp
+         RightSafetyStation.cpp
+         RightPPStation.cpp
+         RightNGCVStation.cpp
+         MainControlStation.cpp
+         LoadCVStation.cpp
+         LoadCV2Station.cpp
+         LeftTransferStation.cpp
+         LeftSafetyStation.cpp
+         LeftPPStation.cpp
+         LeftNGCVStation.cpp
+         MCPController.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\EinComplex.res" EinComplex.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EinComplex.exe.embed.manifest.res" Debug\EinComplex_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EinComplex\Gui\Debug\EinComplex.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\AceMP\Lib /LIBPATH:Motion AceMP.lib /MANIFEST /ManifestFile:"Debug\EinComplex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\EinComplex\Gui\Debug\EinComplex.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EinComplex\Gui\Debug\EinComplex.lib" /MACHINE:X86 Debug\EinComplex.res
+         Debug\EinComplex.exe.embed.manifest.res
+         Debug\MCPController.obj
+         Debug\LeftNGCVStation.obj
+         Debug\LeftPPStation.obj
+         Debug\LeftSafetyStation.obj
+         Debug\LeftTransferStation.obj
+         Debug\LoadCV2Station.obj
+         Debug\LoadCVStation.obj
+         Debug\MainControlStation.obj
+         Debug\RightNGCVStation.obj
+         Debug\RightPPStation.obj
+         Debug\RightSafetyStation.obj
+         Debug\RightTransferStation.obj
+         Debug\UnloadCVStation.obj
+         Debug\CommSystem.obj
+         Debug\InsertCVSystem.obj
+         Debug\JigSystem.obj
+         Debug\OPSystem.obj
+         Debug\CommBCR.obj
+         Debug\CommLabelPrinter.obj
+         Debug\CommTester.obj
+         Debug\CommWorld.obj
+         Debug\Serial.obj
+         Debug\SerialHub.obj
+         Debug\DlgAxisOrigin.obj
+         Debug\DlgCharPad.obj
+         Debug\DlgDataEdit.obj
+         Debug\DlgDigitPad.obj
+         Debug\DlgError.obj
+         Debug\DlgInit.obj
+         Debug\DlgIOMonitor.obj
+         Debug\DlgLeftTrTeach.obj
+         Debug\DlgLogView.obj
+         Debug\DlgManualControl.obj
+         Debug\DlgPpTeach.obj
+         Debug\DlgProductInfo.obj
+         Debug\DlgRightTrTeach.obj
+         Debug\DlgSelectMode.obj
+         Debug\DlgSelectTeach.obj
+         Debug\DlgSixBtn.obj
+         Debug\EinComplex.obj
+         Debug\EinComplexDoc.obj
+         Debug\EinComplexView.obj
+         Debug\MainFrm.obj
+         Debug\BtnEnh.obj
+         Debug\CellsManager.obj
+         Debug\Font.obj
+         Debug\MsFlexGrid.obj
+         Debug\Picture.obj
+         Debug\RowCursor.obj
+         Debug\SurfaceColor.obj
+         Debug\TextDescriptor.obj
+         Debug\Texture.obj
+         Debug\stdafx.obj
+            Creating library C:\EinComplex\Gui\Debug\EinComplex.lib and object C:\EinComplex\Gui\Debug\EinComplex.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\EinComplex.exe.embed.manifest" /manifest Debug\EinComplex.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EinComplex.exe.embed.manifest.res" Debug\EinComplex_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EinComplex\Gui\Debug\EinComplex.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\AceMP\Lib /LIBPATH:Motion AceMP.lib /MANIFEST /ManifestFile:"Debug\EinComplex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\EinComplex\Gui\Debug\EinComplex.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EinComplex\Gui\Debug\EinComplex.lib" /MACHINE:X86 Debug\EinComplex.res
+         Debug\EinComplex.exe.embed.manifest.res
+         Debug\MCPController.obj
+         Debug\LeftNGCVStation.obj
+         Debug\LeftPPStation.obj
+         Debug\LeftSafetyStation.obj
+         Debug\LeftTransferStation.obj
+         Debug\LoadCV2Station.obj
+         Debug\LoadCVStation.obj
+         Debug\MainControlStation.obj
+         Debug\RightNGCVStation.obj
+         Debug\RightPPStation.obj
+         Debug\RightSafetyStation.obj
+         Debug\RightTransferStation.obj
+         Debug\UnloadCVStation.obj
+         Debug\CommSystem.obj
+         Debug\InsertCVSystem.obj
+         Debug\JigSystem.obj
+         Debug\OPSystem.obj
+         Debug\CommBCR.obj
+         Debug\CommLabelPrinter.obj
+         Debug\CommTester.obj
+         Debug\CommWorld.obj
+         Debug\Serial.obj
+         Debug\SerialHub.obj
+         Debug\DlgAxisOrigin.obj
+         Debug\DlgCharPad.obj
+         Debug\DlgDataEdit.obj
+         Debug\DlgDigitPad.obj
+         Debug\DlgError.obj
+         Debug\DlgInit.obj
+         Debug\DlgIOMonitor.obj
+         Debug\DlgLeftTrTeach.obj
+         Debug\DlgLogView.obj
+         Debug\DlgManualControl.obj
+         Debug\DlgPpTeach.obj
+         Debug\DlgProductInfo.obj
+         Debug\DlgRightTrTeach.obj
+         Debug\DlgSelectMode.obj
+         Debug\DlgSelectTeach.obj
+         Debug\DlgSixBtn.obj
+         Debug\EinComplex.obj
+         Debug\EinComplexDoc.obj
+         Debug\EinComplexView.obj
+         Debug\MainFrm.obj
+         Debug\BtnEnh.obj
+         Debug\CellsManager.obj
+         Debug\Font.obj
+         Debug\MsFlexGrid.obj
+         Debug\Picture.obj
+         Debug\RowCursor.obj
+         Debug\SurfaceColor.obj
+         Debug\TextDescriptor.obj
+         Debug\Texture.obj
+         Debug\stdafx.obj
+         EinComplex.vcxproj -> C:\EinComplex\Gui\Debug\EinComplex.exe
+       PostBuildEvent:
+         copy Debug\EinComplex.exe .
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\EinComplex.unsuccessfulbuild".
+         Touching "Debug\EinComplex.lastbuildstate".
+     1>Done Building Project "C:\EinComplex\Gui\EinComplex.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.60

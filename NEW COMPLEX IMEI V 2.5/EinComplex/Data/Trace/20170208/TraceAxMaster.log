@@ -1,0 +1,46 @@
+[00:04:30.170] ---- [Flow] CT_START Set
+[00:04:30.194] ---- [Event] AutoStop : CT_START
+[00:04:30.195] [m_nState] Auto State
+[00:19:34.547] ---- [Flow] CT_STOP Set
+[00:19:34.570] ---- [Event] Auto : CT_STOP
+[00:19:34.571] --------- [Monitor] StopTasks() : before m_stopped
+[00:19:34.580] --------- [Monitor] StopTasks() : m_stopped
+[00:19:34.581] [m_nState] AutoStop State
+[00:24:35.758] ---- [Flow] CT_START Set
+[00:24:35.781] ---- [Event] AutoStop : CT_START
+[00:24:35.782] [m_nState] Auto State
+[00:39:42.381] ---- [Flow] CT_STOP Set
+[00:39:42.405] ---- [Event] Auto : CT_STOP
+[00:39:42.406] --------- [Monitor] StopTasks() : before m_stopped
+[00:39:42.445] --------- [Monitor] StopTasks() : m_stopped
+[00:39:42.446] [m_nState] AutoStop State
+[01:41:53.166] ---- [Flow] CT_START Set
+[01:41:53.188] ---- [Event] AutoStop : CT_START
+[01:41:53.189] [m_nState] Auto State
+[01:41:54.177] ---- [Flow] CT_START Set
+[04:59:25.799] ---- [Flow] CT_STOP Set
+[04:59:25.822] ---- [Event] Auto : CT_STOP
+[04:59:25.823] --------- [Monitor] StopTasks() : before m_stopped
+[04:59:26.128] --------- [Monitor] StopTasks() : m_stopped
+[04:59:26.129] [m_nState] AutoStop State
+[05:14:02.957] ---- [Flow] CT_START Set
+[05:14:02.979] ---- [Event] AutoStop : CT_START
+[05:14:02.980] [m_nState] Auto State
+[05:14:03.433] ---- [Flow] CT_START Set
+[06:36:46.490] ---- [Flow] CT_STOP Set
+[06:36:46.512] ---- [Event] Auto : CT_STOP
+[06:36:46.513] --------- [Monitor] StopTasks() : before m_stopped
+[06:36:46.541] --------- [Monitor] StopTasks() : m_stopped
+[06:36:46.542] [m_nState] AutoStop State
+[06:36:46.681] ---- [Flow] CT_STOP Set
+[06:36:46.791] ---- [Flow] CT_STOP Set
+[14:19:29.974] ---- [Flow] CT_STOP Set
+[14:19:30.086] ---- [Flow] CT_STOP Set
+[14:44:47.903] ---- [Flow] CT_START Set
+[14:44:47.925] ---- [Event] AutoStop : CT_START
+[14:44:47.926] [m_nState] Auto State
+[14:44:51.290] ---- [Flow] CT_STOP Set
+[14:44:51.312] ---- [Event] Auto : CT_STOP
+[14:44:51.313] --------- [Monitor] StopTasks() : before m_stopped
+[14:44:51.350] --------- [Monitor] StopTasks() : m_stopped
+[14:44:51.351] [m_nState] AutoStop State

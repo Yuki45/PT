@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD9292F9-3390-4900-8E2D-044615922332}</ProjectGuid>
+    <RootNamespace>EinComplex</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;Dialog;Ocx;Comm;Motion;..\Mcp;..\Mcp\Station;..\Mcp\System;..\AceMP\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\AceMP\Lib;Motion</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AceMP.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy Debug\EinComplex.exe .</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="res\EinComplex.ico" />
+    <None Include="res\EinComplex.rc2" />
+    <None Include="res\EinComplexDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Mcp\MCPController.h" />
+    <ClInclude Include="..\Mcp\Station\LeftNGCVStation.h" />
+    <ClInclude Include="..\Mcp\Station\LeftPPStation.h" />
+    <ClInclude Include="..\Mcp\Station\LeftSafetyStation.h" />
+    <ClInclude Include="..\Mcp\Station\LeftTransferStation.h" />
+    <ClInclude Include="..\Mcp\Station\LoadCV2Station.h" />
+    <ClInclude Include="..\Mcp\Station\LoadCVStation.h" />
+    <ClInclude Include="..\Mcp\Station\MainControlStation.h" />
+    <ClInclude Include="..\Mcp\Station\RightNGCVStation.h" />
+    <ClInclude Include="..\Mcp\Station\RightPPStation.h" />
+    <ClInclude Include="..\Mcp\Station\RightSafetyStation.h" />
+    <ClInclude Include="..\Mcp\Station\RightTransferStation.h" />
+    <ClInclude Include="..\Mcp\Station\UnloadCVStation.h" />
+    <ClInclude Include="..\Mcp\System\CommSystem.h" />
+    <ClInclude Include="..\Mcp\System\InsertCVSystem.h" />
+    <ClInclude Include="..\Mcp\System\JigSystem.h" />
+    <ClInclude Include="..\Mcp\System\OPSystem.h" />
+    <ClInclude Include="Comm\CommBCR.h" />
+    <ClInclude Include="Comm\CommLabelPrinter.h" />
+    <ClInclude Include="Comm\CommTester.h" />
+    <ClInclude Include="Comm\CommWorld.h" />
+    <ClInclude Include="Comm\Serial.h" />
+    <ClInclude Include="Comm\SerialHub.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Dialog\DlgAxisOrigin.h" />
+    <ClInclude Include="Dialog\DlgCharPad.h" />
+    <ClInclude Include="Dialog\DlgDataEdit.h" />
+    <ClInclude Include="Dialog\DlgDigitPad.h" />
+    <ClInclude Include="Dialog\DlgError.h" />
+    <ClInclude Include="Dialog\DlgInit.h" />
+    <ClInclude Include="Dialog\DlgIOMonitor.h" />
+    <ClInclude Include="Dialog\DlgLeftTrTeach.h" />
+    <ClInclude Include="Dialog\DlgLogView.h" />
+    <ClInclude Include="Dialog\DlgManualControl.h" />
+    <ClInclude Include="Dialog\DlgPpTeach.h" />
+    <ClInclude Include="Dialog\DlgProductInfo.h" />
+    <ClInclude Include="Dialog\DlgRightTrTeach.h" />
+    <ClInclude Include="Dialog\DlgSelectMode.h" />
+    <ClInclude Include="Dialog\DlgSelectTeach.h" />
+    <ClInclude Include="Dialog\DlgSixBtn.h" />
+    <ClInclude Include="EinComplex.h" />
+    <ClInclude Include="EinComplexDoc.h" />
+    <ClInclude Include="EinComplexView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Motion\COMM_Define.h" />
+    <ClInclude Include="Motion\FAS_EziMOTIONPlusR.h" />
+    <ClInclude Include="Motion\MOTION_DEFINE.h" />
+    <ClInclude Include="Motion\ReturnCodes_Define.h" />
+    <ClInclude Include="Ocx\BtnEnh.h" />
+    <ClInclude Include="Ocx\CellsManager.h" />
+    <ClInclude Include="Ocx\Font.h" />
+    <ClInclude Include="Ocx\MsFlexGrid.h" />
+    <ClInclude Include="Ocx\Picture.h" />
+    <ClInclude Include="Ocx\RowCursor.h" />
+    <ClInclude Include="Ocx\SurfaceColor.h" />
+    <ClInclude Include="Ocx\TextDescriptor.h" />
+    <ClInclude Include="Ocx\Texture.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Mcp\MCPController.cpp" />
+    <ClCompile Include="..\Mcp\Station\LeftNGCVStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\LeftPPStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\LeftSafetyStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\LeftTransferStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\LoadCV2Station.cpp" />
+    <ClCompile Include="..\Mcp\Station\LoadCVStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\MainControlStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\RightNGCVStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\RightPPStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\RightSafetyStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\RightTransferStation.cpp" />
+    <ClCompile Include="..\Mcp\Station\UnloadCVStation.cpp" />
+    <ClCompile Include="..\Mcp\System\CommSystem.cpp" />
+    <ClCompile Include="..\Mcp\System\InsertCVSystem.cpp" />
+    <ClCompile Include="..\Mcp\System\JigSystem.cpp" />
+    <ClCompile Include="..\Mcp\System\OPSystem.cpp" />
+    <ClCompile Include="Comm\CommBCR.cpp" />
+    <ClCompile Include="Comm\CommLabelPrinter.cpp" />
+    <ClCompile Include="Comm\CommTester.cpp" />
+    <ClCompile Include="Comm\CommWorld.cpp" />
+    <ClCompile Include="Comm\Serial.cpp" />
+    <ClCompile Include="Comm\SerialHub.cpp" />
+    <ClCompile Include="Dialog\DlgAxisOrigin.cpp" />
+    <ClCompile Include="Dialog\DlgCharPad.cpp" />
+    <ClCompile Include="Dialog\DlgDataEdit.cpp" />
+    <ClCompile Include="Dialog\DlgDigitPad.cpp" />
+    <ClCompile Include="Dialog\DlgError.cpp" />
+    <ClCompile Include="Dialog\DlgInit.cpp" />
+    <ClCompile Include="Dialog\DlgIOMonitor.cpp" />
+    <ClCompile Include="Dialog\DlgLeftTrTeach.cpp" />
+    <ClCompile Include="Dialog\DlgLogView.cpp" />
+    <ClCompile Include="Dialog\DlgManualControl.cpp" />
+    <ClCompile Include="Dialog\DlgPpTeach.cpp" />
+    <ClCompile Include="Dialog\DlgProductInfo.cpp" />
+    <ClCompile Include="Dialog\DlgRightTrTeach.cpp" />
+    <ClCompile Include="Dialog\DlgSelectMode.cpp" />
+    <ClCompile Include="Dialog\DlgSelectTeach.cpp" />
+    <ClCompile Include="Dialog\DlgSixBtn.cpp" />
+    <ClCompile Include="EinComplex.cpp" />
+    <ClCompile Include="EinComplexDoc.cpp" />
+    <ClCompile Include="EinComplexView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Ocx\BtnEnh.cpp" />
+    <ClCompile Include="Ocx\CellsManager.cpp" />
+    <ClCompile Include="Ocx\Font.cpp" />
+    <ClCompile Include="Ocx\MsFlexGrid.cpp" />
+    <ClCompile Include="Ocx\Picture.cpp" />
+    <ClCompile Include="Ocx\RowCursor.cpp" />
+    <ClCompile Include="Ocx\SurfaceColor.cpp" />
+    <ClCompile Include="Ocx\TextDescriptor.cpp" />
+    <ClCompile Include="Ocx\Texture.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EinComplex.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EinComplex.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

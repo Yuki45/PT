@@ -1,0 +1,47 @@
+[12:39:53.211] [m_nState] Init State
+[12:39:53.223] ---- [Monitor] Init : m_idle
+[12:39:53.245] ---- [Event] Init : CT_IDLE
+[12:39:53.246] [m_nState] Idle State
+[12:40:44.074] ---- [Flow] CT_START Set
+[12:40:44.097] ---- [Event] Idle : CT_START
+[12:40:44.098] [m_nState] Auto State
+[12:40:45.248] ---- [Flow] CT_START Set
+[12:41:20.044] ---- [Flow] CT_STOP Set
+[12:41:20.066] ---- [Event] Auto : CT_STOP
+[12:41:20.067] --------- [Monitor] StopTasks() : before m_stopped
+[12:41:20.123] --------- [Monitor] StopTasks() : m_stopped
+[12:41:20.124] [m_nState] AutoStop State
+[12:42:28.121] ---- [Flow] CT_ABORT Set
+[12:42:28.173] [m_nState] Init State
+[12:42:28.226] ---- [Monitor] Init : m_idle
+[12:42:28.249] ---- [Event] Init : CT_IDLE
+[12:42:28.250] [m_nState] Idle State
+[12:42:43.264] ---- [Flow] CT_START Set
+[12:42:43.286] ---- [Event] Idle : CT_START
+[12:42:43.287] [m_nState] Auto State
+[12:43:00.129] ---- [Flow] CT_START Set
+[12:43:08.819] ---- [Flow] CT_START Set
+[12:43:21.675] ---- [Flow] CT_STOP Set
+[12:43:21.697] ---- [Event] Auto : CT_STOP
+[12:43:21.698] --------- [Monitor] StopTasks() : before m_stopped
+[12:43:21.782] --------- [Monitor] StopTasks() : m_stopped
+[12:43:21.783] [m_nState] AutoStop State
+[12:43:21.795] ---- [Flow] CT_STOP Set
+[13:39:10.053] ---- [Flow] CT_START Set
+[13:39:10.075] ---- [Event] AutoStop : CT_START
+[13:39:10.076] [m_nState] Auto State
+[13:39:13.739] ---- [Flow] CT_START Set
+[13:39:15.165] ---- [Flow] CT_STOP Set
+[13:39:15.187] ---- [Event] Auto : CT_STOP
+[13:39:15.188] --------- [Monitor] StopTasks() : before m_stopped
+[13:39:15.227] ---- [Flow] CT_STOP Set
+[13:39:15.231] --------- [Monitor] StopTasks() : m_stopped
+[13:39:15.232] [m_nState] AutoStop State
+[13:39:15.265] ---- [Flow] CT_STOP Set
+[13:39:15.300] ---- [Flow] CT_STOP Set
+[13:56:36.820] ---- [Flow] CT_ABORT Set
+[13:56:36.872] [m_nState] Init State
+[13:56:36.901] ---- [Monitor] Init : m_idle
+[13:56:36.924] ---- [Event] Init : CT_IDLE
+[13:56:36.925] [m_nState] Idle State
+[20:16:54.123] ---- [Flow] CT_STOP Set

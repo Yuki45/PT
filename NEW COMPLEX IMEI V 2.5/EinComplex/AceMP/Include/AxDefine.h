@@ -1,0 +1,158 @@
+#ifndef __AX_DEFINE_H__
+#define __AX_DEFINE_H__
+
+#pragma once
+
+#define AX_MAX_SOCK_BUFF 10000
+#define AX_MAX_COM_BUFF  512
+
+#define ON	(BOOL)1
+#define OFF (BOOL)0
+
+typedef enum {
+	AX_TS_INIT = 0,
+	AX_TS_IDLE,
+	AX_TS_AUTO,
+	AX_TS_ASTOP,	// AUTO STOP
+	AX_TS_AERROR,	// AUTO ERROR
+	AX_TS_MANUAL,
+	AX_TS_MSTOP,	// MANUAL STOP
+	AX_TS_MERROR	// MANUAL ERROR
+} EMTaskState;
+
+typedef enum {
+	AX_CT_START,
+	AX_CT_STOP,
+	AX_CT_STOP_END,		// only control
+	AX_CT_ABORT,
+	AX_CT_IDLE,
+	AX_CT_CMD,
+	AX_CT_CMD_DONE,  
+	AX_CT_WARNING,
+	AX_CT_WARNING_ING,	// only control
+	AX_CT_ERROR,
+	AX_CT_ERROR_ING,	// only control
+	AX_CT_SEMISTART,	// only master
+	AX_CT_ABORT_MNL,	// only master
+	AX_NUM_CT
+} EMControlType;
+
+typedef enum {
+	AX_TG_NONE,
+	AX_TG_SERVICE,
+	AX_TG_SYSTEM,
+	AX_TG_STATION
+} EMTaskGroup;
+
+typedef enum {
+	AX_NO_RUN = 0,
+	AX_PRI_RUN,
+	AX_SEC_RUN
+} EMRunMode;
+
+enum {
+	AX_NO_CMD			= -1,
+	AX_MAX_WAIT_EVTS	= 64,
+	AX_WAIT_INTERVAL	= 50
+};
+
+typedef enum {
+	AX_ER_NONE	   = 0x0000,
+	AX_ER_OK	   = 0x0001,
+	AX_ER_CANCEL   = 0x0002,
+	AX_ER_ABORT	   = 0x0004,
+	AX_ER_RETRY	   = 0x0008,
+	AX_ER_IGNORE   = 0x0010,
+	AX_ER_YES	   = 0x0020,
+	AX_ER_NO	   = 0x0040,
+	AX_ER_CONTINUE = 0x0080
+} EMErrorRespose;
+
+enum _AX_VAR_OPERATOR {
+	AX_EQUAL = 0,	// ==
+	AX_NOT_EQUAL,	// !=
+	AX_BIT_EQUAL,	// multi bit, bit mask
+	AX_BIT_ON,		// 1 bit, bit index
+	AX_BIT_OFF,		// 1 bit, bit index
+	AX_GEQUAL,		// >=
+	AX_GREATER,		// >
+	AX_LEQUAL,		// <=
+	AX_LESS			// <
+};
+
+enum _AX_MOTION_TIMEOUT {
+	AX_MOTION_SCAN_TIMEOUT		= 50,
+	AX_MOTION_SETTLE_TIMEOUT	= 50,
+	AX_MOTION_ERROR_TIMEOUT		= 200,
+	AX_MOTION_TIMEOUT			= 10000
+};
+
+enum _AX_SRC_TIMEOUT {
+	AX_SRC_SCAN_TIMEOUT	= 50,
+	AX_SRC_TIMEOUT		= 10000
+};
+
+enum _AX_SRC_PROTOCOL {
+	AX_SRC_ROBOT_START = 101,
+	AX_SRC_FOLD_ARM,
+	AX_SRC_PRE_PHO,
+	AX_SRC_CONT_GET,
+	AX_SRC_CONT_PUT,
+	AX_SRC_EXCHANGE,
+	AX_SRC_CONTEXCHANGE,
+	AX_SRC_MAPPING,			//For using Cell
+	AX_SRC_JOBCHANGE,
+	AX_SRC_GETPUT,
+	AX_SRC_PUTGET
+};
+
+enum _AX_SRC_RCODE {
+	AX_SRC_NONE		= 0,
+	AX_SRC_GET_P	= 1,
+	AX_SRC_GET_E,
+	AX_SRC_GET_U,
+	AX_SRC_GET_R,
+	AX_SRC_PUT_P	= 1,
+	AX_SRC_PUT_E,
+	AX_SRC_PUT_D,
+	AX_SRC_PUT_R,
+	AX_SRC_EXG_P	= 1,
+	AX_SRC_EXG_E,
+	AX_SRC_EXG_U,
+	AX_SRC_EXG_D,
+	AX_SRC_EXG_R
+};
+
+enum _AX_MODULE_TYPE {
+	AX_MT_PM = 0,
+	AX_MT_CM
+};
+
+enum _AX_SYSTEM_ERROR {
+	AX_SE_AIR_OFF		= 0,
+	AX_SE_POWER_OFF		= 50,
+	AX_SE_DOOR_OFF		= 100,
+	AX_SE_VACUUM_OFF	= 150,
+	AX_SE_AREA_OFF		= 200,
+	AX_SE_EMG_OFF		= 250,
+	AX_SE_LAST			= 300
+};
+
+enum _AX_SERIAL_COM_DEFINE {
+	AX_SC_ASCII_XON		= 0x11,
+	AX_SC_ASCII_XOFF	= 0x13
+};
+
+enum _AX_IO_SCANNER_TYPE {
+	AX_IO_HILSCHER,
+	AX_IO_MMC,
+	AX_IO_YS6016,
+	AX_IO_CCLINK
+};
+
+enum _AX_NET_DRIVER_TYPE {
+	AX_NET_MELSECNET,
+	AX_NET_ETHERNET
+};
+
+#endif

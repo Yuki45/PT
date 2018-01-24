@@ -1,0 +1,223 @@
+[10:58:55.808] ---- [Flow] CT_START Set
+[10:58:55.831] ---- [Event] AutoStop : CT_START
+[10:58:55.832] [m_nState] Auto State
+[10:58:56.904] ---- [Flow] CT_START Set
+[10:59:31.602] ---- [Flow] CT_START Set
+[11:09:08.669] ---- [Flow] CT_START Set
+[11:12:20.946] ---- [Flow] CT_START Set
+[11:13:11.961] ---- [Flow] CT_STOP Set
+[11:13:11.984] ---- [Event] Auto : CT_STOP
+[11:13:11.984] --------- [Monitor] StopTasks() : before m_stopped
+[11:13:12.018] --------- [Monitor] StopTasks() : m_stopped
+[11:13:12.019] [m_nState] AutoStop State
+[11:13:30.157] [m_nState] Init State
+[11:13:30.169] ---- [Monitor] Init : m_idle
+[11:13:30.192] ---- [Event] Init : CT_IDLE
+[11:13:30.192] [m_nState] Idle State
+[11:14:12.905] ---- [Flow] CT_START Set
+[11:14:12.928] ---- [Event] Idle : CT_START
+[11:14:12.929] [m_nState] Auto State
+[11:14:13.953] ---- [Flow] CT_START Set
+[11:18:56.898] ---- [Flow] CT_START Set
+[11:25:11.743] ---- [Flow] CT_STOP Set
+[11:25:11.766] ---- [Event] Auto : CT_STOP
+[11:25:11.767] --------- [Monitor] StopTasks() : before m_stopped
+[11:25:11.850] --------- [Monitor] StopTasks() : m_stopped
+[11:25:11.851] [m_nState] AutoStop State
+[11:25:16.872] ---- [Flow] CT_START Set
+[11:25:16.895] ---- [Event] AutoStop : CT_START
+[11:25:16.896] [m_nState] Auto State
+[11:25:46.465] ---- [Flow] CT_STOP Set
+[11:25:46.487] ---- [Event] Auto : CT_STOP
+[11:25:46.488] --------- [Monitor] StopTasks() : before m_stopped
+[11:25:46.525] --------- [Monitor] StopTasks() : m_stopped
+[11:25:46.525] [m_nState] AutoStop State
+[11:26:24.464] ---- [Flow] CT_START Set
+[11:26:24.486] ---- [Event] AutoStop : CT_START
+[11:26:24.487] [m_nState] Auto State
+[11:26:26.179] ---- [Flow] CT_STOP Set
+[11:26:26.201] ---- [Event] Auto : CT_STOP
+[11:26:26.202] --------- [Monitor] StopTasks() : before m_stopped
+[11:26:26.203] --------- [Monitor] StopTasks() : m_stopped
+[11:26:26.204] [m_nState] AutoStop State
+[11:26:26.230] ---- [Flow] CT_STOP Set
+[11:26:38.431] ---- [Flow] CT_START Set
+[11:26:38.453] ---- [Event] AutoStop : CT_START
+[11:26:38.454] [m_nState] Auto State
+[11:26:53.225] ---- [Flow] CT_START Set
+[11:27:00.874] ---- [Flow] CT_STOP Set
+[11:27:00.897] ---- [Event] Auto : CT_STOP
+[11:27:00.898] --------- [Monitor] StopTasks() : before m_stopped
+[11:27:00.920] ---- [Flow] CT_STOP Set
+[11:27:00.963] ---- [Flow] CT_STOP Set
+[11:27:00.976] --------- [Monitor] StopTasks() : m_stopped
+[11:27:00.977] [m_nState] AutoStop State
+[11:27:01.002] ---- [Flow] CT_STOP Set
+[11:27:24.598] ---- [Flow] CT_START Set
+[11:27:24.620] ---- [Event] AutoStop : CT_START
+[11:27:24.621] [m_nState] Auto State
+[11:27:42.210] ---- [Flow] CT_STOP Set
+[11:27:42.233] ---- [Event] Auto : CT_STOP
+[11:27:42.234] --------- [Monitor] StopTasks() : before m_stopped
+[11:27:42.265] --------- [Monitor] StopTasks() : m_stopped
+[11:27:42.266] [m_nState] AutoStop State
+[11:27:42.784] ---- [Flow] CT_START Set
+[11:27:42.807] ---- [Event] AutoStop : CT_START
+[11:27:42.808] [m_nState] Auto State
+[11:28:28.503] ---- [Flow] CT_STOP Set
+[11:28:28.525] ---- [Event] Auto : CT_STOP
+[11:28:28.526] --------- [Monitor] StopTasks() : before m_stopped
+[11:28:28.609] --------- [Monitor] StopTasks() : m_stopped
+[11:28:28.610] [m_nState] AutoStop State
+[11:28:29.216] ---- [Flow] CT_START Set
+[11:28:29.238] ---- [Event] AutoStop : CT_START
+[11:28:29.239] [m_nState] Auto State
+[11:29:29.125] ---- [Flow] CT_STOP Set
+[11:29:29.148] ---- [Event] Auto : CT_STOP
+[11:29:29.149] --------- [Monitor] StopTasks() : before m_stopped
+[11:29:29.169] --------- [Monitor] StopTasks() : m_stopped
+[11:29:29.170] [m_nState] AutoStop State
+[11:29:29.204] ---- [Flow] CT_STOP Set
+[11:29:29.239] ---- [Flow] CT_STOP Set
+[11:29:46.100] ---- [Flow] CT_START Set
+[11:29:46.122] ---- [Event] AutoStop : CT_START
+[11:29:46.123] [m_nState] Auto State
+[11:30:08.995] ---- [Flow] CT_STOP Set
+[11:30:09.018] ---- [Event] Auto : CT_STOP
+[11:30:09.019] --------- [Monitor] StopTasks() : before m_stopped
+[11:30:09.047] --------- [Monitor] StopTasks() : m_stopped
+[11:30:09.048] [m_nState] AutoStop State
+[11:33:54.173] [m_nState] Init State
+[11:33:54.185] ---- [Monitor] Init : m_idle
+[11:33:54.207] ---- [Event] Init : CT_IDLE
+[11:33:54.208] [m_nState] Idle State
+[11:34:27.808] ---- [Flow] CT_START Set
+[11:34:27.830] ---- [Event] Idle : CT_START
+[11:34:27.831] [m_nState] Auto State
+[11:34:32.761] ---- [Flow] CT_START Set
+[11:34:35.036] ---- [Flow] CT_STOP Set
+[11:34:35.059] ---- [Event] Auto : CT_STOP
+[11:34:35.060] --------- [Monitor] StopTasks() : before m_stopped
+[11:34:50.680] --------- [Monitor] StopTasks() : m_stopped
+[11:34:50.681] [m_nState] AutoStop State
+[11:47:15.212] ---- [Flow] CT_START Set
+[11:47:15.234] ---- [Event] AutoStop : CT_START
+[11:47:15.235] [m_nState] Auto State
+[11:47:31.650] ---- [Flow] CT_STOP Set
+[11:47:31.673] ---- [Event] Auto : CT_STOP
+[11:47:31.674] --------- [Monitor] StopTasks() : before m_stopped
+[11:47:31.679] --------- [Monitor] StopTasks() : m_stopped
+[11:47:31.680] [m_nState] AutoStop State
+[11:47:42.329] ---- [Flow] CT_START Set
+[11:47:42.352] ---- [Event] AutoStop : CT_START
+[11:47:42.353] [m_nState] Auto State
+[11:47:44.700] ---- [Flow] CT_START Set
+[11:47:54.069] ---- [Flow] CT_START Set
+[11:48:22.204] ---- [Flow] CT_START Set
+[11:48:42.338] ---- [Flow] CT_STOP Set
+[11:48:42.360] ---- [Event] Auto : CT_STOP
+[11:48:42.361] --------- [Monitor] StopTasks() : before m_stopped
+[11:48:42.487] --------- [Monitor] StopTasks() : m_stopped
+[11:48:42.488] [m_nState] AutoStop State
+[12:04:47.542] ---- [Flow] CT_START Set
+[12:04:47.565] ---- [Event] AutoStop : CT_START
+[12:04:47.566] [m_nState] Auto State
+[12:05:21.062] ---- [Flow] CT_START Set
+[12:05:30.409] ---- [Flow] CT_START Set
+[12:17:14.197] ---- [Flow] CT_START Set
+[12:21:52.367] ---- [Flow] CT_STOP Set
+[12:21:52.390] ---- [Event] Auto : CT_STOP
+[12:21:52.391] --------- [Monitor] StopTasks() : before m_stopped
+[12:21:52.400] --------- [Monitor] StopTasks() : m_stopped
+[12:21:52.400] [m_nState] AutoStop State
+[12:21:58.377] ---- [Flow] CT_START Set
+[12:21:58.400] ---- [Event] AutoStop : CT_START
+[12:21:58.400] [m_nState] Auto State
+[12:22:50.986] ---- [Flow] CT_STOP Set
+[12:22:51.009] ---- [Event] Auto : CT_STOP
+[12:22:51.010] --------- [Monitor] StopTasks() : before m_stopped
+[12:22:51.070] ---- [Flow] CT_STOP Set
+[12:22:51.694] --------- [Monitor] StopTasks() : m_stopped
+[12:22:51.695] [m_nState] AutoStop State
+[12:22:56.871] ---- [Flow] CT_START Set
+[12:22:56.894] ---- [Event] AutoStop : CT_START
+[12:22:56.895] [m_nState] Auto State
+[12:23:02.940] ---- [Flow] CT_START Set
+[12:24:01.657] ---- [Flow] CT_STOP Set
+[12:24:01.680] ---- [Event] Auto : CT_STOP
+[12:24:01.681] --------- [Monitor] StopTasks() : before m_stopped
+[12:24:01.731] ---- [Flow] CT_STOP Set
+[12:24:01.743] --------- [Monitor] StopTasks() : m_stopped
+[12:24:01.744] [m_nState] AutoStop State
+[12:24:01.765] ---- [Flow] CT_STOP Set
+[12:25:46.965] ---- [Flow] CT_START Set
+[12:25:46.987] ---- [Event] AutoStop : CT_START
+[12:25:46.988] [m_nState] Auto State
+[12:26:52.055] ---- [Flow] CT_STOP Set
+[12:26:52.077] ---- [Event] Auto : CT_STOP
+[12:26:52.078] --------- [Monitor] StopTasks() : before m_stopped
+[12:26:52.118] --------- [Monitor] StopTasks() : m_stopped
+[12:26:52.119] [m_nState] AutoStop State
+[12:26:52.122] ---- [Flow] CT_STOP Set
+[12:26:52.155] ---- [Flow] CT_STOP Set
+[13:27:34.871] [m_nState] Init State
+[13:27:34.883] ---- [Monitor] Init : m_idle
+[13:27:34.905] ---- [Event] Init : CT_IDLE
+[13:27:34.906] [m_nState] Idle State
+[15:06:37.988] ---- [Flow] CT_START Set
+[15:06:38.011] ---- [Event] Idle : CT_START
+[15:06:38.012] [m_nState] Auto State
+[15:06:38.797] ---- [Flow] CT_START Set
+[15:06:56.054] ---- [Flow] CT_STOP Set
+[15:06:56.076] ---- [Event] Auto : CT_STOP
+[15:06:56.077] --------- [Monitor] StopTasks() : before m_stopped
+[15:06:56.127] --------- [Monitor] StopTasks() : m_stopped
+[15:06:56.129] [m_nState] AutoStop State
+[15:06:56.147] ---- [Flow] CT_STOP Set
+[15:06:56.258] ---- [Flow] CT_STOP Set
+[15:07:15.223] ---- [Flow] CT_STOP Set
+[15:07:41.393] ---- [Flow] CT_START Set
+[15:07:41.415] ---- [Event] AutoStop : CT_START
+[15:07:41.416] [m_nState] Auto State
+[15:07:42.205] ---- [Flow] CT_START Set
+[15:20:59.257] ---- [Flow] CT_STOP Set
+[15:20:59.280] ---- [Event] Auto : CT_STOP
+[15:20:59.281] --------- [Monitor] StopTasks() : before m_stopped
+[15:20:59.371] --------- [Monitor] StopTasks() : m_stopped
+[15:20:59.372] [m_nState] AutoStop State
+[15:57:16.627] ---- [Flow] CT_START Set
+[15:57:16.650] ---- [Event] AutoStop : CT_START
+[15:57:16.650] [m_nState] Auto State
+[15:57:17.806] ---- [Flow] CT_START Set
+[16:05:59.266] ---- [Flow] CT_STOP Set
+[16:05:59.288] ---- [Event] Auto : CT_STOP
+[16:05:59.289] --------- [Monitor] StopTasks() : before m_stopped
+[16:05:59.346] --------- [Monitor] StopTasks() : m_stopped
+[16:05:59.347] [m_nState] AutoStop State
+[17:01:46.441] ---- [Flow] CT_START Set
+[17:01:46.463] ---- [Event] AutoStop : CT_START
+[17:01:46.464] [m_nState] Auto State
+[17:01:47.197] ---- [Flow] CT_START Set
+[17:05:59.291] ---- [Flow] CT_STOP Set
+[17:05:59.314] ---- [Event] Auto : CT_STOP
+[17:05:59.315] --------- [Monitor] StopTasks() : before m_stopped
+[17:05:59.400] --------- [Monitor] StopTasks() : m_stopped
+[17:05:59.401] [m_nState] AutoStop State
+[17:19:40.436] ---- [Flow] CT_START Set
+[17:19:40.458] ---- [Event] AutoStop : CT_START
+[17:19:40.459] [m_nState] Auto State
+[17:19:41.093] ---- [Flow] CT_START Set
+[17:20:59.293] ---- [Flow] CT_STOP Set
+[17:20:59.316] ---- [Event] Auto : CT_STOP
+[17:20:59.317] --------- [Monitor] StopTasks() : before m_stopped
+[17:20:59.374] --------- [Monitor] StopTasks() : m_stopped
+[17:20:59.375] [m_nState] AutoStop State
+[17:28:03.506] ---- [Flow] CT_START Set
+[17:28:03.528] ---- [Event] AutoStop : CT_START
+[17:28:03.529] [m_nState] Auto State
+[17:28:04.360] ---- [Flow] CT_START Set
+[17:35:59.300] ---- [Flow] CT_STOP Set
+[17:35:59.322] ---- [Event] Auto : CT_STOP
+[17:35:59.323] --------- [Monitor] StopTasks() : before m_stopped
+[17:35:59.361] --------- [Monitor] StopTasks() : m_stopped
+[17:35:59.362] [m_nState] AutoStop State

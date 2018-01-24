@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61D4CD22-1882-4288-895B-37D8EE65D73D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hms</RootNamespace>
+    <AssemblyName>hms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>\\107.102.47.115\webroot\HMS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://107.102.47.115/HMS/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.html</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>50</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>ABC677005BDA0224CC1C340A26784C2A42F0AA59</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ALMS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>prod.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks, Version=1.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.IconPacks.1.9.1\lib\net45\MahApps.Metro.IconPacks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>..\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit">
+      <HintPath>..\WPFToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\Attractive.cs" />
+    <Compile Include="Controls\CFilterAgent.cs" />
+    <Compile Include="Controls\Losscal.cs" />
+    <Compile Include="Controls\Mstorage.cs" />
+    <Compile Include="Controls\Machine.cs" />
+    <Compile Include="Controls\CMdmEpass.cs" />
+    <Compile Include="Controls\Mdm.cs" />
+    <Compile Include="Controls\Exceptional.cs" />
+    <Compile Include="Controls\Clearance.cs" />
+    <Compile Include="Controls\Profile.cs" />
+    <Compile Include="Controls\Transaction.cs" />
+    <Compile Include="Controls\Execution.cs" />
+    <Compile Include="Controls\Transfer.cs" />
+    <Compile Include="Controls\Released.cs" />
+    <Compile Include="Dashboard2.xaml.cs">
+      <DependentUpon>Dashboard2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DelegateCommand.cs" />
+    <Compile Include="Inifiles.cs" />
+    <Compile Include="Models\AttractiveLine.cs" />
+    <Compile Include="Models\FilterAgent.cs" />
+    <Compile Include="Models\HWVersion.cs" />
+    <Compile Include="Models\Mstorage.cs" />
+    <Compile Include="Models\MdmMEpass.cs" />
+    <Compile Include="Models\MdmDefect.cs" />
+    <Compile Include="Models\MdmCause.cs" />
+    <Compile Include="Models\ExecutionAbolish.cs" />
+    <Compile Include="Models\ClearanceUN.cs" />
+    <Compile Include="Models\Machine.cs" />
+    <Compile Include="Models\Mtrackingws.cs" />
+    <Compile Include="Models\Mtracking.cs" />
+    <Compile Include="Models\Mlosscal.cs" />
+    <Compile Include="Models\RFCal.cs" />
+    <Compile Include="Models\TransCancel.cs" />
+    <Compile Include="Models\ExecutionGI.cs" />
+    <Compile Include="Models\ChangeRepair.cs" />
+    <Compile Include="Models\Exceptional.cs" />
+    <Compile Include="Models\TransferRC.cs" />
+    <Compile Include="Models\TransferPE.cs" />
+    <Compile Include="Models\Released.cs" />
+    <Compile Include="Models\Receipt.cs" />
+    <Compile Include="Models\HomePage.cs" />
+    <Compile Include="Models\Dashboard.cs" />
+    <Compile Include="Models\MainWindow.cs" />
+    <Compile Include="Models\WPC.cs" />
+    <Compile Include="Pages\AttrLine.xaml.cs">
+      <DependentUpon>AttrLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HWVersionView.xaml.cs">
+      <DependentUpon>HWVersionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Machine.xaml.cs">
+      <DependentUpon>Machine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FilterAgentView.xaml.cs">
+      <DependentUpon>FilterAgentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Mstorage.xaml.cs">
+      <DependentUpon>Mstorage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MdmEpass.xaml.cs">
+      <DependentUpon>MdmEpass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\MdmDefectView.xaml.cs">
+      <DependentUpon>MdmDefectView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\MdmCauseView.xaml.cs">
+      <DependentUpon>MdmCauseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ExceptionalCompView.xaml.cs">
+      <DependentUpon>ExceptionalCompView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ExecutionAbolishView.xaml.cs">
+      <DependentUpon>ExecutionAbolishView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ClearanceUNView.xaml.cs">
+      <DependentUpon>ClearanceUNView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MtrackingWSView.xaml.cs">
+      <DependentUpon>MtrackingWSView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MtrackingView.xaml.cs">
+      <DependentUpon>MtrackingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MlosscalView.xaml.cs">
+      <DependentUpon>MlosscalView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\popup_change_pwd.xaml.cs">
+      <DependentUpon>popup_change_pwd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\Popup_detail_rate.xaml.cs">
+      <DependentUpon>Popup_detail_rate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\Popup_error_machine.xaml.cs">
+      <DependentUpon>Popup_error_machine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\Popup_Upload_Loss_Cal.xaml.cs">
+      <DependentUpon>Popup_Upload_Loss_Cal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\Popup_history.xaml.cs">
+      <DependentUpon>Popup_history.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\TransCancelView.xaml.cs">
+      <DependentUpon>TransCancelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Popup\Popup_gen.xaml.cs">
+      <DependentUpon>Popup_gen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ExecutionGIView.xaml.cs">
+      <DependentUpon>ExecutionGIView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ChangeRepairView.xaml.cs">
+      <DependentUpon>ChangeRepairView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ExceptionalGRView.xaml.cs">
+      <DependentUpon>ExceptionalGRView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\TransferRCView.xaml.cs">
+      <DependentUpon>TransferRCView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\TransferPEView.xaml.cs">
+      <DependentUpon>TransferPEView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ReleasedView.xaml.cs">
+      <DependentUpon>ReleasedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delete\ReceiptNvView.xaml.cs">
+      <DependentUpon>ReceiptNvView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HomePageView.xaml.cs">
+      <DependentUpon>HomePageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RFView.xaml.cs">
+      <DependentUpon>RFView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WPCAgingView.xaml.cs">
+      <DependentUpon>WPCAgingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\Template\datepicker.xaml.cs">
+      <DependentUpon>datepicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="ViewModel\AttractiveLineVM.cs" />
+    <Compile Include="ViewModel\FilterAgentVM.cs" />
+    <Compile Include="ViewModel\HWVersionVM.cs" />
+    <Compile Include="ViewModel\MstorageView.cs" />
+    <Compile Include="ViewModel\Delete\MdmDefectVM.cs" />
+    <Compile Include="ViewModel\Delete\MdmCauseVM.cs" />
+    <Compile Include="ViewModel\Delete\ExceptionalCompVM.cs" />
+    <Compile Include="ViewModel\Delete\ExecutionAbolishVM.cs" />
+    <Compile Include="ViewModel\Delete\ClearanceUNVM.cs" />
+    <Compile Include="ViewModel\MachineView.cs" />
+    <Compile Include="ViewModel\MdmEpassVM.cs" />
+    <Compile Include="ViewModel\MtrackingWSVM.cs" />
+    <Compile Include="ViewModel\MtrackingVM.cs" />
+    <Compile Include="ViewModel\MlosscalVM.cs" />
+    <Compile Include="ViewModel\RFCalVM.cs" />
+    <Compile Include="ViewModel\Delete\TransCancelVM.cs" />
+    <Compile Include="ViewModel\Delete\ExecutionGIVM.cs" />
+    <Compile Include="ViewModel\Delete\ChangeRepairVM.cs" />
+    <Compile Include="ViewModel\Delete\ExceptionalGRVM.cs" />
+    <Compile Include="ViewModel\Delete\TransferRCVM.cs" />
+    <Compile Include="ViewModel\Delete\TransferPEVM.cs" />
+    <Compile Include="ViewModel\Delete\ReleasedVM.cs" />
+    <Compile Include="ViewModel\Delete\ReceiptNvVM.cs" />
+    <Compile Include="ViewModel\HomePageVM.cs" />
+    <Compile Include="ViewModel\DashboardVM.cs" />
+    <Compile Include="ViewModel\MainWindowVM.cs" />
+    <Compile Include="ViewModel\WPCAging.cs" />
+    <Page Include="Dashboard2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conn.cs" />
+    <Compile Include="Connections\UserControl.cs" />
+    <Compile Include="Controls\Controllers.cs" />
+    <Compile Include="Dashboard.xaml.cs">
+      <DependentUpon>Dashboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\AttrLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HWVersionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Machine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\FilterAgentView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Mstorage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MdmEpass.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\MdmDefectView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\MdmCauseView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ExceptionalCompView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ExecutionAbolishView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ClearanceUNView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\MtrackingWSView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\MtrackingView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\MlosscalView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Popup\popup_change_pwd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Popup\Popup_detail_rate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Popup\Popup_error_machine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Popup\Popup_Upload_Loss_Cal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Popup\Popup_history.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\TransCancelView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Popup\Popup_gen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Delete\ExecutionGIView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\ChangeRepairView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ExceptionalGRView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\TransferRCView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\TransferPEView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ReleasedView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Delete\ReceiptNvView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\HomePageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RFView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WPCAgingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\IconsNonShared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewModel\Template\datepicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ALMS_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\bgLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\repair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pcb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\repair_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\members.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\bg_blue_002.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\globe_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\btn_login_blue.png" />
+    <Resource Include="Resources\btn_login_blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gmesbg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="prod.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\manufacture.jpg" />
+    <Resource Include="Resources\prod.ico" />
+    <Resource Include="Resources\prod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\hp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\hp test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\worker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\helmet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1487692750_preferences-desktop-cryptography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\guest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

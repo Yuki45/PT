@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63E6C5BE-301E-46F2-A7E8-848EA628B57B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Auto_Attach</RootNamespace>
+    <AssemblyName>Auto Attach</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TypeForm.Designer.cs">
+      <DependentUpon>TypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\Controller.cs" />
+    <Compile Include="Library\Ezi.cs" />
+    <Compile Include="Library\Inifiles.cs" />
+    <Compile Include="Library\IOboard.cs" />
+    <Compile Include="Library\Log.cs" />
+    <Compile Include="Library\Servo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TypeForm.resx">
+      <DependentUpon>TypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitmap31.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitmap41.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitmap51.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitmap7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_01auto_disable.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_01auto_select.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_02manual_disable.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_02manual_select.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_03data_disable.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_03data_select.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_04teach_disable.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_04teach_select.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_05log_disable.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_05log_select.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_07exit_disable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_07exit_enable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but_07exit_select.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GLOBES_GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GLOBES_RED.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-captureLargeBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspected1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiG8krBiL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiG8krBiL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teaching IMEI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woq2z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomOut1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EziMOTIONPlusR.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

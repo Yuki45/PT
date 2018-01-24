@@ -1,0 +1,64 @@
+오후 10:54> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 89
+오후 10:54> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:54> Program Start...2017-04-17 오후 10:53:25
+오후 10:54> Program Ended...
+오후 10:54> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 89
+오후 10:54> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 89
+오후 10:54> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:54> Program Start...2017-04-17 오후 10:53:25
+오후 10:54> Program Ended...
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 89
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 89
+오후 10:56> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:56> Program Start...2017-04-17 오후 10:55:58
+오후 10:56> Program Ended...
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:56> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:56> Program Start...2017-04-17 오후 10:56:20
+오후 10:56> Program Ended...
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:56> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:56> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:56> Program Start...2017-04-17 오후 10:56:46
+오후 10:56> Program Ended...
+오후 10:57> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:57> BaslerCamera() in BaslerCamera exception System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: AutoInspection.BaslerCamera..ctor(String modelName) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\BaslerCamera.cs:줄 95
+오후 10:57> Open() in AnyWayControl exception System.IO.IOException: 'COM5' 포트가 없습니다.
+   위치: System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   위치: System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   위치: System.IO.Ports.SerialPort.Open()
+   위치: AutoInspection.AnyWayControl.Open(String _portName, Int32 _baudRate) 파일 D:\Perforce\1740\TEAM\MAG\MICHELANGELO\AUTOINSPECTION\AUTOINSPECTION_DEV\AUTO INSPECTION\sec\AnyWayControl.cs:줄 116
+오후 10:57> Program Start...2017-04-17 오후 10:57:01
+오후 10:57> Program Ended...
